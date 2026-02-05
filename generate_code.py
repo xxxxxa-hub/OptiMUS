@@ -24,7 +24,7 @@ def get_param_code(symbol, shape, definition):
     return f'{symbol} = data["{symbol}"] # shape: {shape}, definition: {definition}\n'
 
 
-def generate_code(state, dir):
+def generate_code(state, dir, problem_dir=None):
     code = []
     code.append(
         f"""
@@ -41,11 +41,22 @@ with open("data.json", "r") as f:
 
 """
     )
+    problem_info = None
+    if problem_dir and os.path.exists(os.path.join(problem_dir, "problem_info.json")):
+        with open(os.path.join(problem_dir, "problem_info.json"), "r") as f:
+            problem_info = json.load(f)
 
     code.append("\n\n### Define the parameters\n")
     for symbol, v in state["parameters"].items():
         print(v)
-        code.append(get_param_code(symbol, v["shape"], v["definition"]))
+        # Use ground truth from problem_info.json if available, otherwise use state
+        if problem_info and "parameters" in problem_info and symbol in problem_info["parameters"]:
+            shape = problem_info["parameters"][symbol]["shape"]
+            definition = problem_info["parameters"][symbol]["description"]
+        else:
+            shape = v["shape"]
+            definition = v["definition"]
+        code.append(get_param_code(symbol, shape, definition))
 
     code.append("\n\n### Define the variables\n")
     for symbol, v in state["variables"].items():
