@@ -1,0 +1,19 @@
+
+    A city has three flour mills, which supply flour to three food processing factories. The output of each flour mill, the processing capacity of each food factory, and the unit transportation cost between each flour mill and food factory are shown in Table 3-31. It is assumed that the profit per unit of flour processed into food is: Factory 1: 12 yuan, Factory 2: 16 yuan, Factory 3: 11 yuan, All flour mills and food factories are managed by the same administrative body. Objective: Determine a flour allocation plan that maximizes total benefit, considering both transportation costs and unit profits. 
+
+\begin{table}[h]
+    \centering
+    \caption{Table 3-31: Transportation Cost Between Flour Mills and Food Processing Plants}
+    \renewcommand{\arraystretch}{1.2}
+    \begin{tabular}{c|ccc|c}
+        \toprule
+        Flour Mill & Factory 1 & Factory 2 & Factory 3 & Flour Mill Output \\
+        \midrule
+        I & 3 & 10 & 2 & 20 \\
+        II & 4 & 11 & 8 & 30 \\
+        III & 8 & 11 & 4 & 20 \\
+        \midrule
+        Factory Demand & 15 & 25 & 20 & \\
+        \bottomrule
+    \end{tabular}
+\end{table}

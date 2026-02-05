@@ -1,0 +1,19 @@
+
+    Hongyin Company has committed to providing the following loan amounts at the beginning of each year for a construction project over a period of four years starting from 2003:
+\begin{itemize}
+    \item Year 2003 — 100 thousand dollars
+    \item Year 2004 — 150 thousand dollars
+    \item Year 2005 — 120 thousand dollars
+    \item Year 2006 — 110 thousand dollars
+\end{itemize}
+
+ All the above loan funds must be raised before the end of 2002. However, in order to make full use of the funds, any surplus (after meeting the annual loan amounts) can be invested in the following projects:
+
+\begin{enumerate}
+    \item At the beginning of 2003, purchase Bond A, with a term of 3 years. Upon maturity, the total return (principal and interest) will be 140\% of the investment. The purchase is limited to 60 thousand dollars. 
+    \item At the beginning of 2003, purchase Bond B, with a term of 2 years. Upon maturity, the total return (principal and interest) will be 125\% of the investment. The purchase is limited to 90 thousand dollars. 
+    \item At the beginning of 2004, purchase Bond C, with a term of 2 years. Upon maturity, the total return (principal and interest) will be 130% of the investment. The purchase is limited to 50 thousand dollars. 
+    \item At the beginning of each year, any amount of surplus funds may be deposited in a bank account at an annual interest rate of 4%, with withdrawal at the end of the same year. 
+\end{enumerate}
+
+ Question:How should Hongyin Company utilize the raised funds to ensure that the total amount needed to be raised at the end of 2002 is minimized? 

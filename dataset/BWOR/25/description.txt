@@ -1,0 +1,16 @@
+
+    Table 14-6 shows the processing times for 12 jobs on machines A and B. Task:For Jobs 8–12, the processing order is first on machine B, then on machine A, while for Jobs 1–7, the order remains first on A, then on B. Under these conditions, determine the optimal job sequence that minimizes the total processing time, and compute the makespan.
+
+\begin{table}[h]
+    \centering
+    \caption{Processing times on machines A and B}
+    \label{tab:processing_times}
+    \begin{tabular}{ccccccccccccc}
+        \toprule
+        Machine & Job  & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 & 11 & 12 \\
+        \midrule
+        A & Processing Time & 5 & 8 & 11 & 2 & 7 & 6 & 3 & 9 & 8 & 3 & 6 & 10 \\
+        B & Processing Time & 5 & 9 & 4 & 3 & 7 & 9 & 5 & 4 & 9 & 5 & 3 & 4 \\
+        \bottomrule
+    \end{tabular}
+\end{table}

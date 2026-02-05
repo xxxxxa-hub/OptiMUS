@@ -1,0 +1,15 @@
+Welcome to the grand challenge of designing the optimal network for the newest, state-of-the-art high-speed data transfer system connecting 9 strategic data centers across the country. From the primary data hub (Station 0) to the primary backup center (Station 8), the network is a complex system of fiber optic cables, each with a distinct data capacity dictating the maximum amount of data (in terabits per second, Tbps) that can be transmitted from one center to another.
+
+Here's a detailed breakdown of the capacities between each pair of data centers:
+
+- From Data Center 0 (Source): Data can be transmitted to Data Center 1 (6 Tbps), Data Center 2 (20 Tbps), Data Center 3 (15 Tbps), Data Center 4 (9 Tbps), Data Center 5 (20 Tbps), Data Center 6 (17 Tbps), Data Center 7 (16 Tbps), and Data Center 8 (20 Tbps).
+- From Data Center 1: Data can be transmitted to Data Centers ranging from 0 to 8 with various capacities up to 18 Tbps, but not directly to itself.
+- From Data Center 2: Similar to other centers, it can transmit data to various centers with the highest capacity being 19 Tbps to Data Center 4, excluding itself.
+- From Data Center 3 to Data Center 7: Each has specific capacities for transmitting data to other centers, ensuring a robust and interconnected network with capacities such as 20 Tbps from Data Center 7 to Data Center 3.
+- From Data Center 8 (Destination): It can receive data from all other centers with capacities ranging up to 20 Tbps from Data Center 3, but it cannot send data back to itself.
+
+In this network, a capacity of "0" indicates that there is no direct data transmission link between those two centers.
+
+The ultimate goal is to maximize the data flow from Data Center 0, the heart of our network, to Data Center 8, ensuring the highest level of efficiency and reliability in data backup and disaster recovery operations.
+
+**What is the maximum amount of data (in Tbps) that can be transmitted from the source to the destination per second, without exceeding the specified capacities of the data transmission links?**

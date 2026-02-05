@@ -1,0 +1,8 @@
+
+3.13 In the transportation problem shown in Table 3-17, if one unit of goods from origin i is not shipped, a storage cost will be incurred. Assume that the unit storage costs at origins 1, 2, and 3 are 5, 4, and 3, respectively. Also, it is assumed that at least 38 units must be shipped from origin 2 and at least 27 units from origin 3. Solve for the optimal solution to this transportation problem.  
+
+ Table 3-17  
+
+
+<html><body><table><tr><td>Origin/Destination</td><td>A</td><td>B</td><td>C</td><td>Supply</td></tr><tr><td>1</td><td>1</td><td>2</td><td>2</td><td>20</td></tr><tr><td>2</td><td>1</td><td>4</td><td>5</td><td>40</td></tr><tr><td>3</td><td>2</td><td>3</td><td>3</td><td>30</td></tr><tr><td>Demand</td><td>30</td><td>20</td><td>20</td><td></td></tr></table></body></html>  
+

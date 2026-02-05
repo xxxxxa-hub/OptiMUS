@@ -1,0 +1,21 @@
+Imagine you are in charge of managing food supplies for six different cities in a region. Each city has a certain amount of food resources, but they need a specific amount to make sure they're well-prepared for an unexpected food crisis.
+
+Here's what each city has and what they need:
+
+- City 1 has 255 tons of food, but the requirement is 251 tons.
+- City 2 has 250 tons of food, but needs 200 tons.
+- City 3 has 314 tons of food, but the demand here is 366 tons.
+- City 4 has only 8 tons of food, but it needs 114 tons to be safe.
+- City 5 has an abundance of 385 tons but only needs 59 tons.
+- City 6 has 440 tons but needs 287 tons.
+
+You have been given the responsibility to transport food from one city to another, but it incurs transportation costs. The cost varies depending on which cities you're moving food between. Here's the cost matrix that shows how much it costs to move food from one city to any other:
+
+- Relocating supplies from/to City 1: To City 2 costs 26, to City 3 costs 39, to City 4 costs 13, to City 5 costs 37, to City 6 costs 28.
+- Relocating from/to City 2: To City 1 costs 36, to City 3 costs 48, to City 4 costs 5, to City 5 costs 22, to City 6 costs 14.
+- Relocating from/to City 3: To City 1 costs 38, to City 2 costs 36, to City 4 costs 12, to City 5 costs 45, to City 6 costs 36.
+- Relocating from/to City 4: To City 1 costs 32, to City 2 costs 18, to City 3 costs 47, to City 5 costs 7, to City 6 costs 9.
+- Relocating from/to City 5: To City 1 costs 18, to City 2 costs 6, to City 3 costs 12, to City 4 costs 20, to City 6 costs 42.
+- Relocating from/to City 6: To City 1 costs 4, to City 2 costs 28, to City 3 costs 42, to City 4 costs 43, to City 5 costs 7.
+
+Your objective is to ensure every city has the food resources it needs at the lowest possible transportation cost. Can you determine what would be the minimum cost to ensure all cities have enough food resources?

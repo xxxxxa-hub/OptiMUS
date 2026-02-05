@@ -1,0 +1,11 @@
+
+
+  A shoe store sells rubber snow boots, with the peak sales season running from October 1st to March 31st of the following year. The forecasted demand for this period is shown in Table 7-7.  
+
+  Table 7-7  
+
+
+  <html><body><table><tr><td>Month</td><td>10</td><td>11</td><td>12</td><td>1</td><td>2</td><td>3</td></tr><tr><td>Demand (pairs)</td><td>40</td><td>20</td><td>30</td><td>40</td><td>30</td><td>20</td></tr></table></body></html>  
+
+  The possible order quantities per month are limited to 10, 20, 30, 40, or 50 pairs, with corresponding order costs of 48, 86, 118, 138, and 160 yuan, respectively. The end-of-month inventory must not exceed 40 pairs. The storage cost is 0.2 yuan per pair per month, calculated based on the inventory at the end of each month. Due to the seasonal nature of snow boots and frequent style changes, the inventory at both the beginning and end of the peak season is expected to be zero. Assume monthly demand is evenly distributed, and storage cost is based on end-of-month inventory. Each order also incurs a fixed ordering cost of 10 yuan. Task: Determine the optimal monthly ordering plan that minimizes the total cost over the peak season. 
+

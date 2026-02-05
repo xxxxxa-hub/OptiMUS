@@ -1,0 +1,15 @@
+In an expansive digital communication network designed to connect 7 critical data centers across a region, data flows from a central processing unit to a primary data storage facility. This network is meticulously architected with fiber optic cables of varying capacities to ensure data integrity and speed. The network infrastructure is as follows:
+
+- From Data Center 0 (Source): Data can flow to Data Center 1 (18 terabits per second - Tbps), Data Center 2 (2 Tbps), Data Center 3 (10 Tbps), Data Center 4 (17 Tbps), and Data Center 6 (12 Tbps). There is no direct connection to Data Center 5.
+- From Data Center 1: Data can flow to Data Center 0 (14 Tbps), Data Center 2 (3 Tbps), Data Center 3 (1 Tbps), Data Center 4 (19 Tbps), Data Center 5 (18 Tbps), and Data Center 6 (2 Tbps).
+- From Data Center 2: Data can flow to Data Center 0 (17 Tbps), Data Center 1 (5 Tbps), Data Center 3 (15 Tbps), Data Center 4 (15 Tbps), Data Center 5 (19 Tbps), but not directly to Data Center 6.
+- From Data Center 3: Data can flow to Data Center 0 (14 Tbps), Data Center 1 (17 Tbps), Data Center 4 (19 Tbps), Data Center 5 (9 Tbps), and Data Center 6 (16 Tbps). There's no direct connection to Data Center 2.
+- From Data Center 4: Data can flow to Data Center 0 (2 Tbps), Data Center 1 (13 Tbps), Data Center 2 (15 Tbps), Data Center 3 (12 Tbps), Data Center 5 (20 Tbps), and Data Center 6 (5 Tbps).
+- From Data Center 5: Data can flow to Data Center 0 (9 Tbps), Data Center 1 (16 Tbps), Data Center 2 (4 Tbps), Data Center 3 (15 Tbps), Data Center 4 (15 Tbps), and Data Center 6 (11 Tbps).
+- From Data Center 6 (Destination): Data can flow back to Data Center 0 (8 Tbps), Data Center 1 (10 Tbps), Data Center 2 (19 Tbps), Data Center 3 (19 Tbps), Data Center 4 (17 Tbps), and Data Center 5 (16 Tbps).
+
+In this setup, a capacity of "0" indicates the absence of a direct fiber optic link between the two data centers.
+
+The goal is to maximize the flow of data from the central processing unit (Data Center 0) to the primary data storage facility (Data Center 6), adhering strictly to the transfer capacity limitations of the fiber optic cables between each data center.
+
+What is the maximum amount of data, in terabits per second, that can be transferred from the source to the destination without exceeding any of the network's capacity limitations?

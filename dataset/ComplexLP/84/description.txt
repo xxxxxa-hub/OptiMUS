@@ -1,0 +1,11 @@
+Imagine a logistics manager tasked with planning a route for a courier who needs to deliver packages to six different cities. The cities are labeled from 1 to 6. The courier has to start from any one of these cities, visit each of the other cities exactly once, and then return to the starting city. The main objective for the logistics manager is to design the route in such a way that the total travel cost is minimized.
+
+Here is a breakdown of the travel costs between each pair of cities:
+- The cost to travel from City 1 to City 2 is 23 units, to City 3 is 50 units, to City 4 is 92 units, to City 5 is 56 units, and to City 6 is 91 units.
+- From City 2, the cost is 23 units to City 1, 38 units to City 3, 25 units to City 4, 25 units to City 5, and 69 units to City 6.
+- From City 3, the travel costs are 50 units to City 1, 38 units to City 2, 66 units to City 4, 51 units to City 5, and 76 units to City 6.
+- Traveling from City 4, it costs 92 units to City 1, 25 units to City 2, 66 units to City 3, 97 units to City 5, and 37 units to City 6.
+- From City 5, the costs are 56 units to City 1, 25 units to City 2, 51 units to City 3, 97 units to City 4, and 30 units to City 6.
+- Lastly, from City 6, it costs 91 units to go to City 1, 69 units to City 2, 76 units to City 3, 37 units to City 4, and 30 units to City 5.
+
+What is the minimum total travel cost for the courier to visit each city exactly once and return to the starting city?

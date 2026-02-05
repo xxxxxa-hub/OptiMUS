@@ -1,0 +1,10 @@
+
+5.31 Tuanjie Township consists of 8 villages. The coordinates of each village and the number of primary school students are shown in Table 5-14.  
+
+Table 5-14  
+
+
+<html><body><table><tr><td rowspan="2">Village ID</td><td colspan="2">Coordinates</td><td rowspan="2">Number of Students</td></tr><tr><td>x</td><td>y</td></tr><tr><td>1</td><td>0</td><td>0</td><td>60</td></tr><tr><td>2</td><td>10</td><td>3</td><td>80</td></tr><tr><td>3</td><td>12</td><td>15</td><td>100</td></tr><tr><td>4</td><td>14</td><td>13</td><td>120</td></tr><tr><td>5</td><td>16</td><td>9</td><td>80</td></tr><tr><td>6</td><td>18</td><td>6</td><td>60</td></tr><tr><td>7</td><td>8</td><td>12</td><td>40</td></tr><tr><td>8</td><td>6</td><td>10</td><td>80</td></tr></table></body></html>  
+
+ Considering economies of scale, it is planned to build one primary school in each of two villages. Question: In which two villages should the schools be built to minimize the total walking distance for all primary school students? (Walking distance is calculated using Euclidean distance between villages.) 
+

@@ -1,0 +1,19 @@
+In the bustling metropolis of FlowCity, the local government has embarked on an ambitious project to revamp its old water distribution network, which connects 9 critical reservoirs across the city. This network, vital for the city's water supply, is designed to maximize the efficiency of water flow from the primary reservoir to a central distribution hub.
+
+Here's a detailed look at the current capacities of the pipelines (measured in millions of gallons per day) that link these reservoirs:
+
+- From Reservoir 0 (Source): Water can flow to Reservoir 1 (6), Reservoir 2 (16), Reservoir 3 (12), Reservoir 4 (16), Reservoir 5 (3), Reservoir 6 (9), Reservoir 7 (3), and Reservoir 8 (13).
+- From Reservoir 1: Water can be distributed to Reservoir 0 (2), Reservoir 3 (20), Reservoir 4 (13), Reservoir 5 (7), Reservoir 6 (20), Reservoir 7 (11), and Reservoir 8 (13).
+- From Reservoir 2: Water can flow to Reservoir 0 (4), Reservoir 1 (15), Reservoir 3 (14), Reservoir 4 (13), Reservoir 5 (5), Reservoir 6 (12), Reservoir 7 (14), and Reservoir 8 (16).
+- From Reservoir 3: Water can be distributed to Reservoir 0 (1), Reservoir 2 (2), Reservoir 4 (8), Reservoir 5 (7), Reservoir 6 (11), Reservoir 7 (14), and Reservoir 8 (16).
+- From Reservoir 4: Water can flow to Reservoir 0 (4), Reservoir 1 (19), Reservoir 2 (7), Reservoir 3 (14), Reservoir 5 (1), Reservoir 6 (20), Reservoir 7 (14), and Reservoir 8 (16).
+- From Reservoir 5: Water can be distributed to Reservoir 2 (14), Reservoir 3 (4), Reservoir 4 (17), Reservoir 6 (2), and Reservoir 7 (20), and Reservoir 8 (9).
+- From Reservoir 6: Water can flow to Reservoir 0 (12), Reservoir 1 (19), Reservoir 2 (3), Reservoir 3 (3), Reservoir 7 (13), and Reservoir 8 (3).
+- From Reservoir 7: Water can be distributed to Reservoir 0 (8), Reservoir 1 (19), Reservoir 2 (16), Reservoir 3 (4), Reservoir 4 (6), Reservoir 5 (13), Reservoir 6 (9), and Reservoir 8 (15).
+- From Reservoir 8 (Destination): Water can flow back to Reservoir 0 (11), Reservoir 1 (6), Reservoir 3 (6), Reservoir 4 (10), Reservoir 5 (9), and Reservoir 6 (3), and Reservoir 7 (1).
+
+In this complex network, a pipeline capacity of "0" indicates that there is no direct connection between those two reservoirs.
+
+The city's goal is to ensure that the water supply can meet the growing demands by calculating the maximum amount of water that can be distributed from Reservoir 0 (the primary source) to Reservoir 8 (the main distribution hub) each day, without exceeding the capacities of the pipelines.
+
+What is the optimal value of water (in millions of gallons per day) that can be maximally distributed from the source to the destination?

@@ -1,0 +1,15 @@
+
+  Table 9-3 provides the construction schedule for a garage and its driveway.  
+
+  Table 9-3  
+
+
+  <html><body><table><tr><td>Task ID</td><td>Task Description</td><td>Duration (days)</td><td>Predecessor Tasks</td></tr><tr><td>a</td><td>Site clearing and preparation</td><td>10</td><td>--</td></tr><tr><td>b</td><td>Material preparation</td><td>8</td><td>--</td></tr><tr><td>c</td><td>Garage floor construction</td><td>6</td><td>a,b</td></tr><tr><td>d</td><td>Prefabrication of walls and roof trusses</td><td>16</td><td>b</td></tr><tr><td>e</td><td>Curing of concrete garage floor</td><td>24</td><td>c</td></tr><tr><td>f</td><td>Erecting wall frames</td><td>4</td><td>d,e</td></tr><tr><td>g</td><td>Erecting roof trusses</td><td>4</td><td>f</td></tr></table></body></html>  
+
+  Continuation Table  
+
+
+  <html><body><table><tr><td>Task ID</td><td>Task Description</td><td>Duration (days)</td><td>Predecessor Tasks</td></tr><tr><td>h</td><td>Installing windows and side walls</td><td>10</td><td>f</td></tr><tr><td>i</td><td>Installing doors</td><td>4</td><td>f</td></tr><tr><td>j</td><td>Installing ceiling</td><td>12</td><td>g</td></tr><tr><td>k</td><td>Painting</td><td>16</td><td>h,i,j</td></tr><tr><td>L</td><td>Driveway concrete construction</td><td>8</td><td>c</td></tr><tr><td>m</td><td>Curing of driveway concrete</td><td>24</td><td>L</td></tr><tr><td>n</td><td>Site cleanup and final inspection</td><td>4</td><td>k,m</td></tr></table></body></html>  
+
+  Question: What is the shortest possible duration (in days) from the start to the full completion of this construction project? 
+

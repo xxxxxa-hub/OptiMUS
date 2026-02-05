@@ -1,0 +1,20 @@
+
+    It is known that the vitamin and cholesterol content per unit of milk, beef, and eggs are shown in Table 4-15. Considering only these three foods, the following three goals are set:1.Meet the minimum daily requirement for three types of vitamins. 2.Minimize daily cholesterol intake. 3.Minimize daily food cost. The task is to formulate a goal programming model for this problem. 
+
+\begin{table}[h]
+    \centering
+    \caption{Table 4-15: Nutritional Content of Foods (per 500g)}
+    \renewcommand{\arraystretch}{1.2}
+    \begin{tabular}{c|ccc|c}
+        \toprule
+        Item & Milk(500g) & Beef(500g) & Eggs(500g) & Minimum Daily Requirement(mg) \\
+        \midrule
+        Vitamin A(mg) & 1 & 1 & 10 & 1 \\
+        Vitamin C(mg) & 100 & 10 & 10 & 30 \\
+        Vitamin D(mg) & 10 & 100 & 10 & 10 \\
+        \midrule
+        Cholesterol (units) & 70 & 50 & 120 & \\
+        Cost (Yuan) & 1.5 & 8 & 4 & \\
+        \bottomrule
+    \end{tabular}
+\end{table}

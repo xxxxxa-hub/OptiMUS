@@ -1,0 +1,16 @@
+
+    \noindent\textbf{3.11} Cities 1, 2, and 3 require annual electricity supplies of 320, 250, and 350 units, respectively. Two power stations, I and II, provide the electricity, with maximum supply capacities of 400 units and 450 units, respectively. The unit costs of supplying electricity from each station to each city are shown in Table 3-33. Since the total demand exceeds total supply, the following adjustments are allowed: City 1: its supply can be reduced by up to 30 units (i.e., minimum 290 units, maximum 320 units), City 2: its supply must remain fixed at 250 units, City 3: its supply must be at least 270 units, up to 350 units, Objective: Determine a power allocation plan that uses up all available electricity from both stations and results in the lowest total cost. 
+
+\begin{table}[h]
+    \centering
+    \caption{Table 3-33: Electricity Supply Cost (Yuan per Unit)}
+    \label{tab:power_supply}
+    \begin{tabular}{cccc}
+        \toprule
+        Power Station & City 1 & City 2 & City 3 \\
+        \midrule
+        I  & 15 & 18 & 22 \\
+        II & 21 & 25 & 16 \\
+        \bottomrule
+    \end{tabular}
+\end{table}

@@ -1,0 +1,14 @@
+Imagine you're preparing your meal plan for the week, with the goal of meeting specific dietary requirements without breaking the bank. You have six different types of food to choose from: Chicken, Rice, Lentils, Apples, Eggs, and Broccoli. Each of these foods offers specific amounts of protein, carbohydrates, and calories, and each comes with its own cost.
+
+Here's a breakdown of what each food item provides and its cost:
+
+- Chicken: Offers 20 grams of protein, 9 grams of carbohydrates, and 89 calories for $6.
+- Rice: Provides 2 grams of protein, 15 grams of carbohydrates, and 276 calories for $8.
+- Lentils: Contains 10 grams of protein, 30 grams of carbohydrates, and 255 calories for $4.
+- Apples: Deliver 5 grams of protein, 19 grams of carbohydrates, and 258 calories for just $1.
+- Eggs: Give you 17 grams of protein, 12 grams of carbohydrates, and 212 calories for $3.
+- Broccoli: Brings 6 grams of protein, 18 grams of carbohydrates, and 246 calories for $5.
+
+Your goal is to ensure you get at least 90 grams of protein, 162 grams of carbohydrates, and 1926 calories from your combined food choices. You're trying to figure out the minimum cost to meet these nutritional goals with the food options provided. 
+
+So, what is the least amount of money you need to spend to meet your dietary requirements? Keep in mind that you should only provide the optimal value, and no additional responses are necessary.

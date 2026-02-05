@@ -1,0 +1,15 @@
+Consider a complex railway network connecting 7 major cities - from the central hub to a key end destination. These cities are interconnected by railway lines, each having a specific capacity for passenger flow.
+
+The capacity of each railway line is as follows, indicating the maximum number of passengers that can travel from one city to another per day:
+
+- From City 0 (Central Hub): Can dispatch passengers to City 1 (18,000 passengers), City 2 (11,000 passengers), City 3 (15,000 passengers), City 4 (2,000 passengers), City 5 (4,000 passengers), and City 6 (20,000 passengers).
+- From City 1: Can dispatch passengers to City 0 (4,000 passengers), City 2 (6,000 passengers), City 3 (5,000 passengers), City 4 (19,000 passengers), City 5 (15,000 passengers).
+- From City 2: Can dispatch passengers to City 0 (15,000 passengers), City 1 (10,000 passengers), City 3 (7,000 passengers), City 5 (7,000 passengers), and City 6 (5,000 passengers).
+- From City 3: Can dispatch passengers to City 0 (14,000 passengers), City 1 (5,000 passengers), City 2 (3,000 passengers), City 4 (10,000 passengers), City 5 (15,000 passengers), and City 6 (19,000 passengers).
+- From City 4: Can dispatch passengers to City 0 (2,000 passengers), City 1 (11,000 passengers), City 2 (1,000 passengers), City 3 (10,000 passengers), City 5 (14,000 passengers), and City 6 (6,000 passengers).
+- From City 5: Can dispatch passengers to City 0 (10,000 passengers), City 1 (14,000 passengers), City 2 (6,000 passengers), City 3 (5,000 passengers), City 4 (3,000 passengers), City 6 (18,000 passengers).
+- From City 6 (End Destination): Can receive passengers from City 0 (8,000 passengers), City 1 (1,000 passengers), City 2 (11,000 passengers), City 3 (8,000 passengers), City 4 (6,000 passengers), and City 5 (20,000 passengers).
+
+In this system, a capacity of "0" signifies there is no direct railway line between those two cities.
+
+Given this situation, we need to determine the maximum number of passengers that can be transported from City 0 (the central hub) to City 6 (the end destination) per day, without exceeding the transportation capacity of any railway line. What is the maximum number of passengers that can be dispatched from the central hub to the end destination per day?

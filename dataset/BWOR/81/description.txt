@@ -1,0 +1,41 @@
+
+  A factory plans to relocate some of its production workshops from the urban area to satellite towns. The benefit of doing so lies in lower land, rent, and pollution treatment costs. However, this move will increase transportation costs between workshops. The factory currently has five workshops: A, B, C, D, and E. Two satellite towns are under consideration: Town α and Town β. It is required that no more than 3 workshops be located in any one area — whether the urban area, Town α, or Town β. The annual cost savings from relocating workshops from the urban area to the satellite towns are shown in Table C-18.  
+
+  Table C-18   (10,000 yuan/year)  
+
+
+  <html><body><table><tr><td>Workshop</td><td>A</td><td>B</td><td>C</td><td>D</td><td>E</td></tr><tr><td>To α</td><td>100</td><td>150</td><td>100</td><td>200</td><td>50</td></tr><tr><td>To β</td><td>100</td><td>200</td><td>150</td><td>150</td><td>150</td></tr></table></body></html>  
+
+  However, relocation causes an increase in transportation costs, which depends on: C_{ik}: Annual transport volume (in tons/year) between workshops i and k. D_{jl}: Transportation cost per ton from location j to location l. These are provided in Table C-19 and Table C-20, respectively.  
+
+  \begin{table}[h]
+  \centering
+  \caption{Table C-19 $C_{ik}$ (Table C-19 $C_{ik}$ value) (t/year)}
+  \begin{tabular}{ccccc}
+  \toprule
+  & B & C & D & E \\
+  \midrule
+  A & 0 & 1000 & 1500 & 0 \\
+  B &  & 1400 & 1200 & 0 \\
+  C &  &  & 0 & 2000 \\
+  D &  &  &  & 700 \\
+  \bottomrule
+  \end{tabular}
+  \end{table}
+
+  \begin{table}[h]
+  \centering
+  \caption{(Table C-20 $D_{jl}$ value)  (yuan/t)}
+  \begin{tabular}{cccc}
+  \toprule
+  & α & β & Urban \\
+  \midrule
+  α & 500 & 1400 & 1300 \\
+  β &  & 500 & 900 \\
+  Urban &  &  & 1000 \\
+  \bottomrule
+  \end{tabular}
+  \end{table}
+
+  Determine a relocation plan for the workshops that minimizes the total cost 
+

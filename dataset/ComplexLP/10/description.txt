@@ -1,0 +1,13 @@
+Imagine you're a dietitian, tasked with planning a nutritious and balanced meal for an athlete. The athlete needs to maintain a high protein, moderate carb diet, with enough calories to sustain their intense training regimen. The goal is to meet these dietary requirements at the lowest cost possible. You have five different food items to choose from: Steak, Rice, Chicken, Iceberg Lettuce, and Almonds. Each of these foods contains varying amounts of protein, carbohydrates, and calories, and each comes with a specific cost.
+
+Here's a detailed breakdown of the nutritional value of each food item and its cost:
+
+- Steak: Offers a whopping 20 grams of protein, 12 grams of carbohydrates, and 167 calories for $7.
+- Rice: Provides 6 grams of protein, an impressive 29 grams of carbohydrates, and a hefty 275 calories for $8.
+- Chicken: Packs 17 grams of protein, 26 grams of carbohydrates, and 112 calories for only $2.
+- Iceberg Lettuce: Contains only 1 gram of protein, 8 grams of carbohydrates, and 148 calories for $8.
+- Almonds: Provide 10 grams of protein, 2 grams of carbohydrates, and a high 286 calories for just $2.
+
+The athlete's daily dietary requirements are as follows: at least 83 grams of protein, 128 grams of carbohydrates, and 1686 calories.
+
+Your challenge is to select a combination of these foods that meets the athletes' nutritional needs, while keeping the costs as low as possible. So, what is the lowest possible cost to meet these dietary requirements? Note: your response should be a single answer question, asking for the optimal value.

@@ -1,0 +1,32 @@
+In the bustling world of retail, a company named RetailOpt is faced with the challenge of efficiently supplying nine of its stores from a selection of five possible distribution centers. This task involves not only selecting which distribution centers to open but also determining how to distribute goods in a way that minimizes the total cost, including both the opening costs of the distribution centers and the costs of transportation from these centers to the stores.
+
+Given Data:
+- Number of Potential Distribution Centers: 5
+- Number of Retail Stores to be Supplied: 9
+
+The Opening Costs for Each Distribution Center (in dollars) are as follows:
+- Center 1: $151,000
+- Center 2: $192,000
+- Center 3: $114,000
+- Center 4: $171,000
+- Center 5: $160,000
+
+The Transportation Cost Per Unit from Each Distribution Center to Each Retail Store (in dollars) varies considerably, presenting a complex matrix of options:
+- From Center 1: $5 to Store 1, $2 to Store 2, and so on, up to $5 to Store 9.
+- From Center 2: $2 to Store 1, $4 to Store 2, and so on, up to $5 to Store 9.
+- From Center 3, Center 4, and Center 5 also have their specific costs to each store, creating a detailed web of logistical possibilities.
+
+Each Retail Store has its own demand for units, totaling:
+- Store 1 needs 739 units; Store 2 needs 491 units; and this demand pattern continues, with Store 9 needing 480 units.
+
+Meanwhile, the Supply Capacity of Each Distribution Center (in units) determines how much each center can distribute:
+- Center 1: 1825 units
+- Center 2: 1821 units
+- Center 3: 1365 units
+- Center 4: 1929 units
+- Center 5: 1502 units
+
+This scenario presents RetailOpt with a complex optimization puzzle: How to meet the demands of all nine retail stores in the most cost-effective manner. The decision involves selecting which distribution centers to open and determining the distribution routes to minimize the total cost incurred from opening costs and transportation costs.
+
+Question:
+What is the optimal total cost for RetailOpt to open the necessary distribution centers and transport goods to meet all nine retail stores' demands, considering both the opening costs of the centers and the transportation costs of supplying the stores?

@@ -1,0 +1,49 @@
+GlobalSupply Inc. is embarking on a strategic overhaul of its distribution network to efficiently serve six retail stores scattered across different regions. The company has pinpointed nine potential locations for establishing distribution centers, each with its unique operational costs and capacities. The challenge lies in selecting the right combination of distribution centers to open and determining the best way to distribute goods to the retail stores in order to fulfill their demands. The overarching goal is to minimize the total cost involved, which includes the initial opening costs of the distribution centers and the ongoing transportation costs of delivering goods to the retail stores.
+
+Given Data:
+- Number of Prospective Distribution Centers: 9
+- Number of Retail Stores to be Supplied: 6
+
+Opening Costs for Each Distribution Center (in dollars):
+- Center 1: 151,000
+- Center 2: 192,000
+- Center 3: 114,000
+- Center 4: 171,000
+- Center 5: 160,000
+- Center 6: 120,000
+- Center 7: 182,000
+- Center 8: 186,000
+- Center 9: 174,000
+
+Transportation Cost Per Unit from Each Distribution Center to Retail Stores (in dollars):
+- From Center 1 to Stores: $3 to Store 1, $5 to Store 2, $4 to Store 3, $3 to Store 4, $5 to Store 5, $2 to Store 6
+- From Center 2 to Stores: $4 to Store 1, $2 to Store 2, $4 to Store 3, $5 to Store 4, $1 to Store 5, $4 to Store 6
+- From Center 3 to Stores: $2 to Store 1, $5 to Store 2, $4 to Store 3, $1 to Store 4, $1 to Store 5, $3 to Store 6
+- From Center 4 to Stores: $3 to Store 1, $2 to Store 2, $4 to Store 3, $4 to Store 4, $3 to Store 5, $4 to Store 6
+- From Center 5 to Stores: $4 to Store 1, $1 to Store 2, $3 to Store 3, $5 to Store 4, $3 to Store 5, $5 to Store 6
+- From Center 6 to Stores: $1 to Store 1, $2 to Store 2, $4 to Store 3, $1 to Store 4, $4 to Store 5, $2 to Store 6
+- From Center 7 to Stores: $2 to Store 1, $1 to Store 2, $2 to Store 3, $5 to Store 4, $2 to Store 5, $4 to Store 6
+- From Center 8 to Stores: $4 to Store 1, $4 to Store 2, $4 to Store 3, $5 to Store 4, $3 to Store 5, $1 to Store 6
+- From Center 9 to Stores: $4 to Store 1, $2 to Store 2, $4 to Store 3, $2 to Store 4, $2 to Store 5, $4 to Store 6
+
+Demand of Each Retail Store (in units):
+- Store 1: 876 units
+- Store 2: 801 units
+- Store 3: 955 units
+- Store 4: 561 units
+- Store 5: 601 units
+- Store 6: 669 units
+
+Supply Capacity of Each Distribution Center (in units):
+- Center 1: 1615 units
+- Center 2: 1255 units
+- Center 3: 1816 units
+- Center 4: 1095 units
+- Center 5: 1519 units
+- Center 6: 1137 units
+- Center 7: 1678 units
+- Center 8: 1876 units
+- Center 9: 1591 units
+
+Question:
+Given the challenge of selecting the optimal number and combination of distribution centers to open, along with configuring the most cost-effective way to supply the six retail stores to meet their demands, what is the minimal possible total cost for GlobalSupply Inc.? This total cost should include both the opening costs of the distribution centers and the transportation costs for delivering goods to the stores.

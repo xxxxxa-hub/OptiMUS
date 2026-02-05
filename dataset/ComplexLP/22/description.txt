@@ -1,0 +1,12 @@
+Imagine you are a dietitian, working diligently to provide a balanced diet plan for a client while keeping the cost to a minimum. The client's daily dietary requirement is 88 grams of protein, 144 grams of protein, and 1900 calories. To achieve this, you have a variety of six food items to choose from. Each food item comes with its specific nutritional values and price. 
+
+Here's a detailed breakdown of each food item:
+
+- Food 1: A high-protein food that offers 15 grams of protein, 10 grams of carbohydrates, and 163 calories, costing $10.
+- Food 2: A balanced food offering 16 grams of protein, 25 grams of carbohydrates, and 108 calories, costing just $4.
+- Food 3: A calorie-dense food providing 3 grams of protein, 8 grams of carbohydrates, and a whopping 198 calories, costing just $1.
+- Food 4: A well-rounded food item that gives 19 grams of protein, 20 grams of carbohydrates, and 141 calories, priced at $7.
+- Food 5: A modest food item that offers 11 grams of protein, 8 grams of carbohydrates, and 105 calories, costing $6.
+- Food 6: Another calorie-dense food that delivers 10 grams of protein, 9 grams of carbohydrates, and 199 calories, costing $8.
+
+Your task is to design a daily meal plan that meets all the client's requirements using the given food items while keeping the cost as low as possible. What is the minimum cost you can achieve while meeting the client's nutritional requirements?

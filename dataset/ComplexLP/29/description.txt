@@ -1,0 +1,10 @@
+Imagine you're on a mission to revamp your diet and want to ensure you're meeting your nutritional needs without putting a hole in your wallet. You've narrowed down your food options to four items: Chicken, Tofu, Rice, and Avocado. Each of these foods contributes different amounts of protein, carbs, and calories, and they each come at a different cost.
+
+Here's a detailed breakdown of what each food offers and the cost involved:
+
+- Chicken: Provides you 2 grams of protein, 4 grams of carbohydrates, and 218 calories at the price of $3.
+- Tofu: Offers a generous 18 grams of protein, 17 grams of carbohydrates, and 290 calories for $6.
+- Rice: Supplies you with 2 grams of protein, a hefty 28 grams of carbohydrates, and 298 calories for just $1.
+- Avocado: Packs in 18 grams of protein, 27 grams of carbohydrates, and 158 calories for $10.
+
+Your dietary goal is to consume at least 86 grams of protein, 120 grams of carbohydrates, and 2435 calories from your meals. Your challenge is to figure out the least expensive method to meet these nutritional targets using only these four food choices. What is the lowest cost to meet your nutritional requirements?

@@ -1,0 +1,19 @@
+Imagine you're responsible for managing the distribution of medical supplies across five different regions during a critical healthcare crisis. Each region starts with a certain amount of supplies but has different requirements based on the healthcare demands.
+
+Here is the current stock and the needed amounts in each region:
+
+- Region 1 has 410 units of supplies but needs 274 units.
+- Region 2 has 266 units but needs 331 units.
+- Region 3 has 132 units but needs 232 units.
+- Region 4 has only 6 units but urgently needs 359 units.
+- Region 5 has 485 units but needs just 74 units.
+
+To ensure each region has the medical supplies it needs, you can transfer supplies between regions. However, transferring supplies incurs costs which vary between regions. Below is the cost matrix that shows the cost of transferring supplies from one region to another:
+
+- From/to Region 1: To Region 2 costs 24, to Region 3 costs 3, to Region 4 costs 27, to Region 5 costs 31.
+- From/to Region 2: To Region 1 costs 24, to Region 3 costs 11, to Region 4 costs 7, to Region 5 costs 37.
+- From/to Region 3: To Region 1 costs 30, to Region 2 costs 1, to Region 4 costs 38, to Region 5 costs 22.
+- From/to Region 4: To Region 1 costs 36, to Region 2 costs 18, to Region 3 costs 17, to Region 5 costs 35.
+- From/to Region 5: To Region 1 costs 41, to Region 2 costs 35, to Region 3 costs 33, to Region 4 costs 33.
+
+Your objective is to ensure every region has the medical supplies it requires at the lowest possible transportation cost. What would be the minimum cost to ensure all regions have the necessary medical supplies?

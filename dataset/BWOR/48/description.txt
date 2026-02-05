@@ -1,0 +1,19 @@
+
+3.19 It is known that locations X and Y have 70 tons and 55 tons of goods to be shipped out, respectively. Destinations A, B, and C each require 35 tons, 40 tons, and 50 tons of goods respectively. Goods can be shipped directly to their destinations or transshipped via certain points. The distances (in km) between locations are shown in Tables 3-23, 3-24, and 3-25. Question:Determine an optimal transportation plan that satisfies all demands while minimizing total transport distance.  
+
+Talbe 3-23  
+
+
+<html><body><table><tr><td>From/To </td><td>X</td><td>Y</td></tr><tr><td>X</td><td>0</td><td>12</td></tr><tr><td>Y</td><td>10</td><td>0</td></tr></table></body></html>  
+
+Table 3-24  
+
+
+<html><body><table><tr><td>From/To</td><td>A</td><td>B</td><td>C</td></tr><tr><td>X</td><td>10</td><td>14</td><td>12</td></tr><tr><td>Y</td><td>15</td><td>12</td><td>18</td></tr></table></body></html>  
+
+Table 3-25  
+
+
+<html><body><table><tr><td>From/To</td><td>A</td><td>B</td><td>C</td></tr><tr><td>A</td><td>0</td><td>14</td><td>11</td></tr><tr><td>B</td><td>10</td><td>0</td><td>4</td></tr><tr><td>C</td><td>8</td><td>12</td><td>0</td></tr></table></body></html> 
+
+

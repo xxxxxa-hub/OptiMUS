@@ -1,0 +1,16 @@
+Imagine a city that has a complex electrical network with 8 power stations (including source and the main receiving stations). The stations are connected with transmission lines, each capable of handling a certain amount of electricity.
+
+Here's the capacity of each transmission line, showing the maximum amount of electricity (in megawatts) that can flow from one station to another:
+
+- From Station 0 (Source): Can send electricity to Station 1 (9 MW), Station 2 (6 MW), Station 3 (1 MW), Station 4 (8 MW), Station 5 (14 MW), Station 6 (1 MW) and Station 7 (17 MW).
+- From Station 1: Can send electricity to Station 0 (1 MW), Station 2 (6 MW), Station 3 (14 MW), Station 4 (16 MW), Station 5 (8 MW), Station 6 (19 MW) and Station 7 (15 MW).
+- From Station 2: Can send electricity to Station 0 (4 MW), Station 1 (7 MW), Station 3 (9 MW), Station 4 (1 MW), Station 5 (2 MW), Station 6 (9 MW) and Station 7 (4 MW).
+- From Station 3: Can send electricity to Station 0 (11 MW), Station 1 (5 MW), Station 2 (14 MW), Station 4 (17 MW), Station 5 (6 MW), Station 6 (20 MW) and Station 7 (13 MW).
+- From Station 4: Can send electricity to Station 0 (8 MW), Station 1 (5 MW), Station 2 (20 MW), Station 3 (0 MW), Station 5 (16 MW), Station 6 (5 MW) and Station 7 (5 MW).
+- From Station 5: Can send electricity to Station 0 (15 MW), Station 1 (18 MW), Station 2 (9 MW), Station 3 (1 MW), Station 4 (19 MW), Station 6 (16 MW) and Station 7 (0 MW).
+- From Station 6: Can send electricity to Station 0 (20 MW), Station 1 (15 MW), Station 2 (1 MW), Station 3 (0 MW), Station 4 (11 MW), Station 5 (6 MW) and Station 7 (19 MW).
+- From Station 7 (Destination): Can send electricity back to Station 0 (4 MW), Station 1 (18 MW), Station 2 (10 MW), Station 3 (2 MW), Station 4 (1 MW), Station 5 (20 MW) and Station 6 (14 MW).
+
+In this network, a capacity of "0" means there is no direct transmission line between those two stations.
+
+The challenge is to calculate the maximum amount of electricity that can be transmitted from Station 0 (the source) to Station 7 (the main receiving station), ensuring that the flow through each transmission line does not exceed its capacity. What is the maximum amount of electricity that can be transmitted from the source to the destination in megawatts?

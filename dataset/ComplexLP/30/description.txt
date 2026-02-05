@@ -1,0 +1,11 @@
+Imagine yourself as a dedicated fitness enthusiast on a strict diet and you're trying to plan your meals for an entire day. You aim to meet specific nutritional goals without burning a hole in your pocket. You have five different food items to choose from: Chicken, Pasta, Apples, Tuna, and Rice. Each food item contributes different amounts of proteins, carbohydrates, and calories, and each one has a different price.
+
+Here is an overview of the nutritional values and cost of each food:
+
+- Chicken: Provides 8 grams of protein, 8 grams of carbohydrates, and 118 calories for $6.
+- Pasta: Delivers a hefty 10 grams of protein, a substantial 30 grams of carbohydrates, and 131 calories for $10.
+- Apples: Offer a modest 3 grams of protein, 10 grams of carbohydrates, and a surprising 151 calories for just $1.
+- Tuna: Packs a stunning 16 grams of protein, 29 grams of carbohydrates, and a whopping 235 calories for $9.
+- Rice: Supplies 4 grams of protein, a solid 24 grams of carbohydrates, and 101 calories for a mere $4.
+
+Your dietary goal for the day is to consume at least 93 grams of protein, 181 grams of carbohydrates, and 1620 calories. Your challenge is to figure out the most cost-effective way to achieve these nutritional targets using a combination of these five food options. What is the minimum cost required to meet your daily nutritional requirements? Please note that your response should provide only the optimal value in the context of food selection.

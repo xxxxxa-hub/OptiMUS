@@ -1,0 +1,14 @@
+Imagine you're trying to balance your nutritional intake and budget for the week. You have an array of eight different food items to choose from: Chicken, Rice, Eggs, Beans, Spinach, Corn, Beef, and Broccoli. These foods each offer different levels of protein, carbohydrates, and calories and come with various price tags. 
+
+Here's the nutritional breakdown and cost of each food item:
+
+- Chicken: Provides 5 grams of protein, 15 grams of carbohydrates, and 162 calories at a cost of $8.
+- Rice: Supplies 8 grams of protein, 17 grams of carbohydrates, and 282 calories for $4.
+- Eggs: Deliver a solid 18 grams of protein, 20 grams of carbohydrates, and 234 calories for just $1.
+- Beans: Offer 16 grams of protein, 15 grams of carbohydrates, and 85 calories for $4.
+- Spinach: Adds 3 grams of protein, 28 grams of carbohydrates, and 194 calories for $7.
+- Corn: Gives 3 grams of protein, 19 grams of carbohydrates, and 153 calories for a modest $2.
+- Beef: Brings in 6 grams of protein, 24 grams of carbohydrates, and 167 calories for $9.
+- Broccoli: Offers 17 grams of protein, 9 grams of carbohydrates, and 192 calories for just $3.
+
+Your dietary goal for the week is to consume at least 68 grams of protein, 189 grams of carbohydrates, and 1840 calories. What is the least amount of money you need to spend to meet these nutritional requirements by choosing from these eight food items?

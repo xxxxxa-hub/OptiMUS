@@ -1,0 +1,14 @@
+Imagine you are in charge of planning a week's worth of meals for a small group and need to ensure everyone gets the right amount of nutrients without overspending. You have four different food items to choose from, each with its own nutritional content and cost.
+
+Here's what each food item offers:
+- Food_1: Provides 19 grams of protein, 9 grams of carbohydrates, and 83 calories for $7.
+- Food_2: Offers 4 grams of protein, 16 grams of carbohydrates, and 166 calories for $7.
+- Food_3: Contains 3 grams of protein, 11 grams of carbohydrates, and 71 calories for $10.
+- Food_4: Delivers 8 grams of protein, 7 grams of carbohydrates, and 56 calories for $2.
+
+Your goal is to meet the following nutritional requirements for the group:
+- At least 84 grams of protein,
+- At least 132 grams of carbohydrates,
+- At least 1990 calories.
+
+Your challenge is to determine the most cost-effective way to purchase these food items to meet or exceed the nutritional requirements. What is the minimal cost to meet these dietary needs?

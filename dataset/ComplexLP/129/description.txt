@@ -1,0 +1,14 @@
+Let's consider a scenario where we have a set of interconnected computer servers intended to distribute data packets. The servers are set up in a network of 6 nodes, ranging from Node 0, the source, to Node 5, the destination. The connections between servers have a certain data transfer capacity, representing the maximum number of data packets that can be sent per unit time.
+
+Here's how the capacities of each connection, represented in thousands of data packets per unit time, are distributed:
+
+- From Node 0 (Source): Can send data to Node 1 (11 packets), Node 2 (8 packets), Node 3 (11 packets), Node 4 (20 packets), and Node 5 (16 packets).
+- From Node 1: Can send data to Node 0 (15 packets), Node 2 (11 packets), Node 3 (16 packets), and Node 5 (20 packets).
+- From Node 2: Can send data to Node 0 (7 packets), Node 1 (4 packets), Node 3 (4 packets), and Node 4 (11 packets).
+- From Node 3: Can send data to Node 0 (4 packets), Node 1 (8 packets), Node 2 (14 packets), and Node 4 (19 packets).
+- From Node 4: Can send data to Node 0 (10 packets), Node 2 (6 packets), Node 3 (19 packets), and Node 5 (13 packets).
+- From Node 5 (Destination): Can send data back to Node 0 (10 packets), Node 1 (15 packets), Node 2 (20 packets), Node 3 (19 packets), and Node 4 (10 packets).
+
+In this network, a capacity of "0" indicates there is no direct connection between the two nodes.
+
+The task is to calculate the maximum number of data packets that can be sent from Node 0 (the source) to Node 5 (the destination) without exceeding the capacity of any individual connection. In other words, what is the maximum flow possible in this network? What is the maximum data that can be sent from the source to the destination in thousands of packets per unit time?

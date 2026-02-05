@@ -1,0 +1,10 @@
+
+ A sugar factory can produce up to 270 tons of sugar per month. The sugar is first transported to three warehouses: A_1, A_2, A_3, and then supplied to five regions: B_1, B_2, B_3, B_4, B_5. The storage capacities of the warehouses are 50, 100, and 150 tons respectively. The demand in each region is 25, 105, 60, 30, and 70 tons respectively. The transportation and storage costs from the sugar factory through each warehouse to each region are given in Table 3-19.  
+
+ Table 3-19  
+
+
+<html><body><table><tr><td></td><td>B1</td><td>B2</td><td>B3</td><td>B4</td><td>B5</td></tr><tr><td>A1</td><td>10</td><td>15</td><td>20</td><td>20</td><td>40</td></tr><tr><td>A2</td><td>20</td><td>40</td><td>15</td><td>30</td><td>30</td></tr><tr><td>A3</td><td>30</td><td>35</td><td>40</td><td>55</td><td>25</td></tr></table></body></html>  
+
+ Determine a transportation plan that minimizes the total cost.  
+

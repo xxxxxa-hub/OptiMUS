@@ -1,0 +1,18 @@
+Welcome to the challenge of optimizing the logistics network of a futuristic city, connected by an advanced transportation system comprising 8 crucial nodes. This city's system is designed to maximize the efficiency of goods transport from the central distribution hub to a primary delivery station, passing through various checkpoints and distribution centers along the way.
+
+Here's a detailed view of the transportation capacities (in thousands of units) that each route can handle:
+
+- From Node 0 (Source): Can dispatch goods to Node 1 (3 units), Node 2 (7 units), Node 3 (2 units), Node 4 (18 units), Node 5 (18 units), Node 6 (14 units), and Node 7 (10 units).
+- From Node 1: Can send goods to Node 0 (1 unit), Node 2 (10 units), Node 3 (16 units), Node 4 (14 units), Node 6 (6 units), and Node 7 (10 units).
+- From Node 2: Can transport goods to Node 0 (4 units), Node 3 (7 units), Node 4 (2 units), Node 5 (2 units), Node 6 (6 units), and Node 7 (10 units).
+- From Node 3: Can move goods to Node 0 (2 units), Node 1 (3 units), Node 2 (7 units), Node 4 (20 units), Node 5 (8 units), Node 6 (6 units), and Node 7 (10 units).
+- From Node 4: Can dispatch goods to Node 0 (1 unit), Node 1 (20 units), Node 2 (4 units), Node 3 (8 units), Node 5 (13 units), Node 6 (8 units), and Node 7 (1 unit).
+- From Node 5: Can send goods to Node 0 (16 units), Node 1 (9 units), Node 2 (17 units), Node 3 (17 units), Node 4 (11 units), Node 6 (7 units), and Node 7 (8 units).
+- From Node 6: Can transport goods to Node 0 (3 units), Node 1 (7 units), Node 2 (14 units), Node 3 (1 unit), Node 4 (20 units), Node 5 (5 units), and Node 7 (13 units).
+- From Node 7 (Destination): Can receive goods from Node 0 (3 units), Node 1 (6 units), Node 2 (5 units), Node 3 (1 unit), Node 4 (14 units), Node 5 (20 units), and Node 6 (9 units).
+
+A capacity of "0" indicates there is no direct route available between those two nodes.
+
+The goal is to determine the maximum amount of goods (in thousands of units) that can be transported from the central distribution hub (Node 0) to the primary delivery station (Node 7) without exceeding the transport capacity of any route.
+
+What is the optimal value of goods (in thousands of units) that can be transported from the source to the destination?

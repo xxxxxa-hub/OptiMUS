@@ -1,0 +1,14 @@
+Imagine you're a nutrition-conscious shopper who is trying to meet specific dietary requirements without breaking the bank. You have eight food items to choose from: Eggs, Grains, Berries, Nuts, Salmon, Vegetables, Rice, and Meat. Each of these foods has its own nutritional content and cost.
+
+Let's break down the nutritional content and cost of each food item:
+
+- Eggs: For $4, you get 2 grams of protein, 4 grams of carbohydrates, and 282 calories.
+- Grains: For $3, you get 7 grams of protein, 9 grams of carbohydrates, and 104 calories.
+- Berries: For $2, you get 6 grams of protein, 18 grams of carbohydrates, and 71 calories.
+- Nuts: For $4, you get 16 grams of protein, 3 grams of carbohydrates, and 116 calories.
+- Salmon: For $9, you get 20 grams of protein, 11 grams of carbohydrates, and 175 calories.
+- Vegetables: For $3, you get 6 grams of protein, 27 grams of carbohydrates, and 132 calories.
+- Rice: For $6, you get 6 grams of protein, 30 grams of carbohydrates, and 251 calories.
+- Meat: For $6, you get 5 grams of protein, 1 gram of carbohydrates, and 74 calories.
+
+Your goal is to get at least 84 grams of protein, 195 grams of carbohydrates, and 1941 calories within a day from a combination of these food items. The challenge here is to figure out the least expensive way to meet these nutritional targets with the given food options. So, what is the minimum cost you need to spend to meet your daily nutritional requirements? Keep in mind, the answer should be the optimal value under the scenario of food selection.

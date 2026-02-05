@@ -1,0 +1,9 @@
+Consider a delivery company that operates in six cities, labelled from 1 to 6. The company needs to deliver packages to all cities, starting from any one of them, but following these constraints: each city should be visited exactly once, and after visiting all the cities, the delivery van should return to the city where it started. We need to minimize the total cost of this delivery route, taking into account factors such as fuel, road taxes, and driver fees.
+Here are the associated costs between the cities:
+The cost to deliver from City 1 to City 2 is 43 units, to City 3 is 39 units, to City 4 is 97 units, to City 5 is 84 units, and to City 6 is 67 units.
+From City 2, the costs are 43 units to City 1, 18 units to City 3, 92 units to City 4, 27 units to City 5, and 51 units to City 6.
+For deliveries from City 3, it costs 39 units to reach City 1, 18 units to reach City 2, 84 units to reach City 4, 60 units to reach City 5, and 15 units to reach City 6.
+From City 4, the costs are 97 units to City 1, 92 units to City 2, 84 units to City 3, 42 units to City 5, and 32 units to City 6.
+Delivering from City 5, the costs are 84 units to City 1, 27 units to City 2, 60 units to City 3, 42 units to City 4, and 18 units to City 6.
+Lastly, from City 6, it costs 67 units to reach City 1, 51 units to reach City 2, 15 units to reach City 3, 32 units to reach City 4, and 18 units to reach City 5.
+What is the minimum total delivery cost for the company to deliver to each city exactly once and return to the starting city?

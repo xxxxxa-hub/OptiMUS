@@ -1,0 +1,13 @@
+Let's imagine you are a student on a budget, trying to create a meal plan to meet your nutritional needs while keeping your finances in check. You have five different food items to consider: Lentils, Rice, Chicken, Beef, and Tofu. Each of these foods provides a varying amount of protein, carbs, and calories, and they also come with different price tags.
+
+Here is the nutritional content and cost of each food:
+
+- Lentils: For 7 dollars, Lentils provide you with 13 grams of protein, 21 grams of carbohydrates, and 284 calories.
+- Rice: Providing 2 grams of protein, a substantial 30 grams of carbohydrates, and 55 calories, Rice comes at 6 dollars.
+- Chicken: At the same cost as Rice, Chicken offers 7 grams of protein, 13 grams of carbohydrates, and a hefty 276 calories.
+- Beef: Priced at 10 dollars, Beef gives you 18 grams of protein, 8 grams of carbohydrates, and 204 calories.
+- Tofu: The cheapest option at 2 dollars, Tofu still provides a good amount of nutrients with 12 grams of protein, 28 grams of carbohydrates, and 160 calories.
+
+In your meal planning, you aim to get at least 79 grams of protein, 170 grams of carbohydrates, and 1699 calories from your selection of these foods. The challenge is to meet these nutritional targets in the most cost-effective way possible. What is the least amount of money you have to spend to meet your dietary needs with these five food options?
+
+Remark: Please note that your response should be a single answer question, asking for only the optimal value. This problem is set under the scenario of food selection.

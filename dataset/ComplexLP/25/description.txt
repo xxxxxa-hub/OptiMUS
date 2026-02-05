@@ -1,0 +1,12 @@
+Imagine you're responsible for preparing the meals for a professional athlete who has specific dietary needs. You have six different food items available to purchase and cook: Chicken, Rice, Tuna, Beef, Corn, and Whey Protein. Each food provides various quantities of protein, carbohydrates, and calories, and they each have their own cost.
+
+Here's a quick rundown of what each food item provides and its cost:
+
+- Chicken: Offers 13 grams of protein, 27 grams of carbohydrates, and 81 calories for $1.
+- Rice: Provides 1 gram of protein, 1 gram of carbohydrate, and a whopping 137 calories for $9.
+- Tuna: Delivers 17 grams of protein, 2 grams of carbohydrates, and 53 calories for $2.
+- Beef: Contains 15 grams of protein, 18 grams of carbohydrates, and 126 calories for $9.
+- Corn: Comes with 2 grams of protein, 19 grams of carbohydrates, and 117 calories for $4.
+- Whey Protein: Provides a hefty 15 grams of protein, 11 grams of carbohydrates, and 277 calories for $6.
+
+The athlete's daily dietary targets are at least 58 grams of protein, 148 grams of carbohydrates, and 2454 calories. Your mission is to determine the lowest-cost way to satisfy all these nutritional targets utilizing these six food options. So, what is the least amount of money you'll have to spend to meet the athlete's dietary requirements?

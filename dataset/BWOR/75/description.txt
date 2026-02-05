@@ -1,0 +1,10 @@
+
+
+  A certain machine can operate continuously for 4 years, or it can be sold at the end of any year and replaced with a new one. The purchase price of a new machine at the beginning of each year and the salvage value at the end of various service lifespans are shown in Table 8-7.In addition: The operating and maintenance cost for a new machine in its first year is 0.3 thousand yuan.For machines used for 1 to 3 years, the annual operating and maintenance costs are 0.8, 1.5, and 2.0 thousand yuan, respectively. Question: Determine the optimal replacement strategy for the machine over the 4-year period, so that the total cost of purchasing, replacing, and operating the machine is minimized.  
+
+  Table 8-7  
+  thousand yuan  
+
+
+  <html><body><table><tr><td>j</td><td>First Year</td><td>Second Year</td><td>Third Year</td><td>Fourth Year</td></tr><tr><td>Purchase Price at Start of Year</td><td>2.5</td><td>2.6</td><td>2.8</td><td>3.1</td></tr><tr><td>Salvage Value after j Years</td><td>2.0</td><td>1.6</td><td>1.3</td><td>1.1</td></tr></table></body></html>  
+

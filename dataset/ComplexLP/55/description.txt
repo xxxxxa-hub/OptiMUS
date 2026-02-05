@@ -1,0 +1,21 @@
+Imagine you are tasked with managing the distribution of medical supplies among six clinics in a large healthcare system. Each clinic currently holds a certain quantity of supplies but requires a specific amount to adequately meet the healthcare needs for the upcoming season.
+
+Here's the status of each of these clinics:
+
+- Clinic 1 has 467 units of supplies but needs 261 units.
+- Clinic 2 has 121 units but needs 209 units.
+- Clinic 3 has 109 units but needs 135 units.
+- Clinic 4 has 131 units but needs 146 units.
+- Clinic 5 has 500 units but needs 488 units.
+- Clinic 6 has 10 units but needs 30 units.
+
+To ensure each clinic meets its demand, you can transfer supplies between them. However, each transfer incurs a cost which varies depending on the clinics involved. Below is the matrix showing the transportation costs (in dollars per unit) between each pair of clinics:
+
+- Moving supplies from/to Clinic 1: To Clinic 2 costs $43, to Clinic 3 costs $8, to Clinic 4 costs $15, to Clinic 5 costs $37, to Clinic 6 costs $9.
+- Moving supplies from/to Clinic 2: To Clinic 1 costs $9, to Clinic 3 costs $50, to Clinic 4 costs $37, to Clinic 5 costs $50, to Clinic 6 costs $29.
+- Moving supplies from/to Clinic 3: To Clinic 1 costs $3, to Clinic 2 costs $37, to Clinic 4 costs $7, to Clinic 5 costs $18, to Clinic 6 costs $27.
+- Moving supplies from/to Clinic 4: To Clinic 1 costs $15, to Clinic 2 costs $3, to Clinic 3 costs $3, to Clinic 5 costs $2, to Clinic 6 costs $48.
+- Moving supplies from/to Clinic 5: To Clinic 1 costs $34, to Clinic 2 costs $18, to Clinic 3 costs $44, to Clinic 4 costs $2, to Clinic 6 costs $27.
+- Moving supplies from/to Clinic 6: To Clinic 1 costs $36, to Clinic 2 costs $49, to Clinic 3 costs $29, to Clinic 4 costs $12, to Clinic 5 costs $33.
+
+Your objective is to ensure that each clinic has the exact amount of supplies it needs while minimizing the total transportation costs. What would be the minimum cost to achieve this balance?

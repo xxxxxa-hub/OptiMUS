@@ -1,0 +1,15 @@
+Imagine you're a college student living off-campus with a tight budget, but you're committed to maintaining a healthy diet. You have identified a set of nine different food items available in your local supermarket. Each of these items provides specific amounts of protein, carbohydrates, and calories and has its own price. 
+
+Here is the breakdown of what each food item provides along with its cost:
+
+1. Chicken (Cost: $10): Gives you 7 grams of protein, 17 grams of carbohydrates, and 95 calories.
+2. Tofu (Cost: $2): Provides 12 grams of protein, 12 grams of carbohydrates, and 233 calories.
+3. Brown Rice (Cost: $7): Contains 14 grams of protein, 27 grams of carbohydrates, and 134 calories.
+4. Fish (Cost: $8): Offers 9 grams of protein, 6 grams of carbohydrates, and 109 calories.
+5. Lentils (Cost: $4): Deliver 11 grams of protein, 19 grams of carbohydrates, and 202 calories.
+6. Quinoa (Cost: $9): Packs 10 grams of protein, 23 grams of carbohydrates, and 148 calories.
+7. Eggs (Cost: $2): Provides 10 grams of protein, 6 grams of carbohydrates, and 184 calories.
+8. Beef (Cost: $9): Contains 9 grams of protein, 16 grams of carbohydrates, and 136 calories.
+9. Beans (Cost: $9): Offers 8 grams of protein, 25 grams of carbohydrates, and 229 calories.
+
+Your daily dietary requirements are that you need at least 71 grams of protein, 107 grams of carbohydrates, and 1623 calories. Your challenge is to meet these nutritional targets by choosing from these nine food items and spending as little money as possible. How much is the minimum cost you need to spend to meet your nutritional needs? Remember, your response should only provide the optimal value.

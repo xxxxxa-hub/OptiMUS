@@ -1,0 +1,9 @@
+Imagine a scenario in which a business consultant needs to visit four distinct cities to evaluate the operations of regional offices. These cities are labeled as City 1, City 2, City 3, and City 4. The consultant can begin their route from any of these cities. The key requirement is that each city must be visited exactly once before returning to the starting city. The main objective is to minimize the total cost of travel, which includes expenses such as transportation, lodging, and time spent traveling.
+
+Here’s a quick summary of the travel costs between the cities:
+- The cost to travel from City 1 to City 2 is 29 units, to City 3 is 97 units, and to City 4 is 72 units.
+- From City 2, the journey costs 29 units to reach City 1, 69 units to City 3, and 52 units to City 4.
+- Traveling from City 3, the expenses are 97 units to City 1, 69 units to City 2, and 91 units to City 4.
+- Lastly, from City 4, it costs 72 units to go to City 1, 52 units to City 2, and 91 units to City 3.
+
+What is the minimum total travel cost for the consultant to visit each city exactly once and then return to the starting city?

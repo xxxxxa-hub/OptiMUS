@@ -1,0 +1,14 @@
+Imagine you are a fitness enthusiast who takes your daily nutritional needs very seriously. Your dietitian has provided you with specific benchmarks to achieve every day: 91 grams of protein, 136 grams of carbohydrates, and 1563 calories. 
+
+You have a variety of food items available to you, each with its own cost and nutritional content. Let's take a look at what each of these food items offers:
+
+- Chicken breast: For $7, it provides 12g of protein, 5g of carbs, and 231 calories.
+- Tofu: Also $7, it delivers 10g of protein, 1g of carbs, and 210 calories.
+- Spinach: This cost-effective option at just $1 provides 11g of protein, 30g of carbs, and 295 calories.
+- Beef steak: Available at $9, it contributes 8g of protein, 26g of carbs, and 211 calories.
+- Eggs: For $6, eggs add 16g of protein, 9g of carbs, and 232 calories to your daily intake.
+- Brown rice: This $7 meal component provides 4g of protein, 25g of carbs, and 146 calories.
+- Bananas: At just $2, they contribute 4g of protein, 16g of carbs, and 255 calories.
+- Quinoa: For $6, quinoa provides 4g of protein, 20g of carbs, and 205 calories.
+
+Now here is your challenge: Using these food options, how can you meet your daily dietary requirements while keeping the cost as low as possible? What is the minimum cost you need to spend to meet your daily nutritional needs? Keep in mind that your response should be a single answer question, asking for only the optimal value, under the scenario of food selection.

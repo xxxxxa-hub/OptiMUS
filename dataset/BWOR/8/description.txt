@@ -1,0 +1,19 @@
+
+    \noindent\textbf{3.8} A company has signed a delivery contract with a customer for equipment. The quarterly production capacity, production cost per unit, and delivery quantity at the end of each quarter are shown in Table 3-30. If equipment produced in one quarter is not delivered during that quarter, a storage and maintenance fee of 0.1 thousand yuan per unit per quarter is incurred. Question: Under the condition of meeting the delivery contract, how should the company arrange its production schedule throughout the year to minimize the total annual cost(in thousand yuan)? 
+
+\begin{table}[h]
+    \centering
+    \caption{Table 3-30: Quarterly Production Capacity, Delivery Quantity, and Production Cost}
+    \label{tab:production}
+    \begin{tabular}{cccc}
+        \toprule
+        Quarter & Production Capacity (units) & Delivery Quantity (units) & Production Cost per Unit (thousand yuan) \\
+        \midrule
+        1 & 25 & 15 & 12.0 \\
+        2 & 35 & 20 & 11.0 \\
+        3 & 30 & 25 & 11.5 \\
+        4 & 20 & 20 & 12.5 \\
+        \bottomrule
+    \end{tabular}
+\end{table}
+    

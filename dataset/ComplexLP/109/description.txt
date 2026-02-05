@@ -1,0 +1,17 @@
+Welcome to a challenge set in the bustling realm of digital communication within a fictional city, where data flows through a network of 9 strategic relay stations, connecting a central data source to a primary data sink. Each relay station serves as a node in this intricate web, tasked with handling the transmission of information packets. The objective is to optimize this network for the highest possible data throughput from the source to the sink, ensuring the city's communication infrastructure operates at peak efficiency.
+
+Here's a detailed layout of the network's capacity, illustrating the maximum number of data packets per hour that can be transmitted from one station to another:
+
+- From Station 0 (Source): Has the capacity to send data to Station 1 (14 packets), Station 2 (20 packets), Station 3 (7 packets), Station 4 (9 packets), Station 5 (1 packet), Station 6 (4 packets), Station 7 (8 packets), and Station 8 (19 packets).
+- From Station 1: Can transmit data to Station 0 (3 packets), Station 2 (15 packets), Station 3 (12 packets), Station 4 (17 packets), Station 6 (15 packets), Station 7 (3 packets), and Station 8 (3 packets).
+- From Station 2: Can send data to Station 0 (11 packets), Station 1 (8 packets), Station 3 (1 packet), Station 4 (19 packets), Station 5 (16 packets), Station 6 (5 packets), Station 7 (1 packet), and Station 8 (2 packets).
+- From Station 3: Has the ability to route data to Station 0 (13 packets), Station 1 (13 packets), Station 2 (2 packets), Station 4 (16 packets), Station 5 (20 packets), Station 6 (16 packets), Station 7 (17 packets), and Station 8 (3 packets).
+- From Station 4: Can forward data to Station 0 (6 packets), Station 1 (15 packets), Station 2 (7 packets), Station 3 (3 packets), Station 5 (18 packets), Station 6 (1 packet), Station 7 (3 packets), and Station 8 (9 packets).
+- From Station 5: Capable of sending data to Station 0 (15 packets), Station 1 (20 packets), Station 2 (8 packets), Station 3 (4 packets), Station 4 (6 packets), Station 6 (3 packets), Station 7 (1 packet), and Station 8 (4 packets).
+- From Station 6: Can transmit data to Station 0 (5 packets), Station 1 (15 packets), Station 2 (19 packets), Station 3 (4 packets), Station 4 (15 packets), Station 5 (12 packets), Station 7 (3 packets), and Station 8 (8 packets).
+- From Station 7: Has the capacity to route data to Station 0 (7 packets), Station 1 (14 packets), Station 2 (13 packets), Station 3 (12 packets), Station 4 (9 packets), Station 5 (10 packets), Station 6 (3 packets), and Station 8 (4 packets).
+- From Station 8 (Destination): Can receive data back from Station 0 (3 packets), Station 1 (12 packets), Station 2 (6 packets), Station 3 (6 packets), Station 4 (1 packet), Station 5 (11 packets), Station 6 (6 packets), and Station 7 (1 packet).
+
+In this scenario, a "0" capacity means there is no direct data transmission link between those two particular stations.
+
+Given this network configuration, your task is to calculate the maximum number of data packets that can be optimally transmitted from Station 0 (the source) to Station 8 (the destination) per hour, without exceeding the specified transmission capacities between stations. What is the maximum data throughput the city's communication network can achieve in packets per hour?

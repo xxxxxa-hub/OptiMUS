@@ -1,0 +1,29 @@
+In the bustling world of retail, a company named SupplyChain Masters is faced with the challenge of efficiently supplying its nine retail stores with products from a network of seven potential distribution centers. The company's goal is to ensure that each store's demand is met, while simultaneously minimizing the total cost involved. This total cost encompasses the opening expenses of the distribution centers and the transportation costs for delivering the goods to the stores.
+
+Let's dive into the specifics:
+
+- The company is contemplating between seven distribution centers to serve its needs.
+- There are nine retail stores scattered in different locations, each with its unique demand for products.
+
+Opening Costs for Each Distribution Center (in dollars):
+- Center 1: 151,000
+- Center 2: 192,000
+- Center 3: 114,000
+- Center 4: 171,000
+- Center 5: 160,000
+- Center 6: 120,000
+- Center 7: 182,000
+
+Transportation Cost Per Unit from Each Distribution Center to Retail Stores (in dollars):
+- Costs vary for each distribution center and are specific to the route to each retail store, ranging from $1 to $5 per unit, depending on the distance and transportation means.
+
+Demand of Each Retail Store (in units):
+- Store demands range from 440 to 892 units, highlighting varied customer needs across the locations.
+
+Supply Capacity of Each Distribution Center (in units):
+- The distribution centers have capacities ranging from 814 to 1962 units, indicating their maximum supply capabilities.
+
+SupplyChain Masters' challenge is to calculate the optimal setup of distribution centers that should be opened and determine the distribution of supplies to the retail stores in a way that all stores' demands are met at the lowest possible total cost.
+
+Question:
+What is the optimal total cost for SupplyChain Masters to open the necessary distribution centers and transport goods to all retail stores, considering both the opening costs and the transportation costs?

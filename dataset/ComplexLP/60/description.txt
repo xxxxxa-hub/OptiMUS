@@ -1,0 +1,9 @@
+In a scenario involving a sales representative tasked with visiting four distinct cities to promote their product, we identify these cities as A, B, C, and D. The representative has the flexibility to commence their travels from any city but is required to make a stop at each city exactly once before returning to their starting point. The primary objective for the sales representative is to minimize their overall travel expenses, which might encompass aspects like distance, time, or monetary costs.
+
+Here’s a breakdown of the travel costs between each city:
+- From City A, the cost is 19 units to City B, 45 units to City C, and 30 units to City D.
+- Traveling from City B, it costs 19 units to reach City A, 89 units to City C, and 46 units to City D.
+- From City C, the journey costs 45 units to City A, 89 units to City B, and merely 11 units to City D.
+- Lastly, from City D, the travel expenses are 30 units to City A, 46 units to City B, and 11 units to City C.
+
+Given this setup, what is the minimum total travel cost for the salesperson to visit each city exactly once and return to the starting city?

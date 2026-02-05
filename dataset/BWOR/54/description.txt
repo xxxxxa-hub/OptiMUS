@@ -1,0 +1,9 @@
+
+5.24 The Hongdou Garment Factory uses three types of specialized equipment to produce shirts, T-shirts, and casual wear, respectively. The labor requirement, material usage, selling price, and variable cost per unit for each of the three products are shown in Table 5-10.  
+
+ Table 5-10  
+
+
+<html><body><table><tr><td>Product</td><td>Labor per Unit</td><td>Material per Unit</td><td>Selling Price</td><td>Variable Cost</td></tr><tr><td>Shirt</td><td>3</td><td>4</td><td>120</td><td>60</td></tr><tr><td>T-shirt</td><td>2</td><td>3</td><td>80</td><td>40</td></tr><tr><td>Casual Wear</td><td>6</td><td>6</td><td>180</td><td>80</td></tr></table></body></html>  
+
+ The factory has a weekly availability of 150 labor units and 160 material units. The weekly fixed costs for operating the specialized equipment for producing shirts, T-shirts, and casual wear are 2,000, 1,500, and 1,000 respectively.Requirement: Design a weekly production plan for the factory that maximizes profit. 

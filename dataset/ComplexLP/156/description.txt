@@ -1,0 +1,43 @@
+In the scenario presented, SupplyChain Solutions is faced with a complex decision in establishing its distribution network to efficiently serve six retail stores from a selection of seven distribution centers. Each distribution center has its own specific opening cost and a maximum supply capacity. Furthermore, the cost of transporting goods from these centers to the retail stores varies significantly. The goal is to fulfill the demand at each retail store while minimizing the total cost incurred, which encompasses both the opening costs of the distribution centers and the transportation costs of the goods.
+
+Given Data:
+- Number of Potential Distribution Centers: 7
+- Number of Retail Stores Needing Supply: 6
+
+Opening Costs for Each Distribution Center (in dollars):
+- Center 1: $151,000
+- Center 2: $192,000
+- Center 3: $114,000
+- Center 4: $171,000
+- Center 5: $160,000
+- Center 6: $120,000
+- Center 7: $182,000
+
+Transportation Cost Per Unit from Each Distribution Center to Retail Stores (in dollars):
+- From Center 1: $3 to Store 1, $3 to Store 2, $5 to Store 3, $4 to Store 4, $3 to Store 5, $5 to Store 6
+- From Center 2: $2 to Store 1, $4 to Store 2, $2 to Store 3, $4 to Store 4, $5 to Store 5, $1 to Store 6
+- From Center 3: $4 to Store 1, $2 to Store 2, $5 to Store 3, $4 to Store 4, $1 to Store 5, $1 to Store 6
+- From Center 4: $3 to Store 1, $3 to Store 2, $2 to Store 3, $4 to Store 4, $4 to Store 5, $3 to Store 6
+- From Center 5: $4 to Store 1, $4 to Store 2, $1 to Store 3, $3 to Store 4, $5 to Store 5, $3 to Store 6
+- From Center 6: $5 to Store 1, $1 to Store 2, $2 to Store 3, $4 to Store 4, $1 to Store 5, $4 to Store 6
+- From Center 7: $2 to Store 1, $2 to Store 2, $1 to Store 3, $2 to Store 4, $5 to Store 5, $2 to Store 6
+
+Demand of Each Retail Store (in units):
+- Store 1: 739
+- Store 2: 491
+- Store 3: 766
+- Store 4: 854
+- Store 5: 827
+- Store 6: 908
+
+Supply Capacity of Each Distribution Center (in units):
+- Center 1: 1575
+- Center 2: 834
+- Center 3: 1005
+- Center 4: 1904
+- Center 5: 1825
+- Center 6: 1821
+- Center 7: 1365
+
+Question:
+What is the optimal total cost for SupplyChain Solutions to select distribution centers and transport goods to meet the demands of all retail stores, considering both the opening costs of the centers and the transportation costs of supplying the stores?

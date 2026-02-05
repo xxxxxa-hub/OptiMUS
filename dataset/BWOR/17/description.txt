@@ -1,0 +1,19 @@
+
+    A commercial company plans to open 5 new stores and has decided to assign the construction of these stores to 5 construction companies. The construction cost quotations (in thousand yuan) from construction company $A_i$ (for i = 1, 2, \cdots, 5) to build store $B_j$ (for j = 1, 2, \cdots, 5) are shown in Table 5-10.To minimize the total construction cost(in thousand yuan), how should the company assign the construction tasks among the 5 construction companies?
+
+\begin{table}[h]
+    \centering
+    \caption{Table 5-10: Construction Cost Quotations (in thousand yuan)}
+    \renewcommand{\arraystretch}{1.2}
+    \begin{tabular}{c|ccccc}
+        \toprule
+        $c_{ij}$ & $B_1$ & $B_2$ & $B_3$ & $B_4$ & $B_5$ \\
+        \midrule
+        $A_1$ & 4 & 8 & 7 & 15 & 12 \\
+        $A_2$ & 7 & 9 & 17 & 14 & 10 \\
+        $A_3$ & 6 & 9 & 12 & 8 & 7 \\
+        $A_4$ & 6 & 7 & 14 & 6 & 10 \\
+        $A_5$ & 6 & 9 & 12 & 10 & 6 \\
+        \bottomrule
+    \end{tabular}
+\end{table}

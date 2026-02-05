@@ -1,0 +1,18 @@
+Welcome to the heart of an intricate transportation network, designed to efficiently distribute a critical resource across 8 bustling hubs of a futuristic city. Each hub, from a massive distribution center to the ultimate delivery point, is interconnected through a series of high-capacity conduits, each with a unique capability to handle the flow of resources.
+
+Here's the detailed layout of this advanced network:
+
+- From Hub 0 (Source): Can dispatch resources to Hub 1 (19 units), Hub 2 (5 units), Hub 3 (7 units), Hub 5 (17 units), and Hub 6 (19 units), with a special direct line to Hub 7 (9 units).
+- From Hub 1: Channels resources to Hub 0 (6 units), Hub 2 (15 units), Hub 3 (15 units), Hub 4 (16 units), Hub 5 (8 units), and Hub 6 (5 units).
+- From Hub 2: Feeds into Hub 0 (5 units), Hub 1 (6 units), Hub 3 (3 units), Hub 4 (10 units), Hub 5 (7 units), Hub 6 (6 units), and directly to Hub 7 (3 units).
+- From Hub 3: Transfers resources back to Hub 0 (8 units), to Hub 1 (2 units), Hub 2 (6 units), Hub 4 (5 units), Hub 5 (17 units), and has a pathway to Hub 7 (1 unit).
+- From Hub 4: Sends its resources to Hub 0 (17 units), Hub 1 (4 units), Hub 2 (10 units), Hub 3 (10 units), Hub 5 (6 units), Hub 6 (15 units), and to Hub 7 (14 units) directly.
+- From Hub 5: Moves resources to Hub 0 (11 units), Hub 1 (11 units), Hub 2 (9 units), Hub 3 (7 units), Hub 4 (7 units), Hub 6 (16 units), and directly to Hub 7 (19 units).
+- From Hub 6: Directs resources back to Hub 0 (13 units), to Hub 1 (19 units), Hub 2 (14 units), Hub 3 (14 units), Hub 4 (16 units), Hub 5 (1 unit), and to Hub 7 (16 units).
+- From Hub 7 (Destination): Receives backflow to Hub 0 (0 units), from Hub 1 (14 units), Hub 3 (17 units), Hub 4 (1 unit), Hub 5 (7 units), and Hub 6 (9 units).
+
+In this scenario, a capacity of "0" indicates an absence of a direct conduit between two specific hubs.
+
+The challenge ahead is to determine the maximum amount of resources that can be efficiently transported from Hub 0 (the source) to Hub 7 (the destination) within this network, ensuring the flow through each conduit does not exceed its stated capacity.
+
+What is the maximum unit of resources that can be delivered from the source to the destination?

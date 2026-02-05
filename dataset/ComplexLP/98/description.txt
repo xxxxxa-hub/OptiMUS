@@ -1,0 +1,9 @@
+In a scenario designed to test the efficiency of travel strategies, a salesperson is tasked with visiting four distinct cities to conduct business. The cities, referred to simply as City 1, City 2, City 3, and City 4, are connected by varying travel costs that represent either the distance, time, or expense associated with moving between these locations. The objective for the salesperson is to minimize the total cost of traveling, which includes visiting each city exactly once and then returning to the starting city.
+
+Here's a detailed look at the travel costs between each city:
+- From City 1 to City 2 the travel cost is 26 units, to City 3 is 49 units, and to City 4 is 75 units.
+- From City 2, it costs 26 units to return to City 1, 19 units to proceed to City 3, and 52 units to go to City 4.
+- Traveling from City 3, the costs are 49 units to City 1, 19 units back to City 2, and 49 units to City 4.
+- Finally, from City 4, the travel costs are 75 units to City 1, 52 units to City 2, and 49 units to City 3.
+
+Given these costs, what is the minimum total travel cost for the salesperson to complete their circuit of visiting each city exactly once and returning to the starting city?

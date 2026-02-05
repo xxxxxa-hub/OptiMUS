@@ -1,0 +1,40 @@
+In the bustling world of retail, SupplyChain Solutions is at a crossroads, deciding how best to structure its distribution network to efficiently supply nine retail stores scattered across the region. The company has narrowed down its choices to five potential distribution centers, each with its unique costs for opening and varying capacities for fulfilling store demands. Additionally, the transportation costs for shipping goods from these centers to the stores differ, making the decision all the more complex. The challenge lies in opening the right combination of distribution centers and planning the supply routes to minimize the total cost, which includes both the opening expenses of the distribution centers and the transportation costs of delivering goods to the stores.
+
+Given Data:
+- Number of Potential Distribution Centers: 5
+- Number of Retail Stores to be Supplied: 9
+
+Opening Costs for Each Distribution Center (in dollars):
+- Center 1: $151,000
+- Center 2: $192,000
+- Center 3: $114,000
+- Center 4: $171,000
+- Center 5: $160,000
+
+Transportation Cost Per Unit from Each Distribution Center to Retail Stores (in dollars):
+- From Center 1: $5 to Store 1, $2 to Store 2, $3 to Store 3, $3 to Store 4, $3 to Store 5, $5 to Store 6, $4 to Store 7, $3 to Store 8, $5 to Store 9
+- From Center 2: $2 to Store 1, $4 to Store 2, $2 to Store 3, $4 to Store 4, $5 to Store 5, $1 to Store 6, $4 to Store 7, $2 to Store 8, $5 to Store 9
+- From Center 3: $4 to Store 1, $1 to Store 2, $1 to Store 3, $3 to Store 4, $3 to Store 5, $2 to Store 6, $4 to Store 7, $4 to Store 8, $3 to Store 9
+- From Center 4: $4 to Store 1, $4 to Store 2, $1 to Store 3, $3 to Store 4, $5 to Store 5, $3 to Store 6, $5 to Store 7, $1 to Store 8, $2 to Store 9
+- From Center 5: $4 to Store 1, $1 to Store 2, $4 to Store 3, $2 to Store 4, $2 to Store 5, $1 to Store 6, $2 to Store 7, $5 to Store 8, $2 to Store 9
+
+Demand of Each Retail Store (in units):
+- Store 1: 739
+- Store 2: 491
+- Store 3: 766
+- Store 4: 854
+- Store 5: 827
+- Store 6: 908
+- Store 7: 434
+- Store 8: 605
+- Store 9: 480
+
+Supply Capacity of Each Distribution Center (in units):
+- Center 1: 1,825
+- Center 2: 1,821
+- Center 3: 1,365
+- Center 4: 1,929
+- Center 5: 1,502
+
+Question:
+What is the optimal total cost for SupplyChain Solutions to open distribution centers and transport goods to meet all nine retail stores' demands, including both the opening costs of the centers and the transportation costs of supplying the stores?

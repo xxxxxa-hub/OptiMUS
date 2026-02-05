@@ -1,0 +1,9 @@
+Imagine a salesperson who is required to visit four distinct cities to manage business meetings. These cities are labeled as 1, 2, 3, and 4. The salesperson has the flexibility to start their route from any of these cities but must meet a critical condition: they must visit each of the other cities exactly once before returning to their starting city. The primary goal is to minimize the total travel cost incurred during the trip, considering factors such as fuel, time, or transport fares.
+
+Here’s a breakdown of the travel costs between the cities:
+- The cost to travel from City 1 to City 2 is 61 units, to City 3 is 17 units, and to City 4 is 81 units.
+- From City 2, the costs are 61 units to City 1, 40 units to City 3, and 52 units to City 4.
+- Moving from City 3, the journey costs 17 units to City 1, 40 units to City 2, and 23 units to City 4.
+- Lastly, from City 4, it costs 81 units to travel to City 1, 52 units to City 2, and 23 units to City 3.
+
+The question now is, what is the minimum total travel cost for the salesperson to visit each city exactly once and then return to the starting city?

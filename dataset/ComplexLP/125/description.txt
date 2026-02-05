@@ -1,0 +1,17 @@
+Welcome to the enchanting world of Rivertown, a bustling town known for its complex and sophisticated water supply network. This network consists of 9 crucial pumping stations, each interconnected by a series of underground pipelines designed to ensure the smooth flow of water from the town's primary water source to its final destination, ensuring that every resident of Rivertown has access to clean water.
+
+The capacities of these pipelines, indicating the maximum volume of water (in thousands of gallons per hour) that can flow from one station to another, are meticulously planned as follows:
+
+- From Station 0 (Source): Water is pumped to Station 1 (5 gallons), Station 2 (2 gallons), Station 3 (7 gallons), Station 4 (17 gallons), Station 5 (4 gallons), Station 6 (1 gallon), Station 7 (2 gallons), and Station 8 (13 gallons).
+- From Station 1: Water flows to Station 0 (12 gallons), Station 2 (15 gallons), Station 3 (18 gallons), Station 4 (8 gallons), Station 5 (9 gallons), Station 6 (8 gallons), Station 7 (1 gallon), and Station 8 (15 gallons).
+- From Station 2: Water is directed to Station 0 (17 gallons), Station 1 (16 gallons), Station 3 (20 gallons), Station 4 (17 gallons), Station 5 (13 gallons), Station 6 (2 gallons), Station 7 (19 gallons), and Station 8 (6 gallons).
+- From Station 3: Water can be sent to Station 0 (5 gallons), Station 1 (9 gallons), Station 2 (14 gallons), Station 4 (10 gallons), Station 5 (18 gallons), Station 6 (20 gallons), Station 7 (9 gallons), and Station 8 (18 gallons).
+- From Station 4: Water is supplied to Station 0 (12 gallons), Station 1 (14 gallons), Station 2 (7 gallons), Station 3 (6 gallons), Station 5 (6 gallons), Station 6 (17 gallons), Station 7 (4 gallons), and Station 8 (9 gallons).
+- From Station 5: Water flows to Station 0 (12 gallons), Station 1 (11 gallons), Station 2 (10 gallons), Station 3 (1 gallon), Station 4 (13 gallons), Station 6 (14 gallons), Station 7 (12 gallons), and Station 8 (14 gallons).
+- From Station 6: Water is channeled to Station 0 (13 gallons), Station 1 (7 gallons), Station 2 (3 gallons), Station 3 (9 gallons), Station 4 (1 gallon), Station 5 (14 gallons), Station 7 (7 gallons), and Station 8 (16 gallons).
+- From Station 7: Water is directed from here to Station 0 (18 gallons), Station 1 (15 gallons), Station 2 (8 gallons), Station 3 (0 gallons), Station 4 (12 gallons), Station 5 (13 gallons), Station 6 (5 gallons), and Station 8 (17 gallons).
+- From Station 8 (Destination): Water can flow back to Station 0 (3 gallons), Station 1 (11 gallons), Station 2 (15 gallons), Station 3 (14 gallons), Station 4 (0 gallons), Station 5 (4 gallons), Station 6 (18 gallons), and Station 7 (16 gallons).
+
+In this scenario, a capacity of "0" signifies that there is no direct pipeline connection between those two stations.
+
+Your mission, should you choose to accept it, is to calculate the maximum volume of water that can be distributed from Station 0 (the source) to Station 8 (the destination) per hour, ensuring no pipeline exceeds its capacity limits. What is the maximum amount of water, in thousands of gallons per hour, that can flow from the source to the destination?

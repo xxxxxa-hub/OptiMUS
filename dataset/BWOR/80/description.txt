@@ -1,0 +1,24 @@
+
+  A subsidiary of Tiantian Food Company produces two types of pastries, Product I and Product II, using raw materials A and B. The amount of raw material (in kg) consumed per thousand boxes of each product, the monthly supply of materials, the unit price of materials, and the wholesale price of the two products (in thousand yuan per thousand boxes) are shown in Table C-5.  
+
+  Table C-5  
+
+  \begin{table}[h]
+  \centering
+  \caption{Table C-5}
+  \begin{tabular}{cccccc}
+  \toprule
+  \multicolumn{2}{c}{\textbf{Product}} & \multirow{2}{*}{\textbf{I}} & \multirow{2}{*}{\textbf{II}} & \textbf{Monthly Supply (t)} & \textbf{Price (thousand yuan/t)} \\
+  \cmidrule(lr){1-2} \cmidrule(lr){5-6}
+  \textbf{Raw Material} & & & & & \\
+  \midrule
+  A & & 1 & 2 & 6 & 9.9 \\
+  B & & 2 & 1 & 8 & 6.6 \\
+  \midrule
+  \multicolumn{2}{c}{\textbf{Wholesale Price}} & 30 & 20 & & \\
+  \bottomrule
+  \end{tabular}
+  \end{table}
+
+  According to market estimates: The monthly sales of Product II do not exceed 2 thousand boxes. The sales volume of Product II does not exceed that of Product I by more than 1 thousand boxes. Task: Calculate the maximum possible wholesale revenue under the given constraints.  
+

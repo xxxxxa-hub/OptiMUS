@@ -1,0 +1,11 @@
+
+
+  To ensure the normal operation of a certain piece of equipment, it is necessary to keep three types of spare parts: \mathbf{E}_1, \mathbf{E}_2, \mathbf{E}_3. Increasing the number of spare parts can improve the reliability of the equipment’s operation, but also increases the cost, and the total investment is limited to 8,000 yuan. The relationship between the number of spare parts, the increased reliability, and the costs is shown in Table 7-10.  
+
+  Table 7-10  
+
+
+  <html><body><table><tr><td rowspan="2">Number of Spares</td><td colspan="3">Increase in Reliability</td><td colspan="3">Cost (thousand yuan)</td></tr><tr><td>E1</td><td>E2</td><td>E3</td><td>E1</td><td>E2</td><td>E3</td></tr><tr><td>z=1</td><td>0.3</td><td>0.2</td><td>0.1</td><td>1</td><td>3</td><td>2</td></tr><tr><td>z=2</td><td>0.4</td><td>0.5</td><td>0.2</td><td>2</td><td>5</td><td>3</td></tr><tr><td>z=3</td><td>0.5</td><td>0.9</td><td>0.7</td><td>3</td><td>6</td><td>4</td></tr></table></body></html>  
+
+  Question:Under the constraint of not exceeding the investment limit, and aiming to maximize the reliability of the equipment’s operation, what is the optimal number of spares for each type of part?  
+

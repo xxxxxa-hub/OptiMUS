@@ -1,0 +1,17 @@
+
+
+1.38 A factory needs to rent warehouse space for storing materials over the next 4 months. The required warehouse space for each month is listed in Table 1-14. 
+
+Table 1-14  
+
+
+<html><body><table><tr><td>Month</td><td>1</td><td>2</td><td>3</td><td>4</td></tr><tr><td>Required warehouse area (m²)</td><td>1 500</td><td>1 000</td><td>2 000</td><td>1 200</td></tr></table></body></html>  
+
+When the contract rental period is longer, the warehouse rental fee per square meter enjoys greater discounts. The specific data is shown in Table 1-15. 
+
+Table 1-15  
+
+
+<html><body><table><tr><td>Contract rental duration (months)</td><td>1</td><td>2</td><td>3</td><td>4</td></tr><tr><td>Rental fee for warehouse space within contract period (yuan/m²)</td><td>28</td><td>45</td><td>60</td><td>73</td></tr></table></body></html>  
+
+Rental contracts can be signed at the beginning of any month, with each contract specifying the amount of space rented and the duration. Therefore, the factory may, depending on its needs, sign one or multiple contracts at the beginning of each month, with different rental areas and durations. The objective is to determine how to sign rental contracts such that the total rental cost is minimized.

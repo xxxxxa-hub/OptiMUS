@@ -1,0 +1,10 @@
+
+5.23 A university computer lab hires 4 undergraduate students (IDs 1, 2, 3, 4) and 2 graduate students (IDs 5, 6) for duty and consultation shifts. The maximum duty time each person can be scheduled for from Monday to Friday and their hourly wage are shown in Table 5-9.  
+
+Table 5-9  
+
+
+<html><body><table><tr><td rowspan="2">Student ID</td><td rowspan="2">Wage (yuan/h)</td><td colspan="5">Max daily work hours</td></tr><tr><td>周一</td><td>周二</td><td>周三</td><td>周四</td><td>周五</td></tr><tr><td>1</td><td>10.0</td><td>6</td><td>0</td><td>9</td><td>0</td><td>7</td></tr><tr><td>2</td><td>10.0</td><td>0</td><td>9</td><td>0</td><td>6</td><td>0</td></tr><tr><td>3</td><td>9.9</td><td>4</td><td>8</td><td>3</td><td>0</td><td>5</td></tr><tr><td>4</td><td>9.8</td><td>5</td><td>5</td><td>6</td><td>0</td><td>4</td></tr><tr><td>5</td><td>10.8</td><td>3</td><td>0</td><td>4</td><td>8</td><td>0</td></tr><tr><td>6</td><td>11.3</td><td>0</td><td>9</td><td>0</td><td>6</td><td>3</td></tr></table></body></html>  
+
+ The lab is open from 8:00 a.m. to 10:00 p.m. daily, during which there must be exactly one student on duty at all times. Furthermore: Each undergraduate student must work at least 8 hours per week.Each graduate student must work at least 7 hours per week.Additionally: 1.Each student can be assigned for duty no more than twice a week. 2.No more than 3 students can be scheduled for duty per day. Objective: Formulate a mathematical model that minimizes the total wage payment of the lab under the above constraints. 
+

@@ -1,0 +1,34 @@
+
+    Jinyuan Company produces three types of products over a planning period divided into three stages. A production plan needs to be formulated to determine the quantity of each product to be produced at each stage.
+ The plan is constrained by market demand, equipment working hours, and financial capital. Relevant data are shown in Table 4-16 and Table 4-17. It is assumed that the initial and final inventories of all products are zero. 
+
+\begin{table}[h]
+    \centering
+    \caption{Table 4-16: Product Demand at Each Stage}
+    \renewcommand{\arraystretch}{1.2}
+    \begin{tabular}{c|ccc}
+        \toprule
+        Demand Stage & Product 1 & Product 2 & Product 3 \\
+        \midrule
+        1 & 500 & 750 & 900 \\
+        2 & 680 & 800 & 800 \\
+        3 & 800 & 950 & 1000 \\
+        \bottomrule
+    \end{tabular}
+\end{table}
+
+\begin{table}[h]
+    \centering
+    \caption{Table 4-17: Resource Consumption per Unit Product and Stage Resource Limits}
+    \renewcommand{\arraystretch}{1.2}
+    \begin{tabular}{c|ccc|c}
+        \toprule
+        Item & Product 1 & Product 2 & Product 3 & Stage Resource Limit \\
+        \midrule
+        Equipment Working Hours (h) & 2.0 & 1.0 & 3.1 & 5000 \\
+        Working Capital Occupied (yuan) & 40 & 20 & 55 & 93000 \\
+        \bottomrule
+    \end{tabular}
+\end{table}
+
+The company sets the following three prioritized objectives: 1.Timely delivery to meet demand, minimizing stockouts. The importance of timely delivery for Product 3 is twice that of Products 1 and 2. 2.Minimize overloading of processing equipment at each stage. 3.Ensure that working capital usage does not exceed the limit.Please formulate a mathematical model and optimize it accordingly.

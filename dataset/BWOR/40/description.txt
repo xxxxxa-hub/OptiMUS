@@ -1,0 +1,9 @@
+
+
+3.6 A toy company produces three types of new toys. The monthly supply quantities are: 1,000 units, 2,000 units, and 2,000 units, respectively. These are delivered to Department Stores X, Y, and Z for sale. Each department store has an expected monthly sales volume of 1,500 units for each type of toy. Due to operational reasons, the profit margins for selling different toys vary among the stores (see Table 3-6). It is also known that: Store C requires at least 1,000 units of Toy C, Store C refuses to accept Toy A, Question: Find the supply-distribution plan that maximizes total profit, while satisfying the above conditions.  
+
+Table 3-6  
+
+
+<html><body><table><tr><td></td><td>X</td><td>Y</td><td>Z</td><td>Supply Limit</td></tr><tr><td>A</td><td>5</td><td>4</td><td></td><td>1 000</td></tr><tr><td>B</td><td>16</td><td>8</td><td>6</td><td>2000</td></tr><tr><td>C</td><td>12</td><td>10</td><td>11</td><td>2 000</td></tr></table></body></html>  
+

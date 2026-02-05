@@ -1,0 +1,11 @@
+
+
+3.14 A chemical company has four chemical plants: A, B, C, and D, with respective outputs of 200, 300, 400, and 100 tons. These supply six regions: I, II, III, IV, V, and VI, with respective demands of 200, 150, 400, 100, 150, and 150 tons. Due to differences in process and technology, the unit production costs per kg for each plant are: 1.2, 1.4, 1.1, and 1.5 yuan respectively. Due to market differences, the sales prices per kg in each region are: 2.0, 2.4, 1.8, 2.2, 1.6, and 2.0 yuan respectively.The unit transportation cost per kg from each plant to each sales region is shown in Table 3-18.  
+
+ Table 3-18  
+
+
+<html><body><table><tr><td>Plant\Region</td><td>I</td><td>II</td><td>III</td><td>IV</td><td>V</td><td>VI</td></tr><tr><td>A</td><td>0.5</td><td>0.4</td><td>0.3</td><td>0.4</td><td>0.3</td><td>0. 1</td></tr><tr><td>B</td><td>0.3</td><td>0.8</td><td>0.9</td><td>0.5</td><td>0.6</td><td>0.2</td></tr><tr><td>C</td><td>0.7</td><td>0.7</td><td>0.3</td><td>0.7</td><td>0.4</td><td>0.4</td></tr><tr><td>丁</td><td>0.6</td><td>0.4</td><td>0.2</td><td>0.6</td><td>0.5</td><td>0.8</td></tr></table></body></html>  
+
+ If at least 100 tons must be supplied to Region III, and the demand in Region IV must be fully satisfied, determine the product transportation plan that maximizes the company’s profit.  
+

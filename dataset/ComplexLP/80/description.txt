@@ -1,0 +1,9 @@
+Imagine a scenario where a salesperson is tasked with visiting four distinct cities to explore new market opportunities. These cities are uniquely identified as City 1, City 2, City 3, and City 4. The task for the salesperson is to plan a route that starts from any of these cities, traverses each city exactly once, and concludes by returning to the starting city. The overarching aim is to achieve this while incurring the minimum possible travel cost.
+
+Here’s a detailed breakdown of the travel costs between the cities:
+- The cost to travel from City 1 to City 2 is 17 units, to City 3 is 25 units, and to City 4 is 31 units.
+- From City 2, it costs 17 units to reach City 1, 93 units to get to City 3, and 45 units to City 4.
+- Traveling from City 3, the expenses are 25 units to City 1, 93 units to City 2, and 95 units to City 4.
+- Lastly, from City 4, the journey costs 31 units to City 1, 45 units to City 2, and 95 units to City 3.
+
+What is the minimum total travel cost for the salesperson to visit each city exactly once and return to the starting city?

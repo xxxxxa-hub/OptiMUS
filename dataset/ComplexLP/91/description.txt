@@ -1,0 +1,13 @@
+Imagine a salesperson embarking on a journey to visit five different cities—let's call them City A, City B, City C, City D, and City E—to promote their products. The objective of this journey is to minimize the total travel cost incurred. The salesperson can start from any city but must visit each city exactly once before returning to the starting point. 
+
+Here's an overview of the travel costs between these cities:
+- To travel from City A to City B, it costs 95 units.
+- From City A to City C, the cost is 36 units.
+- Traveling from City A to City D incurs a cost of 93 units.
+- To reach City A from City E, the cost is 16 units.
+- From City B, it costs 95 units to get to City A, 95 units to City C, 29 units to City D, and 96 units to City E.
+- Moving from City C, it costs 36 units to City A, 95 units to City B, 72 units to City D, and 38 units to City E.
+- City D is connected to City A with a cost of 93 units, to City B with 29 units, to City C with 72 units, and to City E with 77 units.
+- Lastly, from City E, it costs 16 units to reach City A, 96 units to City B, 38 units to City C, and 77 units to City D.
+
+Given these costs, what is the minimum total travel cost for the salesperson to visit each city exactly once and return to the starting city?

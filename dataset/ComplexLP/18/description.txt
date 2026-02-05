@@ -1,0 +1,11 @@
+Imagine you're a student living on a tight budget, but you're committed to maintaining a healthy, balanced diet. You've got five potential food items to select from: Steak, Apples, Eggs, Chicken, and Tofu. Each of these offers specific amounts of protein, carbohydrates, and calories, and of course, they each come at a certain cost. 
+
+Here's a brief overview of what each food offers and its cost:
+
+- Steak: Provides you with 1 gram of protein, 3 grams of carbohydrates, and 210 calories for $6.
+- Apples: They give you 7 grams of protein, 22 grams of carbohydrates, and 96 calories for just $1.
+- Eggs: Deliver 6 grams of protein, 18 grams of carbohydrates, and 189 calories for only $1.
+- Chicken: It's a protein powerhouse with 20 grams of protein, but only 6 grams of carbohydrates, and it provides you 132 calories for $3.
+- Tofu: Brings in 8 grams of protein, 4 grams of carbohydrates, and 75 calories for $1.
+
+Your dietary goals are to consume at least 87 grams of protein, 135 grams of carbohydrates, and 1926 calories in a day. Your task is to figure out what combination of these foods can meet all those nutritional requirements for the least amount of money. So, what is the least amount you would have to spend to meet your nutritional needs?

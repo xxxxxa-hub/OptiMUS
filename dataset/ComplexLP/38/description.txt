@@ -1,0 +1,12 @@
+You've decided to take control of your health and focus on your nutritional intake. After researching and consulting with a dietitian, you've determined that your daily requirements are 78 grams of protein, 140 grams of carbs, and 1537 calories. Now, the next challenge is to meet these daily requirements in the most cost-effective way possible.
+
+Your local supermarket offers a variety of food items, each with its own cost and nutritional content. Here's what you have to choose from:
+
+- Chicken Breast: For $4, you'll get 14 grams of protein, 4 grams of carbohydrates, and 275 calories.
+- Brown Rice: A $10 serving gives you 11 grams of protein, 17 grams of carbohydrates, and 151 calories. 
+- Tofu: For $6, you can get 20 grams of protein, 12 carbs, and 155 calories. 
+- Spinach: At only $1, you get 6 grams of protein, 20 carbs, and 106 calories. This is the cheapest option but also the least calorie-dense. 
+- Almonds: For $8, you get 9 grams of protein, 11 grams of carbohydrates, and 279 calories. 
+- Salmon: Finally, for $6, you get a whopping 20 grams of protein, 19 grams of carbohydrates, and 93 calories. 
+
+With these food options available, your task is to figure out how to meet your daily nutritional requirements while keeping your costs to a minimum. So what is the least amount of money you need to spend to meet your daily nutritional needs?

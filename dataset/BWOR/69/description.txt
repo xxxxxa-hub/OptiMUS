@@ -1,0 +1,11 @@
+
+
+  There is a truck available for transporting cargo, and there are 4 types of goods that can be transported with it. The weight, volume, and value of each type of good are shown in Table 7-9.  
+
+  Table 7-9  
+
+
+  <html><body><table><tr><td>Item ID</td><td>Weight (t)</td><td>Volume (m³)</td><td>Value (thousand yuan)</td></tr><tr><td>1</td><td>2</td><td>2</td><td>3</td></tr><tr><td>2</td><td>3</td><td>2</td><td>4</td></tr><tr><td>3</td><td>4</td><td>2</td><td>5</td></tr><tr><td>4</td><td>5</td><td>3</td><td>6</td></tr></table></body></html>  
+
+  The truck has a maximum weight capacity of 15 tons and a maximum volume capacity of 10 cubic meters. Under these constraints, there is no limit on the number of items of each type that can be loaded. Question: How should the four types of goods be combined to maximize the total value of the cargo per truckload?  
+

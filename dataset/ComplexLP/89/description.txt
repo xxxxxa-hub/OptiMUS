@@ -1,0 +1,11 @@
+Imagine a delivery driver who needs to deliver packages to five different cities. These cities are represented as City 1, City 2, City 3, City 4, and City 5. The driver can start their route from any city, but they must deliver a package to each city exactly once before returning to the starting city. The objective is to find the route that minimizes the total travel cost. The cost could be based on factors such as distance, fuel consumption, or time spent.
+
+Here are the details of the travel costs between the cities:
+
+The cost to travel from City 1 to City 2 is 82 units, to City 3 is 76 units, to City 4 is 92 units, and to City 5 is 59 units.
+From City 2, it costs 82 units to return to City 1, 98 units to travel to City 3, 58 units to City 4, and 82 units to City 5.
+When leaving from City 3, it costs 76 units to reach City 1, 98 units to get to City 2, 26 units to travel to City 4 and 74 units to travel to City 5.
+From City 4, the costs are 92 units to City 1, 58 units to City 2, 26 units to City 3 and 96 units to City 5.
+Lastly, from City 5, it costs 59 units to go to City 1, 82 units to travel to City 2, 74 units to City 3, and 96 units to reach City 4.
+
+Given these costs, what is the minimum total cost for the delivery driver to deliver packages to each city exactly once and return to the starting city?

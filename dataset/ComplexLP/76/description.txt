@@ -1,0 +1,8 @@
+Consider a delivery company that needs to deliver packages to five different cities, named E, F, G, H, and I. The delivery truck can start its route from any of these cities, but needs to visit each city exactly once and then return to the starting point. The challenge is to find the route that minimizes the total delivery cost, which could be influenced by factors such as fuel, distance, or time.
+Here is a breakdown of the delivery costs between the cities:
+The cost to deliver from City E to F is 31 units, to G is 19 units, to H is 71 units, and to I is 74 units.
+From City F, it costs 31 units to reach E, 39 units to get to G, 77 units to H, and 84 units to I.
+When delivering from City G, the costs are 19 units to E, 39 units to F, 65 units to H, and 78 units to I.
+From City H, it costs 71 units to go to E, 77 units to F, 65 units to G, and 38 units to I.
+Finally, from City I, it costs 74 units to reach E, 84 units to F, 78 units to G, and 38 units to H.
+What is the minimum total delivery cost for the truck to visit each city exactly once and return to the starting city?

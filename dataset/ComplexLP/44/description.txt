@@ -1,0 +1,23 @@
+Imagine you are the head of a massive logistics company responsible for distributing medical supplies among seven regions during a global health crisis. Each region currently has a certain amount of supplies, but they each need different quantities to adequately meet their healthcare demands. 
+
+Here's a breakdown of the current supply and demand in each region:
+
+- Region 1 currently has 318 units of supplies but needs 309 units.
+- Region 2 has 349 units but needs merely 9 units.
+- Region 3 has 129 units but needs a substantial 279 units.
+- Region 4 has 381 units but only needs 71 units.
+- Region 5 has 430 units but requires 365 units.
+- Region 6, quite undersupplied, has 52 units but needs 233 units.
+- Region 7 has 124 units but the demand is very high at 483 units.
+
+The transportation of these supplies from one region to another comes at a cost. This cost varies depending on the regions involved. Here's a matrix depicting the cost to transport supplies from one region to any other:
+
+- Transporting from/to Region 1: To Region 2 costs 2, to Region 3 costs 26, to Region 4 costs 19, to Region 5 costs 16, to Region 6 costs 26, to Region 7 costs 36.
+- Transporting from/to Region 2: To Region 1 costs 27, to Region 3 costs 26, to Region 4 costs 4, to Region 5 costs 15, to Region 6 costs 43, to Region 7 costs 25.
+- Transporting from/to Region 3: To Region 1 costs 17, to Region 2 costs 45, to Region 4 costs 18, to Region 5 costs 36, to Region 6 costs 37, to Region 7 costs 39.
+- Transporting from/to Region 4: To Region 1 costs 19, to Region 2 costs 16, to Region 3 costs 14, to Region 5 costs 5, to Region 6 costs 35, to Region 7 costs 9.
+- Transporting from/to Region 5: To Region 1 costs 44, to Region 2 costs 47, to Region 3 costs 4, to Region 4 costs 3, to Region 6 costs 2, to Region 7 costs 4.
+- Transporting from/to Region 6: To Region 1 costs 30, to Region 2 costs 12, to Region 3 costs 28, to Region 4 costs 10, to Region 5 costs 16, to Region 7 costs 25.
+- Transporting from/to Region 7: To Region 1 costs 19, to Region 2 costs 16, to Region 3 costs 10, to Region 4 costs 2, to Region 5 costs 50, to Region 6 costs 4.
+
+Your mission is to devise a plan that ensures each region gets the medical supplies it needs, while keeping transportation costs as low as possible. Considering these constraints, what is the minimum cost to ensure all regions receive the necessary supplies?

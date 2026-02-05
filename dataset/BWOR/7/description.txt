@@ -1,0 +1,36 @@
+
+ A company is responsible for transporting along four shipping routes. The known information is as follows: 1. The origin and destination cities for each route and the number of sailings per day are shown in Table 3-21. 2.The sailing times between each pair of cities are shown in Table 3-22. 3.The same type of ship is used for all routes, and each loading and unloading operation takes 1 day. Question: What is the minimum number of ships the company must deploy in order to meet the transportation requirements on all routes? 
+
+\begin{table}[h]
+    \centering
+    \caption{Table 3-21: Route Information}
+    \renewcommand{\arraystretch}{1.2}
+    \begin{tabular}{c|c|c|c}
+        \toprule
+        Route & Origin City & Destination City & Sailings per Day \\
+        \midrule
+        1 & E & D & 3 \\
+        2 & B & C & 2 \\
+        3 & A & F & 1 \\
+        4 & D & B & 1 \\
+        \bottomrule
+    \end{tabular}
+\end{table}
+
+\begin{table}[h]
+    \centering
+    \caption{Table 3-22: Sailing Times Between Cities (in days)}
+    \renewcommand{\arraystretch}{1.2}
+    \begin{tabular}{c|cccccc}
+        \toprule
+        From$\backslash$To & A & B & C & D & E & F \\
+        \midrule
+        A & 0 & 1 & 2 & 14 & 7 & 7 \\
+        B & 1 & 0 & 3 & 13 & 8 & 8 \\
+        C & 2 & 3 & 0 & 15 & 5 & 5 \\
+        D & 14 & 13 & 15 & 0 & 17 & 20 \\
+        E & 7 & 8 & 5 & 17 & 0 & 3 \\
+        F & 7 & 8 & 5 & 20 & 3 & 0 \\
+        \bottomrule
+    \end{tabular}
+\end{table}

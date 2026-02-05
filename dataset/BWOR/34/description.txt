@@ -1,0 +1,11 @@
+
+
+
+ A fleet of strategic bombers is ordered to destroy an enemy military target. It is known that the target has four key parts, and destroying any one of them is sufficient to achieve the objective. To carry out this mission, the constraints are: fuel consumption is limited to 48,000 liters, 48 heavy bombs, and 32 light bombs. When carrying a heavy bomb, each liter of fuel allows the aircraft to fly 2 km; when carrying a light bomb, each liter allows it to fly 3 km. In addition, for each bombing sortie, besides fuel consumption for the round trip (note: when flying empty, each liter of fuel allows flight of 4 km), 100 liters of fuel are consumed each for takeoff and landing. The relevant data is shown in Table 1-17.  
+
+Table 1-17  
+
+
+<html><body><table><tr><td rowspan="2">Key Part</td><td rowspan="2">Distance from Airbase (km)</td><td colspan="2">Probability of Destruction</td></tr><tr><td>per Heavy Bomb</td><td>per Light Bomb</td></tr><tr><td>1</td><td>450</td><td>0.10</td><td>0.08</td></tr><tr><td>2</td><td>480</td><td>0.20</td><td>0.16</td></tr><tr><td>3</td><td>540</td><td>0.15</td><td>0.12</td></tr><tr><td>4</td><td>600</td><td>0.25</td><td>0.20</td></tr></table></body></html>  
+
+To maximize the probability of destroying the enemy military target, how should the bombing plan be determined?

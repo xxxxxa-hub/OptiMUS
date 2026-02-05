@@ -1,0 +1,22 @@
+
+    Factories $A_1$ and $A_2$ produce a certain type of material. Due to high demand and insufficient supply, a new factory needs to be built. There are two construction options: $A_3$ and $A_4$. The material is needed in four locations: $B_1, B_2, B_3, B_4$. The annual production capacities of each factory, the annual demand at each location, and the unit transportation cost of materials from each factory to each demand location $c_{ij}$ (in thousand yuan per kiloton, where i,j = 1,2,3,4) are shown in Table 5-2. 
+
+\begin{table}[h]
+    \centering
+    \caption{Table 5-2: Unit Transportation Costs from Factories to Demand Locations}
+    \renewcommand{\arraystretch}{1.2}
+    \begin{tabular}{c|cccc|c}
+        \toprule
+        $c_{ij}$ (thousand yuan/kt) & $B_1$ & $B_2$ & $B_3$ & $B_4$ & Production Capacity (kt/year) \\
+        \midrule
+        $A_1$ & 2 & 9 & 3 & 4 & 400 \\
+        $A_2$ & 8 & 3 & 5 & 7 & 600 \\
+        $A_3$ & 7 & 6 & 1 & 2 & 200 \\
+        $A_4$ & 4 & 5 & 2 & 5 & 200 \\
+        \midrule
+        Demand (kt/year) & 350 & 400 & 300 & 150 & \\
+        \bottomrule
+    \end{tabular}
+\end{table}
+
+If factory $A_3$ is built, its annual production cost is estimated to be 1200 thousand yuan;if $A_4$ is built, the annual production cost is 1500 thousand yuan.The goal is to decide whether to build factory $A_3$ or $A_4$ in order to minimize the total annual cost, which includes all transportation costs and the production cost(in thousand yuan) of the new factory.

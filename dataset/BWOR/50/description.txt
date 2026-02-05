@@ -1,0 +1,7 @@
+
+5.12 There are four individuals — X, Y, Z, and R — and five tasks A, B, C, D, and F. The time (in unspecified units) each person needs to complete each task is shown in Table 5-3. Since there are more tasks than people, the following assignment conditions are considered:(a) One person may take on two tasks, while the other three people each handle one. (b) Either X or Z must take on two tasks, and Y and R each take one. (c) Each person completes one task, but tasks A and B must be completed, while one among C, D, or F may be left unassigned. Objective: For each scenario (a), (b), and (c), determine the assignment plan that results in the minimum total completion time. 
+
+Table 5-3  
+
+
+<html><body><table><tr><td> Person / Task</td><td>A</td><td>B</td><td>C</td><td>D</td><td>F</td></tr><tr><td>X</td><td>25</td><td>29</td><td>31</td><td>42</td><td>37</td></tr><tr><td>Y</td><td>39</td><td>38</td><td>26</td><td>20</td><td>33</td></tr><tr><td>Z</td><td>34</td><td>27</td><td>28</td><td>40</td><td>32</td></tr><tr><td>R</td><td>24</td><td>42</td><td>36</td><td>23</td><td>45</td></tr></table></body></html>  

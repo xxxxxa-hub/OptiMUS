@@ -1,0 +1,15 @@
+You're in charge of crafting a meal plan for a week, aiming to meet certain nutritional requirements while keeping your grocery bill to a minimum. There are seven food options you're considering: Chicken, Tuna, Eggs, Beef, Rice, Apples, and Bread. Each food item provides distinct amounts of protein, carbohydrates, and calories, and has a different price.
+
+Here are the details for each food:
+
+- Chicken: Provides 18 grams of protein, 23 grams of carbohydrates, and 217 calories for $3.
+- Tuna: Offers 12 grams of protein, 30 grams of carbohydrates, and 182 calories for $10.
+- Eggs: Contains 7 grams of protein, 16 grams of carbohydrates, and 79 calories for $10.
+- Beef: Delivers 17 grams of protein, 26 grams of carbohydrates, and 295 calories for $7.
+- Rice: Supplies 3 grams of protein, 30 grams of carbohydrates, and 264 calories for just $4.
+- Apples: Gives 4 grams of protein, 6 grams of carbohydrates, and 160 calories for $6.
+- Bread: Carries 4 grams of protein, 23 grams of carbohydrates, and 141 calories for $5.
+
+Your nutritional targets for the week are as follows: 59 grams of protein, 160 grams of carbohydrates, and 1809 calories.
+
+Your challenge is to find the most economical way of meeting these nutritional requirements with the food items available. What is the least possible amount you can spend to meet your nutritional goals for the week?

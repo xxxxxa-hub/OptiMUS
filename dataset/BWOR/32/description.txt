@@ -1,0 +1,10 @@
+
+
+1.35 The contract order quantities for a factory’s products I, II, and III in each quarter of the coming year are shown in Table 1-10. 
+
+Table 1-10  
+
+
+<html><body><table><tr><td rowspan="2">Product</td><td colspan="4">Quarter</td></tr><tr><td>1</td><td>2</td><td>3</td><td>4</td></tr><tr><td>I</td><td>1 500</td><td>1 000</td><td>2000</td><td>1 200</td></tr><tr><td>Ⅱ</td><td>1 500</td><td>1 500</td><td>1 200</td><td>1 500</td></tr><tr><td>Ⅲ</td><td>1 000</td><td>2 000</td><td>1500</td><td>2500</td></tr></table></body></html>  
+
+At the beginning of Q1, there is no inventory of the three products. By the end of Q4, there must be an inventory of 150 units for each product. The factory has 15,000 working hours available per quarter. Producing one unit of products I, II, and III requires 2, 4, and 3 hours, respectively. Due to a change in production equipment, product I cannot be produced in Q2. If a product is not delivered on time, late delivery penalties are: 20 yuan per unit per quarter for products I and II, 10 yuan per unit per quarter for product III, If a product is produced but not delivered within the same quarter, the inventory cost is 5 yuan per unit per quarter. Question: How should the factory schedule its production to minimize the total cost of late delivery penalties and inventory holding costs? 

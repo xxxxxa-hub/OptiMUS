@@ -1,0 +1,37 @@
+SupplyCo is presented with a strategic conundrum to optimize its distribution network. They need to supply their four retail outlets from potential distribution centers. Each center has its own operating cost and supply capacity. Transportation costs from each center to the respective retail outlets also need to be factored in. SupplyCo's objective is to satisfy the demand at each retail outlet at the minimum possible total cost.
+
+Here are the case specifics:
+
+- Number of Potential Distribution Centers: 4
+- Number of Retail Outlets: 4
+
+The opening costs for each center are as follows (in dollars):
+
+- Center 1: $151,000
+- Center 2: $192,000
+- Center 3: $114,000
+- Center 4: $171,000
+
+The transportation cost per unit from each distribution center to the outlets (in dollars) is as follows:
+
+- From Center 1: $5 to Outlet 1, $5 to Outlet 2, $2 to Outlet 3, $3 to Outlet 4
+- From Center 2: $3 to Outlet 1, $3 to Outlet 2, $5 to Outlet 3, $4 to Outlet 4
+- From Center 3: $3 to Outlet 1, $5 to Outlet 2, $2 to Outlet 3, $4 to Outlet 4
+- From Center 4: $2 to Outlet 1, $4 to Outlet 2, $5 to Outlet 3, $1 to Outlet 4
+
+The demand at each retail outlet (in units) is:
+
+- Outlet 1: 859 units
+- Outlet 2: 713 units
+- Outlet 3: 421 units
+- Outlet 4: 652 units
+
+The supply capacity of each distribution center (in units) is:
+
+- Center 1: 1547 units
+- Center 2: 1656 units
+- Center 3: 1274 units
+- Center 4: 1882 units
+
+Question:
+What is the optimal total cost for SupplyCo to open the distribution centers and transport goods to meet all retail outlets' demands, considering both the opening costs of the centers and the transportation costs for the goods?

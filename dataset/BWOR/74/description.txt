@@ -1,0 +1,9 @@
+
+
+   There are 8 offshore oil wells, and the distances between each pair are shown in Table 8-4. It is known that Well 1 is the closest to the coast, at a distance of 5 miles. Question: Starting from the coast through Well 1, how should pipelines be laid to connect all oil wells, such that the total pipeline length is minimized? (To facilitate measurement and maintenance, pipelines are only allowed to branch at the well locations.)  
+
+  Table 8-4 – Distances between oil wells (in miles)  
+
+
+  <html><body><table><tr><td>From \ To</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td></tr><tr><td>1</td><td>1.3</td><td>2.1</td><td>0.9</td><td>0.7</td><td>1.8</td><td>2.0</td><td>1.5</td></tr><tr><td>2</td><td></td><td>0.9</td><td>1.8</td><td>1.2</td><td>2.6</td><td>2.3</td><td>1.1</td></tr><tr><td>3</td><td></td><td></td><td>2.6</td><td>1.7</td><td>2.5</td><td>1.9</td><td>1.0</td></tr><tr><td>4</td><td></td><td></td><td></td><td>0.7</td><td>1.6</td><td>1.5</td><td>0.9</td></tr><tr><td>5</td><td></td><td></td><td></td><td></td><td>0.9</td><td>1.1</td><td>0.8</td></tr><tr><td>6</td><td></td><td></td><td></td><td></td><td></td><td>0.6</td><td>1.0</td></tr><tr><td>7</td><td></td><td></td><td></td><td></td><td></td><td></td><td>0.5</td></tr></table></body></html>  
+

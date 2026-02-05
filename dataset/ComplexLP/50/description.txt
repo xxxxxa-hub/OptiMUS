@@ -1,0 +1,21 @@
+Imagine you are tasked with coordinating the distribution of emergency food supplies across six different regions following a natural disaster. Each region started with a certain amount of supplies but now has specific needs to adequately support their populations until further aid can arrive.
+
+Here are the current food supply quantities and the required amounts for each region:
+
+- Region 1 has 268 units of food but needs 165 units.
+- Region 2 has 222 units of food but needs 246 units.
+- Region 3 has 357 units of food but needs 262 units.
+- Region 4 has 128 units of food but needs 286 units.
+- Region 5 has 465 units of food but needs 439 units.
+- Region 6 has 48 units of food but needs 83 units.
+
+To transport food supplies between the regions, there are associated costs which vary depending on the route taken. Here is the cost matrix showing the transportation costs per unit of food between each pair of regions:
+
+- From Region 1 to other regions: To Region 2 costs 49, to Region 3 costs 11, to Region 4 costs 23, to Region 5 costs 2, to Region 6 costs 39.
+- From Region 2 to other regions: To Region 1 costs 33, to Region 3 costs 26, to Region 4 costs 2, to Region 5 costs 2, to Region 6 costs 14.
+- From Region 3 to other regions: To Region 1 costs 12, to Region 2 costs 31, to Region 4 costs 36, to Region 5 costs 30, to Region 6 costs 34.
+- From Region 4 to other regions: To Region 1 costs 18, to Region 2 costs 50, to Region 3 costs 12, to Region 5 costs 19, to Region 6 costs 20.
+- From Region 5 to other regions: To Region 1 costs 3, to Region 2 costs 13, to Region 3 costs 20, to Region 4 costs 29, to Region 6 costs 1.
+- From Region 6 to other regions: To Region 1 costs 2, to Region 2 costs 9, to Region 3 costs 50, to Region 4 costs 36, to Region 5 costs 39.
+
+Your objective is to ensure each region has the food supplies it needs at the lowest possible transportation cost. What is the minimum cost required to achieve this?

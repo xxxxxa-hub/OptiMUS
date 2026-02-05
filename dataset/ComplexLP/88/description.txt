@@ -1,0 +1,9 @@
+Consider a scenario where a courier delivery person needs to deliver packages to five different locations, labeled as E, F, G, H, and I. The courier can start from any location, but they need to deliver the package at each location exactly once and then return to their starting point. The task is to find the optimal route that minimizes total delivery cost. In this case, the delivery cost could represent distance, time, or fuel consumption. Here's a summary of the delivery costs between different locations: 
+
+From Location E, it costs 65 units to reach F, 10 units to reach G, 25 units to reach H, and 82 units to reach I.
+From Location F, it costs 65 units to deliver to E, 98 units to G, 42 units to H, and 26 units to I.
+Moving from Location G, the costs are 10 units to E, 98 units to F, 75 units to H, and 72 units to I.
+From Location H, it costs 25 units to go to E, 42 units to F, 75 units to G, and 46 units to I.
+Finally, from Location I, it costs 82 units to deliver to E, 26 units to F, 72 units to G, and 46 units to H.
+
+Considering these costs, what is the minimum total delivery cost for the courier to deliver a package at each location exactly once and return to the starting location? The optimal value is asked for in this problem.

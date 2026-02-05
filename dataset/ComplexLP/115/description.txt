@@ -1,0 +1,15 @@
+Imagine you're overseeing a logistics network that connects 7 major cities - from a central distribution hub (City 0) to a final destination (City 6). These cities are linked by routes, each with a specific capacity for goods transportation.
+
+Here's how the capacity of each route is laid out, showing the maximum amount of goods (in thousands of kilograms) that can be transported from one city to another:
+
+- From City 0 (Distribution Hub): Can send goods to City 1 (20 tons), City 2 (19 tons), City 3 (18 tons), City 5 (11 tons), and City 6 (2 tons).
+- From City 1: Can send goods to City 0 (18 tons), City 2 (15 tons), City 3 (10 tons), and City 5 (9 tons).
+- From City 2: Can send goods to City 0 (18 tons), City 1 (4 tons), City 3 (11 tons), City 4 (15 tons), and City 6 (13 tons).
+- From City 3: Can send goods to City 0 (17 tons), City 1 (3 tons), City 2 (15 tons), City 4 (2 tons), City 5 (4 tons), and City 6 (4 tons).
+- From City 4: Can send goods to City 0 (2 tons), City 1 (11 tons), City 2 (17 tons), City 3 (17 tons), City 5 (2 tons), and City 6 (17 tons).
+- From City 5: Can send goods to City 0 (12 tons), City 1 (4 tons), City 2 (16 tons), City 3 (13 tons), City 4 (5 tons), and City 6 (3 tons).
+- From City 6 (Destination): Can send goods back to City 0 (7 tons), City 1 (9 tons), City 2 (17 tons), City 3 (18 tons), City 4 (16 tons), and City 5 (8 tons).
+
+In this system, a capacity of "0" implies that there is no direct route between those two cities.
+
+The objective is to calculate the maximum amount of goods that can be transported from City 0 (the distribution hub) to City 6 (the destination) per day, ensuring that the flow on each route does not exceed its capacity. So the question is, what is the maximum amount of goods that can be transported from the distribution hub to the final destination in thousands of kilograms per day?

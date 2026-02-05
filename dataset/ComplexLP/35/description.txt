@@ -1,0 +1,15 @@
+You're on a mission to carefully plan your weekly meal prep, aiming to meet your specific dietary needs while keeping your budget in check. After doing some research, you've found seven different food items that you're considering incorporating into your meals. Each food item has its own nutritional content and cost, which you need to factor into your planning.
+
+Here are the details of each food option:
+
+- Food_1: For $6, it offers 6 grams of protein, 3 grams of carbohydrates, and 73 calories.
+- Food_2: Costs $2 and provides 16 grams of protein, 3 grams of carbs, and 181 calories.
+- Food_3: Priced at $10, this item brings 12 grams of protein, 17 grams of carbs, and 231 calories to the table.
+- Food_4: Another $6 option, giving you 9 grams of protein, 28 grams of carbs, and 160 calories.
+- Food_5: This one costs $4 and offers 12 grams of protein, 17 grams of carbohydrates, and 209 calories.
+- Food_6: The cheapest at $1, with 12 grams of protein, 14 grams of carbs, and 184 calories.
+- Food_7: Costs $9, providing 13 grams of protein, 20 grams of carbs, and 118 calories.
+
+Your nutritional goals for the week are quite specific: you aim to consume at least 59 grams of protein, 179 grams of carbohydrates, and 2,414 calories. Your challenge is to select from these seven food options in such a way that you meet your dietary requirements at the lowest possible cost.
+
+What is the cheapest cost to meet your nutritional needs?

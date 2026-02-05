@@ -1,0 +1,42 @@
+LogiSphere Inc. is at a crossroads in determining the most cost-efficient strategy to supply nine retail stores with goods from a selection of five potential distribution centers. Each center has a unique opening cost and a maximum supply capacity. The challenge is further complicated by the variable transportation costs from these centers to the retail stores. LogiSphere's goal is to fulfill the demand at each retail store while minimizing the total cost, which encompasses the opening costs of the distribution centers and the transportation costs of the goods.
+
+**Given Data:**
+
+- **Number of Potential Distribution Centers:** 5
+- **Number of Retail Stores Needing Supply:** 9
+
+**Opening Costs for Each Distribution Center (in dollars):**
+- Center 1: $151,000
+- Center 2: $192,000
+- Center 3: $114,000
+- Center 4: $171,000
+- Center 5: $160,000
+
+**Transportation Cost Per Unit from Each Distribution Center to Retail Stores (in dollars):**
+- From Center 1 to Stores: $5 to Store 1, $2 to Store 2, $3 to Store 3, $3 to Store 4, $3 to Store 5, $5 to Store 6, $4 to Store 7, $3 to Store 8, $5 to Store 9
+- From Center 2 to Stores: $2 to Store 1, $4 to Store 2, $2 to Store 3, $4 to Store 4, $5 to Store 5, $1 to Store 6, $4 to Store 7, $2 to Store 8, $5 to Store 9
+- From Center 3 to Stores: $4 to Store 1, $1 to Store 2, $1 to Store 3, $3 to Store 4, $3 to Store 5, $2 to Store 6, $4 to Store 7, $4 to Store 8, $3 to Store 9
+- From Center 4 to Stores: $4 to Store 1, $4 to Store 2, $1 to Store 3, $3 to Store 4, $5 to Store 5, $3 to Store 6, $5 to Store 7, $1 to Store 8, $2 to Store 9
+- From Center 5 to Stores: $4 to Store 1, $1 to Store 2, $4 to Store 3, $2 to Store 4, $2 to Store 5, $1 to Store 6, $2 to Store 7, $5 to Store 8, $2 to Store 9
+
+**Demand of Each Retail Store (in units):**
+- Store 1: 739 units
+- Store 2: 491 units
+- Store 3: 766 units
+- Store 4: 854 units
+- Store 5: 827 units
+- Store 6: 908 units
+- Store 7: 434 units
+- Store 8: 605 units
+- Store 9: 480 units
+
+**Supply Capacity of Each Distribution Center (in units):**
+- Center 1: 1825 units
+- Center 2: 1821 units
+- Center 3: 1365 units
+- Center 4: 1929 units
+- Center 5: 1502 units
+
+**Question:**
+
+What is the optimal total cost for LogiSphere Inc. to open distribution centers and transport goods in order to meet all the retail stores' demands? This cost includes both the opening costs of the centers and the transportation costs of supplying the stores.

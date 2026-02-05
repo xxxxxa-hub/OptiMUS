@@ -1,0 +1,14 @@
+Imagine a country with six major cities, each city being a node in a complex railway network, spanning from City 0 (the source) to City 5 (the destination). These cities are connected by multiple railway tracks, each capable of handling a specific number of trains per day.
+
+Here's a detailed description of the railway tracks and their capacities, which indicates the maximum number of trains that can travel between two cities in a day:
+
+- From City 0: Up to 17 trains can travel to City 1, 14 trains to City 2, 13 trains to City 3, 11 trains to City 4, and 3 trains to City 5.
+- From City 1: 1 train can travel back to City 0, 18 trains to City 2, 14 trains to City 3, 12 trains to City 4, and 16 trains to City 5.
+- From City 2: 5 trains can travel back to City 0, 1 train to City 1, 7 trains to City 3, 2 trains to City 4, and 5 trains to City 5.
+- From City 3: 10 trains can travel back to City 0, 13 trains to City 1, 19 trains to City 2, 4 trains to City 4, and 16 trains to City 5.
+- From City 4: 3 trains can travel back to City 0, no trains to City 1, 13 trains to City 2, no trains to City 3, and 14 trains to City 5.
+- From City 5 (Destination): 15 trains can travel back to City 0, 16 trains to City 1, 4 trains to City 2, 1 train to City 3, and 16 trains to City 4.
+
+In this scenario, a capacity of "0" indicates that there is no direct railway track between those two cities.
+
+Given this information, your task is to determine the maximum number of trains that can be dispatched from City 0 (the source) to City 5 (the destination) in a single day, without exceeding the capacity of any individual track. What is the maximum number of trains that can travel from the source to the destination in a day?

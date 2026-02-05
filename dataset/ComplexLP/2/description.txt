@@ -1,0 +1,11 @@
+Imagine you're meticulously planning your weekly meals to ensure you're hitting all your nutritional goals while sticking to a budget. You're considering five diverse food items, each with unique nutritional benefits and costs. 
+
+Here's a breakdown of what each food offers and its cost:
+
+- Food_1: Delivers 3 grams of protein, 16 grams of carbohydrates, and 96 calories for $9.
+- Food_2: Provides 17 grams of protein, 24 grams of carbohydrates, and 182 calories for $9.
+- Food_3: Offers 16 grams of protein, 27 grams of carbohydrates, and 114 calories for just $2.
+- Food_4: Contains 8 grams of protein, 16 grams of carbohydrates, and 208 calories for $9.
+- Food_5: Supplies 6 grams of protein, 6 grams of carbohydrates, and 236 calories for $5.
+
+Your dietary targets for the week are to consume at least 100 grams of protein, 180 grams of carbohydrates, and 1796 calories. Your challenge is to determine the most cost-effective combination of these food items to meet or exceed these nutritional requirements. What is the cheapest cost to achieve your dietary goals?

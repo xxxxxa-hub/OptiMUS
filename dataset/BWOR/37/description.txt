@@ -1,0 +1,8 @@
+
+1.47he Hongsheng Factory produces three types of products: I, II, and III, each of which undergoes two processing stages, A and B. Stage A has two machines $\mathbf{A}_{1}$ 、$\mathbf{A}_{2}$ , Stage B has three machines $\mathrm{B}_{1},\mathrm{B}_{2},\mathrm{B}_{3}$ .The processing rules are: Product I can be processed on any machine in both stages A and B;Product II can be processed on any A machine, but in stage B it can only be processed on machine $\mathbf{B}_{2}$; Product III can only be processed on $\mathbf{A}_{2}$  and $\mathbf{B}_{2}$ , The processing time required per unit, machine available time, processing cost, and other relevant data are shown in Table 1-20.Question:How should the production plan be arranged in order to maximize the factory’s profit?  
+
+Table 1-20  
+
+
+<html><body><table><tr><td rowspan="2">Machine</td><td colspan="3">Product</td><td rowspan="2">Available Hours</td><td rowspan="2">Processing Cost (yuan/h)</td></tr><tr><td>I</td><td>Ⅱ</td><td>Ⅲ</td></tr><tr><td>A1</td><td>5</td><td>10</td><td></td><td>6 000</td><td>0.05</td></tr><tr><td>A2</td><td>7</td><td>9</td><td>12</td><td>10 000</td><td>0.03</td></tr><tr><td>B1</td><td>6</td><td>8</td><td></td><td>4.000</td><td>0.06</td></tr><tr><td>B2</td><td>4</td><td></td><td>11</td><td>7000</td><td>0.11</td></tr><tr><td>B3</td><td>7</td><td></td><td></td><td>4 000</td><td>0.05</td></tr><tr><td>Raw material cost (yuan/unit)</td><td>0.25</td><td>0.35</td><td>0.50</td><td></td><td></td></tr><tr><td>Selling price (yuan/unit)</td><td>1.25</td><td>2.00</td><td>2.80</td><td></td><td></td></tr></table></body></html>  
+

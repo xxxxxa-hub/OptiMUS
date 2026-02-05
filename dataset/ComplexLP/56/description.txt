@@ -1,0 +1,24 @@
+Imagine you are managing resources for five different cities, each with its own specific needs and supplies. The cities are facing a scarcity of a critical resource, and your task is to ensure that all cities meet their requirements by redistributing the available resources most efficiently.
+
+Initially, the cities have the following amounts of resources:
+- City 1 has 221 units.
+- City 2 has 98 units.
+- City 3 has 337 units.
+- City 4 has 425 units.
+- City 5 has 250 units.
+
+The requirements for each city to adequately meet its needs are:
+- City 1 needs 128 units.
+- City 2 needs 317 units.
+- City 3 needs 394 units.
+- City 4 needs 108 units.
+- City 5 needs 101 units.
+
+To transfer resources between these cities, there are associated costs, which differ depending on the route taken. Here’s the cost matrix for transporting resources between each pair of cities:
+- From/to City 1: To City 2 costs 20, to City 3 costs 39, to City 4 costs 4, to City 5 costs 45.
+- From/to City 2: To City 1 costs 1, to City 3 costs 8, to City 4 costs 23, to City 5 costs 44.
+- From/to City 3: To City 1 costs 5, to City 2 costs 46, to City 4 costs 36, to City 5 costs 15.
+- From/to City 4: To City 1 costs 3, to City 2 costs 5, to City 3 costs 10, to City 5 costs 27.
+- From/to City 5: To City 1 costs 37, to City 2 costs 15, to City 3 costs 7, to City 4 costs 45.
+
+Your mission is to redistribute the resources so that each city meets its required amount at the lowest possible transportation cost. What would be the minimum cost to ensure all cities have the resources they need?

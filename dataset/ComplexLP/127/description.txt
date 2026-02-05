@@ -1,0 +1,17 @@
+Embark on a journey through a bustling transport network in the heart of a bustling metropolis, featuring 9 critical nodes that form the backbone of this city's logistic framework. From the primary dispatch center to the ultimate distribution hub, each node plays a pivotal role in ensuring goods and resources flow seamlessly across the city.
+
+Here's a detailed glimpse into the transport capacities (in thousands of units) between these nodes, ensuring that every node is a cog in the machine that keeps the city running:
+
+- From Node 0 (The Source): Goods can be dispatched to Node 1 (13 units), Node 2 (19 units), Node 3 (17 units), Node 4 (7 units), Node 5 (7 units), Node 6 (11 units), Node 7 (7 units), and Node 8 (7 units).
+- From Node 1: Goods can move on to Node 0 (9 units), Node 2 (19 units), Node 3 (20 units), Node 4 (10 units), Node 5 (19 units), Node 6 (20 units), Node 7 (19 units), and Node 8 (3 units).
+- From Node 2: Goods can be transported to Node 0 (0 units), Node 1 (16 units), Node 3 (0 units), Node 4 (10 units), Node 5 (2 units), Node 6 (14 units), Node 7 (9 units), and Node 8 (9 units).
+- From Node 3: Goods can be routed to Node 0 (6 units), Node 1 (0 units), Node 2 (5 units), Node 4 (7 units), Node 5 (18 units), Node 6 (15 units), Node 7 (20 units), and Node 8 (7 units).
+- From Node 4: Goods can be forwarded to Node 0 (18 units), Node 1 (19 units), Node 2 (12 units), Node 3 (0 units), Node 5 (16 units), Node 6 (20 units), Node 7 (10 units), and Node 8 (4 units).
+- From Node 5: Goods can be sent to Node 0 (3 units), Node 1 (4 units), Node 2 (8 units), Node 3 (9 units), Node 4 (20 units), Node 6 (7 units), Node 7 (8 units), and Node 8 (1 unit).
+- From Node 6: Goods can be transported to Node 0 (3 units), Node 1 (14 units), Node 2 (14 units), Node 3 (16 units), Node 4 (1 unit), Node 5 (12 units), Node 7 (10 units), and Node 8 (10 units).
+- From Node 7: Goods can move on to Node 0 (9 units), Node 1 (20 units), Node 2 (19 units), Node 3 (4 units), Node 4 (9 units), Node 5 (16 units), Node 6 (1 unit), and Node 8 (6 units).
+- From Node 8 (The Destination): Goods from Node 0 (7 units), Node 1 (15 units), Node 2 (14 units), Node 3 (18 units), Node 4 (18 units), Node 5 (11 units), Node 6 (18 units) can be finally distributed.
+
+A capacity of "0" signifies the absence of a direct route between those particular nodes, indicating the need for strategic planning to navigate goods through this intricate network.
+
+Your mission is to calculate the maximum volume of goods (in thousands of units) that can be transported from Node 0, the primary dispatch center, to Node 8, the ultimate distribution hub, per unit time. This calculation must ensure that the flow of goods through each connection does not exceed its transportation capacity. What is the maximum volume of goods that can be moved from the source to the destination in thousands of units?

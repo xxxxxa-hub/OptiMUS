@@ -1,0 +1,15 @@
+
+5.30 Hanguang Automobile Manufacturing Plant produces three brands of automobiles: Zhujiang, Songhuajiang, and Huanghe. The steel and labor required to produce one unit of each brand, as well as the expected profit, are shown in Table 5-13. The available monthly steel and labor hours are also given.  
+
+ Table 5-13  
+
+
+| Item       | Zhujiang    | Songhuajiang   | Huanghe    | Monthly Availability   |
+| -------- | ----- | ----- | ----- | ------- |
+| Steel (tons)   | 1.5   | 3.0   | 5.0   | 6 000   |
+| Labor (hours)  | 300   | 250   | 400   | 600 000 |
+| Expected Profit (Yuan) | 2 000 | 3 000 | 4 000 |         |
+
+
+ It is known that the economic production batch size for each of these automobiles is at least 1,000 units per month. That is, the monthly output of each brand must either be greater than 1,000 units or not produced at all. Task: Determine a production plan for the factory that maximizes total profit under the above constraints. 
+

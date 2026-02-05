@@ -1,0 +1,11 @@
+
+
+
+1.42 A timber storage and transportation company has a large warehouse used for storing and selling timber. Due to seasonal price fluctuations of timber, the company purchases timber at the beginning of each quarter. A portion is sold during the current quarter, and another portion is stored for sale in later quarters. It is known that the company’s warehouse has a maximum timber storage capacity of 20 thousand m³, and the storage cost is (a + b u) yuan per m³, where a = 70, b = 100, and u is the storage time in quarters. The purchase prices, selling prices, and estimated maximum sales volumes per quarter are given in Table 1-18. 
+
+ Table 1-18  
+
+
+<html><body><table><tr><td>Quarter</td><td>Purchase Price (thousand yuan per thousand m³)</td><td>Selling Price (thousand yuan per thousand m³)</td><td>Estimated Max Sales Volume (thousand m³)</td></tr><tr><td>Winter</td><td>410</td><td>425</td><td>100</td></tr><tr><td>Spring</td><td>430</td><td>440</td><td>140</td></tr><tr><td>Summer</td><td>460</td><td>465</td><td>200</td></tr><tr><td>Autumn</td><td>450</td><td>455</td><td>160</td></tr></table></body></html>  
+
+Because timber is not suitable for long-term storage, all stored timber must be sold by the end of autumn each year. Task: Formulate a linear programming model for this problem in order to maximize the company’s annual profit(in thousand yuan).  

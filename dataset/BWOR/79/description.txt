@@ -1,0 +1,43 @@
+
+  A factory has 4 grinding machines, 2 upright drills, 3 horizontal drills, 1 boring machine, and 1 planer, used to produce 7 types of products. The required machine-hours for each unit of product on each type of equipment, as well as the profit per unit, are given in Table C-3.  
+
+  Table C-3  
+  \begin{tabular}{@{}ccccccccc@{}}
+  \toprule
+  \multicolumn{2}{c}{\multirow{2}{*}{\begin{tabular}{c}Machine-hours per unit and unit profit\\ Equipment\end{tabular}}} & \multicolumn{7}{c}{Product} \\
+  \cmidrule(lr){3-9}
+  \multicolumn{2}{c}{} & I & II & III & IV & V & VI & VII \\
+  \midrule
+  \multirow{5}{*}{\RaggedRight Equipment} & Grinding & 0.5 & 0.7 & -- & -- & 0.3 & 0.2 & 0.5 \\
+  & Upright Drill & 0.1 & 0.2 & -- & 0.3 & -- & 0.6 & -- \\
+  & Horizontal Drill & 0.2 & -- & 0.8 & -- & -- & -- & 0.6 \\
+  & Boring Machine & 0.05 & 0.03 & -- & 0.07 & 0.1 & -- & 0.08 \\
+  & Planer & -- & -- & 0.01 & -- & 0.05 & -- & 0.05 \\
+  \midrule
+  \multicolumn{2}{c}{Profit (yuan)} & 100 & 60 & 80 & 40 & 110 & 90 & 30 \\
+  \bottomrule
+  \end{tabular}
+  \end{table}
+
+  From January to June, maintenance is scheduled for some machines, during which they cannot be used for production: January: 1 grinding machine, February: 2 horizontal drills, March: 1 boring machine, April: 1 upright drill, May: 1 grinding machine and 1 upright drill, June: 1 planer and 1 horizontal drill. The maximum market demand for each product from January to June is shown in Table C-4.  
+
+  Table C-4  
+
+  \begin{table}[h]
+  \centering
+  \caption{Combined Table}
+  \begin{tabular}{ccccccccc}
+  \toprule
+  Month & I & II & III & IV & V & VI & VII \\
+  \midrule
+  Jan & 500 & 1000 & 300 & 300 & 800 & 200 & 100 \\
+  Feb & 600 & 500 & 200 & 0 & 400 & 300 & 150 \\
+  Mar & 300 & 600 & 0 & 0 & 500 & 400 & 100 \\
+  Apr & 200 & 300 & 400 & 500 & 200 & 0 & 100 \\
+  May & 0 & 100 & 500 & 100 & 1000 & 300 & 0 \\
+  Jun & 500 & 500 & 100 & 300 & 1100 & 500 & 60 \\
+  \bottomrule
+  \end{tabular}
+  \end{table}
+  Additional constraints: Unsold units can be stored, with a monthly storage cost of 5 yuan per unit; Storage limit: No more than 100 units per product at any time; Initial inventory (January 1st): 0 for all products; Final inventory requirement (end of June): 50 units of each product. The factory works 24 days per month, 2 shifts per day, 8 hours per shift. Assume that processing order across machines is not considered. Task: How should the factory plan production and inventory over the 6 months to maximize total profit? 
+

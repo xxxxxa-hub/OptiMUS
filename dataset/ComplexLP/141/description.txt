@@ -1,0 +1,36 @@
+In the quest to streamline its distribution network, MarketFlow Inc. is faced with a critical decision regarding the allocation of resources to efficiently supply six retail stores. The company has narrowed down its options to four potential distribution centers, each with distinct opening costs and capabilities. The challenge lies in selecting the right mix of distribution centers and determining the optimal transportation routes to ensure that the demands of all retail stores are met at the lowest possible total cost. This cost encompasses both the opening expenses of the distribution centers and the costs associated with transporting goods to the stores.
+
+Given Data:
+- Number of Potential Distribution Centers: 4
+- Number of Retail Stores Needing Supply: 6
+
+Opening Costs for Each Distribution Center (in dollars):
+- Center 1: $151,000
+- Center 2: $192,000
+- Center 3: $114,000
+- Center 4: $171,000
+
+Transportation Cost Per Unit from Each Distribution Center to Retail Stores (in dollars):
+- From Center 1: $5 to Store 1, $5 to Store 2, $2 to Store 3, $3 to Store 4, $3 to Store 5, $3 to Store 6
+- From Center 2: $5 to Store 1, $4 to Store 2, $3 to Store 3, $5 to Store 4, $2 to Store 5, $4 to Store 6
+- From Center 3: $2 to Store 1, $4 to Store 2, $5 to Store 3, $1 to Store 4, $4 to Store 5, $2 to Store 6
+- From Center 4: $5 to Store 1, $4 to Store 2, $1 to Store 3, $1 to Store 4, $3 to Store 5, $3 to Store 6
+
+Demand of Each Retail Store (in units):
+- Store 1: 910
+- Store 2: 875
+- Store 3: 589
+- Store 4: 962
+- Store 5: 966
+- Store 6: 643
+
+Supply Capacity of Each Distribution Center (in units):
+- Center 1: 1631
+- Center 2: 1954
+- Center 3: 1446
+- Center 4: 820
+
+MarketFlow Inc.'s objective is to fulfill the demand at each of its six retail stores efficiently while minimizing the total expenditure incurred from opening distribution centers and transporting goods. This scenario requires a strategic allocation of resources that entails choosing which distribution centers to open and determining the volume of goods to be transported from these centers to each retail store, all while staying within the supply constraints of the centers.
+
+Question:
+What is the optimal total cost for MarketFlow Inc. to open the necessary distribution centers and transport goods to all six retail stores, thereby meeting their demands while ensuring the cost is minimized, including both the opening costs of the centers and the transportation costs of supplying the stores?

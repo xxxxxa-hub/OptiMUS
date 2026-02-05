@@ -1,0 +1,12 @@
+Imagine you're planning your meals for the week and you want to keep everything balanced: enough nutrients for a healthy lifestyle but also manageable costs. You have six food options to consider: Chicken, Rice, Vegetables, Bread, Almonds, and Salmon. Each of these foods has its own nutritional content in terms of proteins, carbs, and calories, and also its own cost.
+
+Here's a summary of what each food offers and its cost:
+
+- Chicken: Offers 16 grams of protein, 8 grams of carbohydrates, and 50 calories for $2.
+- Rice: Provides 11 grams of protein, 24 grams of carbohydrates, and 90 calories for $3.
+- Vegetables: Gives you 1 gram of protein, 5 grams of carbohydrates, and a hefty 164 calories for $3.
+- Bread: Packs in 6 grams of protein, 26 grams of carbohydrates, and 165 calories for $2.
+- Almonds: Offer 2 grams of protein, 11 grams of carbohydrates, and 51 calories for $4.
+- Salmon: Packs in a big punch with 19 grams of protein, 20 grams of carbohydrates, and provides 238 calories for $10.
+
+You aim to hit at least 58 grams of protein, 150 grams of carbohydrates, and 2392 calories from whichever combination of these foods you choose. Your challenge is to determine the most affordable way to meet these nutritional targets with the six food options at your disposal. What is the minimum cost to satisfy all your nutritional needs for the week? Remember, your answer should indicate only the optimal cost value.

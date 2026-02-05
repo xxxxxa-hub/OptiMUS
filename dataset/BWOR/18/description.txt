@@ -1,0 +1,18 @@
+
+    A basketball team needs to select 5 players to form the starting lineup for a game. The heights and preferred positions of 8 players are shown in Table 5-11. 
+
+\begin{table}[h]
+    \centering
+    \caption{Table 5-11: Player Heights and Preferred Positions}
+    \renewcommand{\arraystretch}{1.2}
+    \begin{tabular}{c|cccccccc}
+        \toprule
+        Player & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 \\
+        \midrule
+        Height (m) & 1.92 & 1.90 & 1.88 & 1.86 & 1.85 & 1.83 & 1.80 & 1.78 \\
+        Preferred Role & Center & Center & Forward & Forward & Forward & Guard & Guard & Guard \\
+        \bottomrule
+    \end{tabular}
+\end{table}
+
+The selected lineup must satisfy the following conditions:1.Exactly one center must be selected;2.At least one forward must be selected;3.If Player 1 or Player 4 is selected, then Player 6 must also be selected; conversely, if Player 6 is selected, then neither Player 1 nor Player 4 can be selected;4.At least one of Player 2 or Player 8 must not be selected (i.e., both cannot be selected together).Question:Which 5 players should be selected to maximize the total height of the lineup? Please formulate a mathematical model to solve this problem.

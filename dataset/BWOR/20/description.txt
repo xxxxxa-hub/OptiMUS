@@ -1,0 +1,19 @@
+
+    A company has 4 thousand yuan in capital and can invest in three projects: A, B, and C. The benefit values corresponding to different investment amounts for each project are shown in Table 7-18. How should the funds be allocated to maximize the total benefit(in thousand yuan)? Formulate and solve the mathematical model.
+
+\begin{table}[h]
+    \centering
+    \caption{Benefit values for different investment amounts (Table 7-18)}
+    \renewcommand{\arraystretch}{1.2}
+    \begin{tabular}{c|ccccc}
+        \toprule
+        Project & \multicolumn{5}{c}{Investment Amount (thousand yuan)} \\
+        \cmidrule(lr){2-6}
+        & 0 & 1 & 2 & 3 & 4 \\
+        \midrule
+        A & 0 & 41 & 48 & 60 & 66 \\
+        B & 0 & 42 & 50 & 60 & 66 \\
+        C & 0 & 64 & 68 & 78 & 76 \\
+        \bottomrule
+    \end{tabular}
+\end{table}

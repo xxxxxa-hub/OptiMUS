@@ -1,0 +1,21 @@
+Imagine you are responsible for managing the distribution of medical supplies across seven different healthcare facilities in a region to ensure each has what they need for an impending health crisis. Each facility begins with a certain number of supplies but has a specific required amount to ensure they are well-prepared.
+
+Here is a rundown of the current and required supplies at each facility:
+- Facility 1 has 229 units but needs 158 units.
+- Facility 2 has 345 units but needs 14 units.
+- Facility 3 has 231 units but needs 326 units.
+- Facility 4 has 164 units but needs 432 units.
+- Facility 5 has 354 units but needs 207 units.
+- Facility 6 has 437 units but needs 215 units.
+- Facility 7 has 265 units but needs 233 units.
+
+To transfer supplies from one facility to another, there are associated costs, which vary depending on the facilities involved. Here is the cost matrix for transferring supplies between facilities:
+- From/To Facility 1: To Facility 2 costs 26, to Facility 3 costs 8, to Facility 4 costs 7, to Facility 5 costs 34, to Facility 6 costs 35, to Facility 7 costs 34.
+- From/To Facility 2: To Facility 1 costs 41, to Facility 3 costs 27, to Facility 4 costs 31, to Facility 5 costs 3, to Facility 6 costs 33, to Facility 7 costs 36.
+- From/To Facility 3: To Facility 1 costs 20, to Facility 2 costs 49, to Facility 4 costs 48, to Facility 5 costs 21, to Facility 6 costs 38, to Facility 7 costs 42.
+- From/To Facility 4: To Facility 1 costs 10, to Facility 2 costs 35, to Facility 3 costs 26, to Facility 5 costs 21, to Facility 6 costs 33, to Facility 7 costs 31.
+- From/To Facility 5: To Facility 1 costs 21, to Facility 2 costs 30, to Facility 3 costs 24, to Facility 4 costs 25, to Facility 6 costs 5, to Facility 7 costs 8.
+- From/To Facility 6: To Facility 1 costs 27, to Facility 2 costs 34, to Facility 3 costs 34, to Facility 4 costs 26, to Facility 5 costs 27, to Facility 7 costs 43.
+- From/To Facility 7: To Facility 1 costs 38, to Facility 2 costs 20, to Facility 3 costs 11, to Facility 4 costs 43, to Facility 5 costs 49, to Facility 6 costs 9.
+
+Your objective is to redistribute the supplies so that every facility has exactly what it needs while minimizing the total transportation costs. What would be the minimum cost to ensure all facilities have the required medical supplies?

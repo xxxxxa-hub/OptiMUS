@@ -1,0 +1,10 @@
+In a scenario involving a traveling salesperson, there are six cities labeled 1 through 6. The salesperson needs to visit each city exactly once, starting and ending at the same city, with the objective to minimize the total travel cost incurred during the trip. The costs of traveling between each pair of cities are provided in a cost matrix and the specific travel costs between cities are as follows:
+
+- The cost from city 1 to city 2 is 86, to city 3 is 81, to city 4 is 64, to city 5 is 65, and to city 6 is 24.
+- From city 2, the travel costs are 86 to city 1, 44 to city 3, 80 to city 4, 91 to city 5, and 23 to city 6.
+- Traveling from city 3, the costs are 81 to city 1, 44 to city 2, 15 to city 4, 25 to city 5, and 89 to city 6.
+- From city 4, it costs 64 to travel to city 1, 80 to city 2, 15 to city 3, 89 to city 5, and 41 to city 6.
+- From city 5, the travel costs are 65 to city 1, 91 to city 2, 25 to city 3, 89 to city 4, and 29 to city 6.
+- Lastly, from city 6, the travel costs are 24 to city 1, 23 to city 2, 89 to city 3, 41 to city 4, and 29 to city 5.
+
+Considering these travel costs, what is the minimum total travel cost for the salesperson to visit each city exactly once and return to the starting city?

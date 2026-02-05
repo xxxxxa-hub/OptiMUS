@@ -1,0 +1,39 @@
+BestWay Logistics is in the process of determining the best strategy to distribute products from its warehouses to four retail stores. The company has six potential distribution centers to choose from, each with its own costs associated with opening the center and transporting goods to the stores. Each center also has a specified maximum capacity it can handle. The aim is to satisfy the demand at each store at the lowest possible total cost, while taking into account the cost of opening the distribution centers and the transportation costs of the goods.
+
+The details of the scenario are as follows:
+
+Number of Potential Distribution Centers: 6
+Number of Retail Stores Needing Supply: 4
+
+Opening Costs for Each Distribution Center (in dollars):
+- Center 1: 151,000
+- Center 2: 192,000
+- Center 3: 114,000
+- Center 4: 171,000
+- Center 5: 160,000
+- Center 6: 120,000
+
+Transportation Cost Per Unit from Each Distribution Center to Retail Stores (in dollars):
+- From Center 1: $2 to Store 1, $3 to Store 2, $3 to Store 3, $3 to Store 4
+- From Center 2: $5 to Store 1, $4 to Store 2, $3 to Store 3, $5 to Store 4
+- From Center 3: $2 to Store 1, $4 to Store 2, $2 to Store 3, $4 to Store 4
+- From Center 4: $5 to Store 1, $1 to Store 2, $4 to Store 3, $2 to Store 4
+- From Center 5: $5 to Store 1, $4 to Store 2, $1 to Store 3, $1 to Store 4
+- From Center 6: $3 to Store 1, $3 to Store 2, $2 to Store 3, $4 to Store 4
+
+Demand of Each Retail Store (in units):
+- Store 1: 589
+- Store 2: 962
+- Store 3: 966
+- Store 4: 643
+
+Supply Capacity of Each Distribution Center (in units):
+- Center 1: 1631
+- Center 2: 1954
+- Center 3: 1446
+- Center 4: 820
+- Center 5: 1640
+- Center 6: 966
+
+Question:
+What is the optimal total cost for BestWay Logistics to open the necessary distribution centers and transport goods to meet the demand of all retail stores? This cost should include both the opening costs of the centers and the transportation costs of supplying the stores. Please provide only the optimal value.

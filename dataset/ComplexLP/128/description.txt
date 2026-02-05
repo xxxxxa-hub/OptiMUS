@@ -1,0 +1,17 @@
+Welcome to the challenge of optimizing the power grid of a futuristic city, interconnected through 7 strategic substations - from the main power plant to the central hub that distributes electricity to various sectors of the city. Each substation is connected by power lines that have a maximum capacity, measured in megawatts (MW), for transmitting power.
+
+Here's a breakdown of the power transmission capacities between substations, detailing the maximum amount of electricity that can flow through the network:
+
+- From Substation 0 (Main Power Plant): Power can be transmitted to Substation 1 (16 MW), Substation 2 (6 MW), Substation 3 (16 MW), Substation 4 (2 MW), Substation 5 (17 MW), and Substation 6 (15 MW).
+- From Substation 1: Power can be transmitted to Substation 0 (7 MW), Substation 2 (13 MW), Substation 3 (3 MW), Substation 5 (8 MW), and Substation 6 (17 MW).
+- From Substation 2: Power can be transmitted to Substation 0 (3 MW), Substation 1 (17 MW), Substation 3 (18 MW), Substation 4 (11 MW), Substation 5 (18 MW), and Substation 6 (11 MW).
+- From Substation 3: Power can be transmitted to Substation 0 (9 MW), Substation 2 (15 MW), Substation 4 (3 MW), Substation 5 (8 MW), and Substation 6 (10 MW).
+- From Substation 4: Power can be transmitted to Substation 0 (3 MW), Substation 1 (6 MW), Substation 2 (1 MW), Substation 3 (16 MW), Substation 5 (13 MW), and Substation 6 (10 MW).
+- From Substation 5: Power can be transmitted to Substation 0 (15 MW), Substation 1 (20 MW), Substation 2 (2 MW), Substation 3 (6 MW), Substation 4 (18 MW), and Substation 6 (9 MW).
+- From Substation 6 (Central Hub): Power can be transmitted back to Substation 0 (4 MW), Substation 1 (6 MW), Substation 2 (8 MW), Substation 3 (13 MW), Substation 4 (16 MW), and Substation 5 (10 MW).
+
+A "0" capacity means there is no direct power line connection between those two substations.
+
+The city's goal is to ensure that the maximum amount of electricity is efficiently transmitted from the Main Power Plant (Substation 0) to the Central Hub (Substation 6), without overloading any of the power lines beyond their capacity.
+
+What is the maximum amount of electricity, in megawatts (MW), that can be transmitted from the Main Power Plant to the Central Hub while adhering to these constraints?

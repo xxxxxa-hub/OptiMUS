@@ -1,0 +1,16 @@
+Imagine a vibrant metropolitan area planning to upgrade its electrical grid to ensure a stable power supply across six crucial distribution centers, from the primary power plant all the way to the main distribution hub. This network of centers is intricately connected by high-capacity cables, each capable of transmitting a certain amount of electricity measured in megawatts (MW).
+
+Here's the layout of the electrical transmission capabilities between each center, detailing the maximum power flow in megawatts:
+
+- From the Power Plant (Station 0): Can transmit electricity to Station 1 (4 MW), Station 2 (12 MW), Station 3 (19 MW), Station 4 (13 MW), and Station 5 (11 MW).
+- From Station 1: Can transmit to the Power Plant (20 MW), Station 2 (13 MW), Station 3 (9 MW), and Station 4 (10 MW).
+- From Station 2: Capable of sending back to the Power Plant (14 MW), to Station 1 (8 MW), Station 3 (5 MW), Station 4 (13 MW), and Station 5 (11 MW).
+- From Station 3: Has connections back to the Power Plant (5 MW), to Station 1 (15 MW), Station 2 (18 MW), Station 4 (6 MW), and Station 5 (7 MW).
+- From Station 4: Can send power back to the Power Plant (8 MW), to Station 1 (17 MW), Station 2 (20 MW), Station 3 (14 MW), and Station 5 (9 MW).
+- To the Main Distribution Hub (Station 5): Has incoming lines from the Power Plant (9 MW), Station 1 (19 MW), Station 2 (19 MW), Station 3 (11 MW), and Station 4 (4 MW).
+
+In this proposed network, a capacity of "0" means there's no direct electrical connection between those two centers.
+
+The challenge here is to compute the maximum amount of electricity that can be efficiently transmitted from the Power Plant (Station 0) to the Main Distribution Hub (Station 5), ensuring that the transmission through each cable does not exceed its carrying capacity.
+
+What is the maximum amount of electricity in megawatts (MW) that can be transmitted from the source to the destination?

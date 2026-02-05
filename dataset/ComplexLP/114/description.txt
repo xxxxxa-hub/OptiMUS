@@ -1,0 +1,14 @@
+Imagine a country's interstate highway system containing 6 major cities. These cities are connected by highways, each highway has a specific capacity for the number of vehicles that can travel on it per hour.
+
+Here's how the capacity of each highway is laid out, showing the maximum number of vehicles (in thousands) that can travel from one city to another per hour:
+
+- From City 0 (Source): Can send vehicles to City 1 (9,000 vehicles), City 2 (13,000 vehicles), City 4 (20,000 vehicles), and City 5 (16,000 vehicles).
+- From City 1: Can send vehicles to City 0 (6,000 vehicles), City 2 (19,000 vehicles), City 3 (11,000 vehicles), City 4 (14,000 vehicles), and City 5 (15,000 vehicles).
+- From City 2: Can send vehicles to City 0 (11,000 vehicles), City 1 (6,000 vehicles), City 3 (8,000 vehicles), City 4 (3,000 vehicles), and City 5 (10,000 vehicles).
+- From City 3: Can send vehicles to City 0 (16,000 vehicles), City 1 (2,000 vehicles), City 2 (17,000 vehicles), City 4 (1,000 vehicles), and City 5 (17,000 vehicles).
+- From City 4: Can send vehicles to City 0 (4,000 vehicles), City 1 (12,000 vehicles), City 2 (5,000 vehicles), City 3 (16,000 vehicles), and City 5 (15,000 vehicles).
+- From City 5 (Destination): Can send vehicles back to City 0 (7,000 vehicles), City 1 (19,000 vehicles), City 2 (18,000 vehicles), City 3 (6,000 vehicles), and City 4 (8,000 vehicles).
+
+In this setup, a capacity of "0" means there is no direct highway connection between those two cities.
+
+The task is to calculate the maximum number of vehicules that can be distributed from City 0 (the source) to City 5 (the destination) per hour, ensuring that the flow through each highway does not exceed its specified capacity. What is the maximum number of vehicles that can be sent from the source to the destination in thousands per hour?

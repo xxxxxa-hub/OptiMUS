@@ -1,0 +1,9 @@
+
+
+  A factory produces three types of products. The weight and profit of each product are shown in Table 7-8. These products are to be shipped to the market for sale, and the total transportation capacity cannot exceed 10 tons.  
+
+  Table 7-8  
+
+
+  <html><body><table><tr><td>Product Type</td><td>Weight (t/piece)</td><td>Profit (yuan/piece)</td></tr><tr><td>1</td><td>2</td><td>100</td></tr><tr><td>2</td><td>3</td><td>140</td></tr><tr><td>3</td><td>4</td><td>180</td></tr></table></body></html>  
+

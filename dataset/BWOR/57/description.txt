@@ -1,0 +1,8 @@
+
+5.27 The Yangtze General Shopping Mall has an area of 5,000 m² available for lease and plans to attract tenants from the following five categories of stores. The table below (Table 5-12) shows the area occupied by each store, the minimum and maximum number of stores allowed for each category, and the expected annual profit (in thousand yuan) per store depending on the number of stores opened in the mall. Each store pays 20% of its annual profit as rent to the mall. Question: How many stores of each type should the mall lease to maximize total rental income(in thousand Yuan)? 
+
+ Table 5-12  
+
+
+<html><body><table><tr><td rowspan="2">ID</td><td rowspan="2">Store Type</td><td rowspan="2">Area per Store (m²)</td><td colspan="2">Number of Stores</td><td colspan="3">Profit per Store (thousand Yuan)</td></tr><tr><td>Min</td><td>Max</td><td>1</td><td>2</td><td>3</td></tr><tr><td>1</td><td>Jewelry</td><td>250</td><td>1</td><td>3</td><td>9</td><td>8</td><td>7</td></tr><tr><td>2</td><td>Shoes & Hats</td><td>350</td><td>1</td><td>2</td><td>10</td><td>9</td><td>\</td></tr><tr><td>3</td><td>Department Store</td><td>800</td><td>1</td><td>3</td><td>27</td><td>21</td><td>20</td></tr><tr><td>4</td><td>Bookstore</td><td>400</td><td>0</td><td>2</td><td>16</td><td>10</td><td>\</td></tr><tr><td>5</td><td>Catering</td><td>500</td><td>1</td><td>3</td><td>17</td><td>15</td><td>12</td></tr></table></body></html>  
+

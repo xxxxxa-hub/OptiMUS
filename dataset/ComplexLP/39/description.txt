@@ -1,0 +1,15 @@
+Imagine you're a dietitian, tasked with crafting a healthy and balanced meal plan for a client on a budget. The tricky part is that you must choose from a list of nine food items, each with their own cost and nutritional values for protein, carbohydrates, and calories.
+
+Here's the rundown of what each food item provides and its cost:
+
+- Chicken Breast: Delivers 17 grams of protein, 28 grams of carbohydrates, and 136 calories for $3.
+- Tofu: Yields 15 grams of protein, 11 grams of carbohydrates, and 198 calories for $2.
+- Brown Rice: Offers just 1 gram of protein, 11 grams of carbohydrates, and 93 calories for $2.
+- Salmon: Gives you 11 grams of protein, 3 grams of carbohydrates, and a hefty 269 calories for $6.
+- Greek Yogurt: Provides 15 grams of protein, 27 grams of carbohydrates, and 121 calories for $6.
+- Steak: Comes with 12 grams of protein, 3 grams of carbohydrates, and 80 calories for a steeper price of $10.
+- Avocado: Provides 4 grams of protein, 8 grams of carbohydrates, and a whopping 300 calories for $7.
+- Eggs: Offer 16 grams of protein, 25 grams of carbohydrates, and 99 calories for $5.
+- Quinoa: Comes with 11 grams of protein, 20 grams of carbohydrates, and 87 calories for just $2.
+
+Your goal is to make sure your client gets at least 72 grams of protein, 158 grams of carbohydrates, and 1896 calories from the combination of foods you choose. But you also need to keep costs to a minimum. What is the least amount of money you would need to spend to meet all of these nutritional targets from these nine food options?

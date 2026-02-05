@@ -1,0 +1,42 @@
+In the bustling world of retail, SupplyChain Solutions is at a crossroads, facing the challenge of efficiently distributing goods to nine of its bustling retail stores. To do this, they have the option of opening up to six different distribution centers, each with its own set of costs and capacities. The goal is crystal clear: to ensure that all retail stores are adequately supplied while keeping the total cost, including both the opening of distribution centers and the transportation of goods, at an absolute minimum.
+
+Given Data:
+- Number of Potential Distribution Centers: 6
+- Number of Retail Stores Needing Supply: 9
+
+Opening Costs for Each Distribution Center (in dollars):
+- Center 1: 151,000
+- Center 2: 192,000
+- Center 3: 114,000
+- Center 4: 171,000
+- Center 5: 160,000
+- Center 6: 120,000
+
+Transportation Cost Per Unit from Each Distribution Center to Retail Stores (in dollars):
+- From Center 1: $2 to Store 1, $3 to Store 2, and so on, up to $2 to Store 9
+- From Center 2: $4 to Store 1, $2 to Store 2, and so on, up to $4 to Store 9
+- From Center 3, Center 4, Center 5, and Center 6 follow similar patterns with varying costs to each store
+
+Demand of Each Retail Store (in units):
+- Store 1: 401
+- Store 2: 789
+- Store 3: 965
+- Store 4: 505
+- Store 5: 876
+- Store 6: 801
+- Store 7: 955
+- Store 8: 561
+- Store 9: 601
+
+Supply Capacity of Each Distribution Center (in units):
+- Center 1: 1795
+- Center 2: 1069
+- Center 3: 1615
+- Center 4: 1255
+- Center 5: 1816
+- Center 6: 1095
+
+SupplyChain Solutions now faces the daunting task of identifying which distribution centers should be operational and how goods should be routed to the stores to ensure every store's demand is met. The solution must be cost-effective, taking into consideration the initial opening costs of the distribution centers and the variable costs of transporting goods to the stores.
+
+Question:
+What is the optimal total cost for SupplyChain Solutions to open the necessary distribution centers and transport goods to satisfy the demands of all nine retail stores? This total cost should include both the opening costs of the distribution centers and the transportation costs of supplying the stores.

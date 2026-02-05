@@ -1,0 +1,9 @@
+
+
+5.19 A certain product can be processed on any one of four machines: A, B, C, or D. The setup cost, unit production cost, and maximum production capacity for each machine are shown in Table 5-7.The factory needs to produce 2,000 units of the product.Question: How should production be allocated among the machines to minimize the total cost? Formulate the mathematical model.  
+
+Table 5-7  
+
+
+<html><body><table><tr><td>Machine</td><td>Setup Cost (Yuan)</td><td>Unit Cost (Yuan/unit)</td><td>Max Capacity (units)</td></tr><tr><td>A</td><td>1000</td><td>20</td><td>900</td></tr><tr><td>B</td><td>920</td><td>24</td><td>1 000</td></tr><tr><td>C</td><td>800</td><td>16</td><td>1 200</td></tr><tr><td>D</td><td>700</td><td>28</td><td>1 600</td></tr></table></body></html> 
+

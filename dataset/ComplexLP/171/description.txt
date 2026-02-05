@@ -1,0 +1,43 @@
+In the bustling world of retail, SupplyChain Solutions is faced with a critical challenge of efficiently supplying seven diverse retail stores. To achieve this goal, the company is considering opening up to six potential distribution centers, each with its unique operating costs and capacities. However, the logistical conundrum doesn't end there, as transporting goods from these centers to the stores incurs varying costs. The ultimate aim for SupplyChain Solutions is to ensure that each retail store's demand is met, while simultaneously minimizing the total operational and transportation expenses. Let's delve into the specifics of this optimization problem.
+
+Given Data:
+- Number of Potential Distribution Centers: 6
+- Number of Retail Stores to be Supplied: 7
+
+Opening Costs for Each Distribution Center (in dollars):
+- Center 1: $151,000
+- Center 2: $192,000
+- Center 3: $114,000
+- Center 4: $171,000
+- Center 5: $160,000
+- Center 6: $120,000
+
+Transportation Cost Per Unit from Each Distribution Center to Retail Stores (in dollars):
+- From Center 1: $2 to Store 1, $3 to Store 2, $3 to Store 3, $3 to Store 4, $5 to Store 5, $4 to Store 6, $3 to Store 7
+- From Center 2: $5 to Store 1, $2 to Store 2, $4 to Store 3, $2 to Store 4, $4 to Store 5, $5 to Store 6, $1 to Store 7
+- From Center 3: $4 to Store 1, $2 to Store 2, $5 to Store 3, $4 to Store 4, $1 to Store 5, $1 to Store 6, $3 to Store 7
+- From Center 4: $3 to Store 1, $2 to Store 2, $4 to Store 3, $4 to Store 4, $3 to Store 5, $4 to Store 6, $4 to Store 7
+- From Center 5: $1 to Store 1, $3 to Store 2, $5 to Store 3, $3 to Store 4, $5 to Store 5, $1 to Store 6, $2 to Store 7
+- From Center 6: $4 to Store 1, $1 to Store 2, $4 to Store 3, $2 to Store 4, $2 to Store 5, $1 to Store 6, $2 to Store 7
+
+Demand of Each Retail Store (in units):
+- Store 1: 964 units
+- Store 2: 739 units
+- Store 3: 491 units
+- Store 4: 766 units
+- Store 5: 854 units
+- Store 6: 827 units
+- Store 7: 908 units
+
+Supply Capacity of Each Distribution Center (in units):
+- Center 1: 1575 units
+- Center 2: 834 units
+- Center 3: 1005 units
+- Center 4: 1904 units
+- Center 5: 1825 units
+- Center 6: 1821 units
+
+The puzzle that SupplyChain Solutions needs to solve involves choosing which distribution centers to open and determining the most cost-efficient way to supply each retail store from these centers. The goal is to cover the demand at each store without exceeding the supply capacity of the chosen distribution centers, all while keeping an eye on minimizing the sum of opening and transportation costs.
+
+Question:
+What is the optimal total cost for SupplyChain Solutions to open the necessary distribution centers and transport goods to meet all seven retail stores' demands? This cost should include both the opening costs of the distribution centers and the transportation costs of supplying the stores.

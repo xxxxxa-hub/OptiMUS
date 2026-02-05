@@ -1,0 +1,11 @@
+Imagine a business consultant who needs to visit six unique cities to evaluate their company branches. These cities are labeled as 1 through 6. The consultant can begin their travels from any of these cities, but must adhere to specific rules: they are required to visit each city exactly once and then return to their starting city. The primary objective is to minimize the total travel expense, which could include factors like distance, time, or monetary costs.
+
+Here are the costs of traveling between the cities:
+- From City 1, the costs are 63 to City 2, 62 to City 3, 49 to City 4, 58 to City 5, and 38 to City 6.
+- From City 2, the travel costs are 63 to City 1, 93 to City 3, 21 to City 4, 66 to City 5, and 42 to City 6.
+- Travelling from City 3 involves costs of 62 to City 1, 93 to City 2, 26 to City 4, 99 to City 5, and 96 to City 6.
+- From City 4, the costs are 49 to City 1, 21 to City 2, 26 to City 3, 73 to City 5, and 80 to City 6.
+- From City 5, it costs 58 to travel to City 1, 66 to City 2, 99 to City 3, 73 to City 4, and 76 to City 6.
+- Lastly, from City 6, it costs 38 to go to City 1, 42 to City 2, 96 to City 3, 80 to City 4, and 76 to City 5.
+
+What is the minimum total travel cost for the consultant to visit each city exactly once and return to the starting city?

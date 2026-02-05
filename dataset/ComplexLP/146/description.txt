@@ -1,0 +1,32 @@
+In a quest to revamp its supply chain, MegaMart is at the crossroads of deciding the best way to distribute its products to eight retail stores scattered across the region. The company has identified nine potential locations for distribution centers, each with its own set of opening costs and capabilities. The challenge lies in selecting which distribution centers to open and determining the most cost-effective way to transport goods, ensuring that the demands of all retail stores are met without overshooting the budget.
+
+Given Data:
+- Number of Potential Distribution Centers: 9
+- Number of Retail Stores Needing Supply: 8
+
+Opening Costs for Each Distribution Center (in dollars):
+- Center 1: $151,000
+- Center 2: $192,000
+- Center 3: $114,000
+- Center 4: $171,000
+- Center 5: $160,000
+- Center 6: $120,000
+- Center 7: $182,000
+- Center 8: $186,000
+- Center 9: $174,000
+
+Transportation Cost Per Unit from Each Distribution Center to Retail Stores (in dollars):
+- Costs range with specifics such as $3 from Center 1 to Store 1, $5 from Center 2 to Store 2, and various other combinations reflecting the logistical complexities of reaching each store from different centers.
+
+Demand of Each Retail Store (in units):
+- The demands range from 414 units to 920 units across the eight stores, presenting a significant logistical puzzle to solve.
+
+Supply Capacity of Each Distribution Center (in units):
+- Capacities range from 1,030 units to 1,962 units, indicating a tight balance between available resources and the need to meet retail demand efficiently.
+
+The objective of MegaMart is clear: to unfurl a distribution strategy that minimizes the total cost, including both the opening costs of selected distribution centers and the transportation costs of goods to the retail stores. The company must navigate through the maze of potential costs to find the most economical route that ensures all retail stores' demands are satisfied without excess.
+
+Question:
+What is the optimal total cost for MegaMart to open the necessary distribution centers and transport goods to meet all retail stores' demands, considering both the opening and transportation costs?
+
+This question seeks a singular answer, the minimum possible total cost, encapsulating the strategic decision-making challenge MegaMart faces.

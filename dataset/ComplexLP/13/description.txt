@@ -1,0 +1,13 @@
+Imagine you are on a mission to take control of your diet, meeting all your nutritional needs without breaking the bank. As a savvy shopper, you've narrowed down your food options to five different items, each providing different amounts of nutrients at varying costs. 
+
+Here is a summary of what each food option offers and their respective costs:
+
+- Chicken: It provides 18 grams of protein, 6 grams of carbohydrates, and 142 calories at a cost of $4.
+- Rice: This food item gives you 12 grams of protein, 28 grams of carbohydrates, and 88 calories for $8.
+- Broccoli: For $7, it offers 13 grams of protein, 19 grams of carbohydrates, and 137 calories.
+- Tofu: At a cost of $10, you get 5 grams of protein, 16 grams of carbohydrates, and 141 calories.
+- Beans: This item provides an impressive 10 grams of protein, 20 grams of carbohydrates, and 150 calories for only $1.
+
+Your daily nutritional targets are to consume at least 56 grams of protein, 194 grams of carbohydrates, and 2012 calories. The key challenge here is to meet these dietary requirements in the most cost-effective way possible, using any combination of the food items listed above. 
+
+Now, the question is, what is the minimal cost to meet your daily nutritional requirements using these food items?

@@ -1,0 +1,10 @@
+
+5.26 The Hongxing Plastics Factory produces six types of plastic containers. The capacity, demand, and variable cost for each type of container are shown in Table 5-11.  
+
+ Table 5-11  
+
+
+<html><body><table><tr><td>Container ID</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td></tr><tr><td>Capacity (cm³)</td><td>1500</td><td>2500</td><td>4000</td><td>6000</td><td>9000</td><td>12000</td></tr><tr><td>Demand (units)</td><td>500</td><td>550</td><td>700</td><td>900</td><td>400</td><td>300</td></tr><tr><td>Variable Cost (Yuan/unit)</td><td>5</td><td>8</td><td>10</td><td>12</td><td>16</td><td>18</td></tr></table></body></html>  
+
+ Each container type is produced by a different dedicated machine, and the fixed cost for each machine is 1,200 Yuan. When the quantity of a certain container type cannot meet the demand, containers with larger capacities may be used as substitutes.Question: How should production be organized to minimize the total cost, while satisfying the demand? 
+

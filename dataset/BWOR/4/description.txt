@@ -1,0 +1,40 @@
+
+ A cargo ship has three compartments: front, middle, and rear. Their volumes and maximum allowable loads are shown in \ref{table1-24}. 
+ There are three types of cargo to be shipped, with data shown in  \ref{table1-25}.
+
+\begin{table}[h]
+    \centering
+    \caption{Maximum Allowable Load and Volume}
+    \label{table1-24}
+    \begin{tabular}{|c|c|c|}
+        \hline
+        \textbf{Item} & \textbf{Front Compartment} & \textbf{Middle Compartment} & \textbf{Rear Compartment} \\
+        \hline
+        Max Allowable Load (t) & 2000 & 3000 & 1500 \\
+        \hline
+        Volume ($m^3$) & 4000 & 5000 & 1500 \\
+        \hline
+    \end{tabular}
+\end{table}
+
+\begin{table}[h]
+    \centering
+    \caption{Cargo Data}
+    \label{table1-25}
+    \begin{tabular}{|c|c|c|c|c|}
+        \hline
+        \textbf{Cargo Type} & \textbf{Quantity (pieces)} & \textbf{Volume per Piece ($m^3$/piece)} & \textbf{Weight per Piece (t/piece)} & \textbf{Freight Rate (dollar/piece)} \\
+        \hline
+        A & 600 & 10 & 8 & 1000 \\
+        \hline
+        B & 1000 & 5 & 6 & 700 \\
+        \hline
+        C & 800 & 7 & 4 & 600 \\
+        \hline
+    \end{tabular}
+\end{table}
+
+ For maritime safety, the actual load weight in the front, middle, and rear compartments must maintain roughly the same proportion as their respective maximum allowable loads. 
+ Specifically: The load weight ratios between the front/middle and rear/middle compartments must not deviate by more than 15\% from the ratios of their respective max allowable loads. The ratio between front and rear compartments must not deviate by more than 10\%. 
+ Question: How many pieces of cargo A, B, and C should be loaded in total to maximize revenue, while meeting the volume, weight, and balance constraints? 
+ Please formulate the linear programming model for this problem. 

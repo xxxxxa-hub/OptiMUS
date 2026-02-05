@@ -1,0 +1,11 @@
+
+
+
+1.33 A farm has 100 hectares (hm²) of land and 15,000 yuan of funds available for production development. The farm has 3,500 person-days of labor in autumn and winter, and 4,000 person-days in spring and summer. If the labor is not fully used, workers can go out to work; the wage income in spring and summer is 2.1 yuan/person-day, and in autumn and winter is 1.8 yuan/person-day.The farm grows three types of crops: soybeans, corn, and wheat, and raises dairy cows and chickens.When planting crops, no special investment is needed. When raising animals:Each dairy cow requires an investment of 400 yuan,Each chicken requires an investment of 3 yuan. Each dairy cow also requires 1.5 hm² of land for forage planting, and labor: 100 person-days in autumn and winter, 50 person-days in spring and summer, Annual net income is 400 yuan per cow.Chickens do not occupy land, but require labor:0.6 person-days per chicken in autumn and winter,0.3 person-days per chicken in spring and summer,Annual net income is 2 yuan per chicken.The current chicken house allows a maximum of 3,000 chickens to be raised, and the cowshed allows a maximum of 32 dairy cows.The labor required and income from the three crops are shown in Table 1-9.  
+
+Table 1-9  
+
+
+<html><body><table><tr><td>Item</td><td>Soybeans</td><td>Corn</td><td>Wheat</td></tr><tr><td>Autumn and Winter labor (person-days)</td><td>20</td><td>35</td><td>10</td></tr><tr><td>Spring and Summer labor (person-days)</td><td>50</td><td>75</td><td>40</td></tr><tr><td>Annual net income (yuan/hm²)</td><td>175</td><td>300</td><td>120</td></tr></table></body></html>  
+
+Try to determine the farm’s operational plan that will maximize annual net income.

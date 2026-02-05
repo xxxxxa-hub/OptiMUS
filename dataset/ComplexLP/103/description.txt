@@ -1,0 +1,18 @@
+Welcome to the scenario of an intricate transportation network connecting 8 bustling cities, designed to efficiently distribute essential supplies during a crisis. Each city is a node in this network, ranging from the primary distribution center (the source) to a central hub designated as the destination. The connections between these cities are roads, each with a specific carrying capacity that denotes the maximum amount of supplies (in tons) that can traverse these roads per day.
+
+Here's the layout of the road capacities between cities:
+
+- From City 0 (Source): Supplies can be sent to City 1 (11 tons), City 2 (1 ton), City 3 (6 tons), City 4 (4 tons), City 5 (5 tons), City 6 (7 tons), and City 7 (1 ton).
+- From City 1: Supplies can be routed to City 0 (3 tons), City 2 (15 tons), City 3 (15 tons), City 4 (16 tons), City 5 (9 tons), City 6 (14 tons), and City 7 (12 tons).
+- From City 2: Can dispatch supplies to City 0 (19 tons), City 1 (9 tons), City 3 (5 tons), City 4 (9 tons), City 5 (11 tons), City 6 (16 tons), and City 7 (3 tons).
+- From City 3: Can send supplies to City 0 (15 tons), City 1 (1 ton), City 2 (14 tons), City 4 (0 tons, indicating no direct road), City 5 (4 tons), City 6 (1 ton), and City 7 (15 tons).
+- From City 4: Can transport supplies to City 0 (8 tons), City 1 (16 tons), City 2 (7 tons), City 3 (3 tons), City 5 (16 tons), City 6 (10 tons), and City 7 (11 tons).
+- From City 5: Supplies can be moved to City 0 (7 tons), City 1 (8 tons), City 2 (1 ton), City 3 (11 tons), City 4 (19 tons), City 6 (3 tons), and City 7 (3 tons).
+- From City 6: Can route supplies to City 0 (2 tons), City 1 (19 tons), City 2 (2 tons), City 3 (6 tons), City 4 (12 tons), City 5 (20 tons), and City 7 (6 tons).
+- From City 7 (Destination): Supplies can be sent back to City 0 (15 tons), City 1 (17 tons), City 2 (4 tons), City 3 (7 tons), City 4 (8 tons), City 5 (2 tons), and City 6 (16 tons).
+
+In this system, a capacity of "0" signifies no direct roadway connection between the two cities.
+
+The challenge is to determine the maximum amount of supplies that can be delivered from City 0 (the source) to City 7 (the destination) per day, without exceeding the road capacities.
+
+What is the maximum amount of supplies, in tons, that can be transported from the source to the destination in one day?

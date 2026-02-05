@@ -1,0 +1,17 @@
+Imagine a futuristic transportation network connecting 9 bustling sectors of a newly established colony on Mars, where each sector specializes in different aspects of Martian life, from agriculture to tech development. The network is designed to transport vital resources, such as water, food, and technology, from the colony's central supply hub (Sector 0) to its farthest outpost (Sector 8). The sectors are interconnected through a series of high-speed transport tubes, each with a specific capacity for carrying resources per Martian day.
+
+The capacity for resource flow from one sector to another is as follows:
+
+- From Sector 0 (Central Supply Hub): Can send resources to Sector 1 (7 units), Sector 2 (4 units), Sector 3 (17 units), Sector 4 (4 units), Sector 5 (18 units), Sector 6 (17 units), Sector 7 (5 units), and Sector 8 (14 units).
+- From Sector 1: Can send resources to Sector 0 (2 units), Sector 2 (11 units), Sector 3 (10 units), Sector 4 (1 unit), Sector 5 (19 units), Sector 6 (6 units), Sector 7 (16 units), and Sector 8 (13 units).
+- From Sector 2: Can send resources to Sector 0 (8 units), Sector 1 (15 units), Sector 3 (5 units), Sector 4 (1 unit), Sector 5 (5 units), Sector 6 (11 units), Sector 7 (17 units), and Sector 8 (18 units).
+- From Sector 3: Can send resources to Sector 0 (2 units), Sector 1 (5 units), Sector 4 (6 units), Sector 5 (17 units), Sector 6 (1 unit), Sector 7 (16 units), and Sector 8 (14 units).
+- From Sector 4: Can send resources to Sector 0 (15 units), Sector 1 (6 units), Sector 2 (20 units), Sector 3 (15 units), Sector 5 (7 units), Sector 6 (13 units), Sector 7 (6 units), and Sector 8 (19 units).
+- From Sector 5: Can send resources to Sector 0 (15 units), Sector 1 (2 units), Sector 2 (8 units), Sector 3 (2 units), Sector 4 (3 units), Sector 6 (2 units), Sector 7 (9 units), and Sector 8 (2 units).
+- From Sector 6: Can send resources to Sector 0 (10 units), Sector 1 (12 units), Sector 2 (11 units), Sector 3 (10 units), Sector 4 (19 units), Sector 5 (9 units), Sector 7 (17 units), and Sector 8 (1 unit).
+- From Sector 7: Can send resources to Sector 0 (0 units), Sector 1 (20 units), Sector 2 (15 units), Sector 3 (19 units), Sector 4 (20 units), Sector 5 (18 units), Sector 6 (14 units), and Sector 8 (8 units).
+- From Sector 8 (Farthest Outpost): Can send resources back to Sector 0 (16 units), Sector 1 (13 units), Sector 2 (3 units), Sector 3 (3 units), Sector 4 (20 units), Sector 5 (19 units), Sector 6 (2 units), and Sector 7 (7 units).
+
+In this Martian colony, a capacity of "0" means there is no direct transport tube connection between those two sectors.
+
+Your task is to calculate the maximum amount of resources that can be transported from the Central Supply Hub (Sector 0) to the Farthest Outpost (Sector 8) per Martian day, ensuring that the flow through each transport tube does not exceed its specified capacity. What is the maximum amount of resources that can be sent from the Central Supply Hub to the Farthest Outpost in units per Martian day?

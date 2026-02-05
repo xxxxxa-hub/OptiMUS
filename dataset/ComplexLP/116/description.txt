@@ -1,0 +1,15 @@
+Visualize a sophisticated network of digital information pathways connecting 9 pivotal data centers across a vast metropolitan area. These centers, numbered from 0 to 8, form the backbone of the city's communication infrastructure, with the primary data hub at Center 0 acting as the source of all transmissions. The objective is to ensure the maximum flow of information reaches Center 8, the main processing facility, thus optimizing the network's overall efficiency.
+
+The capacities of the digital pathways, measured in terabytes per hour, dictate how much information can flow between each pair of data centers:
+
+- From Data Center 0 (Source): Can transmit information to Center 1 (11 TB), Center 2 (11 TB), Center 3 (14 TB), Center 4 (6 TB), Center 5 (11 TB), Center 6 (4 TB), Center 7 (15 TB), and Center 8 (9 TB).
+- From Data Center 1: Can transmit information to Centers ranging from 2 to 8, with capacities varying between 1 TB to 20 TB, with no direct connection back to Center 0.
+- From Data Center 2: Features a range of capacities to other centers, including a high capacity of 18 TB to Centers 1 and 5, among others.
+- Similar patterns of connectivity and capacities exist for Centers 3 through 7, detailing a complex web of information flow through the network with capacities ranging from as low as 1 TB to as high as 20 TB.
+- Lastly, Data Center 8 can receive information but has pathways leading back into the network, indicating a sophisticated feedback loop essential for network integrity and data processing.
+
+This intricate network is devoid of direct connections in certain instances, symbolizing the absence of direct communication lines between specific data centers.
+
+The paramount task at hand is to calculate the maximum possible transmission of information, from the source at Data Center 0 to the main processing facility at Data Center 8, per hour. This calculation must ensure that the flow through each digital pathway does not exceed its maximum capacity.
+
+What is the maximum amount of information, in terabytes per hour, that can be transmitted from the source to the main processing facility within this network?

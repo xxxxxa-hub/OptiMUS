@@ -1,0 +1,8 @@
+
+5.11 The 50-meter swimming times (in seconds) of five athletes in various strokes are shown in Table 5-2. Question: How should a relay team for the 200-meter medley relay be selected so that the expected total time is minimized?  
+
+Table 5-2  
+
+
+<html><body><table><tr><td>Stroke</td><td>Zhao</td><td>Qian</td><td>Zhang</td><td>Wang</td><td>Zhou</td></tr><tr><td>Backstroke</td><td>37.7</td><td>32.9</td><td>33.8</td><td>37.0</td><td>35.4</td></tr><tr><td>Breaststroke</td><td>43.4</td><td>33.1</td><td>42.2</td><td>34.7</td><td>41.8</td></tr><tr><td>Butterfly</td><td>33.3</td><td>28.5</td><td>38.9</td><td>30.4</td><td>33.6</td></tr><tr><td>Freestyle</td><td>29.2</td><td>26.4</td><td>29.6</td><td>28.5</td><td>31.1</td></tr></table></body></html>  
+

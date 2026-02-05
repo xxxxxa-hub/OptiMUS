@@ -1,0 +1,11 @@
+Imagine you're meticulously planning your weekly meal prep and want to ensure that your diet is nutritionally balanced while also being cost-effective. You have a choice between five different food items, each with its own nutritional profile and cost. Your challenge is to choose the right combination of these foods to meet your nutritional needs without overspending.
+
+Here's what each food item offers along with its cost:
+
+- Food_1: Provides 10 grams of protein, 22 grams of carbohydrates, and 80 calories for $2.
+- Food_2: Offers 3 grams of protein, 4 grams of carbohydrates, and 189 calories for $8.
+- Food_3: Contains 17 grams of protein, 10 grams of carbohydrates, and 153 calories for $4.
+- Food_4: Delivers 6 grams of protein, 13 grams of carbohydrates, and 232 calories for $1.
+- Food_5: Packs 20 grams of protein, 5 grams of carbohydrates, and 204 calories for $8.
+
+Your dietary goals are to consume at least 74 grams of protein, 102 grams of carbohydrates, and 1564 calories in total. What is the minimum cost required to meet these nutritional targets using any combination of the available food items?

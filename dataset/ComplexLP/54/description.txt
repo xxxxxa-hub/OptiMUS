@@ -1,0 +1,15 @@
+In a region divided into four districts, each district has a certain amount of food supplies available but requires a specific amount to adequately prepare for an upcoming season. Here's the breakdown of the current food supplies and the needed quantities:
+
+- District 1 currently has 412 units of food but only needs 74 units.
+- District 2 has 92 units but needs a substantial increase to 334 units.
+- District 3 has 265 units, yet it requires only 61 units.
+- District 4 holds 342 units of food and needs 352 units.
+
+To redistribute these food supplies, there are costs associated with transporting food from one district to another. The transportation costs between the districts are as follows:
+
+- From District 1: To District 2 costs 20 units, to District 3 costs 43 units, to District 4 costs 1 unit.
+- From District 2: To District 1 costs 42 units, to District 3 costs 32 units, to District 4 costs 13 units.
+- From District 3: To District 1 costs 27 units, to District 2 costs 5 units, to District 4 costs 10 units.
+- From District 4: To District 1 costs 30 units, to District 2 costs 22 units, to District 3 costs 9 units.
+
+The goal is to ensure each district has exactly the amount of food it needs, and to achieve this at the lowest possible transportation cost. What is the minimum cost required to achieve the optimal distribution of food supplies across all districts?

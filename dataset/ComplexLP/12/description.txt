@@ -1,0 +1,10 @@
+Imagine you're a dietitian tasked with planning a daily meal for a client with specific dietary goals. Your challenge is to select from four available food options to meet the nutritional requirements at the minimal cost. Each food item has its distinct protein, carbohydrate, and caloric content along with a price tag.
+
+Here’s a quick overview of the food items and their respective nutritional values and costs:
+
+- Food_1: Contains 2 grams of protein, 9 grams of carbohydrates, and 165 calories, all for $3.
+- Food_2: Provides 11 grams of protein, 29 grams of carbohydrates, and 230 calories for $3.
+- Food_3: Offers 19 grams of protein, 16 grams of carbohydrates, and 68 calories for $6.
+- Food_4: Delivers 17 grams of protein, 9 grams of carbohydrates, and 258 calories for $9.
+
+The nutritional targets set for your client are to consume at least 88 grams of protein, 107 grams of carbohydrates, and 1944 calories in a day. Your goal is to determine the least expensive way to meet these dietary requirements using the available food options. What is the cheapest cost to achieve these nutritional goals?

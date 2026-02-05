@@ -1,0 +1,45 @@
+In the bustling market of Logistico, a strategic dilemma looms over the horizon for the newly-established retail giant, SupplyChainMax. With an expansive network of five retail stores to cater to, the company stands at the crossroads of selecting the most cost-effective distribution strategy from a pool of eight potential distribution centers. Each center not only comes with its unique price tag for opening but also a specific capacity limit and variable transportation costs to each store. The crux of SupplyChainMax's challenge lies in opening the right blend of distribution centers that would minimally cost them to meet the retail stores' demands, ensuring a smooth flow of goods at the lowest possible overall cost.
+
+Given Data:
+- Number of Potential Distribution Centers: 8
+- Number of Retail Stores to be Supplied: 5
+
+Opening Costs for Each Distribution Center (in dollars):
+- Distribution Center 1: $151,000
+- Distribution Center 2: $192,000
+- Distribution Center 3: $114,000
+- Distribution Center 4: $171,000
+- Distribution Center 5: $160,000
+- Distribution Center 6: $120,000
+- Distribution Center 7: $182,000
+- Distribution Center 8: $186,000
+
+Transportation Cost Per Unit from Each Distribution Center to Retail Stores (in dollars):
+- From Distribution Center 1: $3 to Store 1, $3 to Store 2, $5 to Store 3, $4 to Store 4, $3 to Store 5
+- From Distribution Center 2: $5 to Store 1, $2 to Store 2, $4 to Store 3, $2 to Store 4, $4 to Store 5
+- From Distribution Center 3: $5 to Store 1, $1 to Store 2, $4 to Store 3, $2 to Store 4, $5 to Store 5
+- From Distribution Center 4: $4 to Store 1, $1 to Store 2, $1 to Store 3, $3 to Store 4, $3 to Store 5
+- From Distribution Center 5: $2 to Store 1, $4 to Store 2, $4 to Store 3, $3 to Store 4, $4 to Store 5
+- From Distribution Center 6: $4 to Store 1, $1 to Store 2, $3 to Store 3, $5 to Store 4, $3 to Store 5
+- From Distribution Center 7: $5 to Store 1, $1 to Store 2, $2 to Store 3, $4 to Store 4, $1 to Store 5
+- From Distribution Center 8: $4 to Store 1, $2 to Store 2, $2 to Store 3, $1 to Store 4, $2 to Store 5
+
+Demand of Each Retail Store (in units):
+- Store 1: 964 units
+- Store 2: 739 units
+- Store 3: 491 units
+- Store 4: 766 units
+- Store 5: 854 units
+
+Supply Capacity of Each Distribution Center (in units):
+- Distribution Center 1: 1,308 units
+- Distribution Center 2: 1,575 units
+- Distribution Center 3: 834 units
+- Distribution Center 4: 1,005 units
+- Distribution Center 5: 1,904 units
+- Distribution Center 6: 1,825 units
+- Distribution Center 7: 1,821 units
+- Distribution Center 8: 1,365 units
+
+Question:
+Considering all the given data about opening costs, transportation costs per unit to stores, demand of each retail store, and supply capacity of each distribution center, what is the optimal total cost for SupplyChainMax to establish distribution centers and transport goods to fully meet the demands of all five retail stores? This optimal total cost includes both the opening costs of the selected distribution centers and the transportation costs of supplying the stores.

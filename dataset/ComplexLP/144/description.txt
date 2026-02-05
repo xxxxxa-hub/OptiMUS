@@ -1,0 +1,42 @@
+In the bustling world of retail, LogiChain, a renowned logistics company, is at a crossroads in determining the most efficient way to distribute products to its network of eight retail stores. The challenge lies in selecting from four strategic distribution centers, each with its distinct opening costs and supply capacities. The goal is to ensure that each store's demand is met with the least total cost, incorporating both the opening of distribution centers and the transportation costs of delivering goods.
+
+Here are the specifics of the situation:
+
+- LogiChain can open any of the four distribution centers, each with a different opening cost.
+- There are eight retail stores in need of supplies, each with its unique demand.
+- The transportation cost per unit of product varies not only from one distribution center to another but also from one store to another.
+
+The details are as follows:
+
+Opening Costs for Each Distribution Center (in dollars):
+- Center 1: $151,000
+- Center 2: $192,000
+- Center 3: $114,000
+- Center 4: $171,000
+
+Transportation Cost Per Unit from Each Distribution Center to Retail Stores (in dollars):
+- From Center 1: $5 to Store 1, $5 to Store 2, $2 to Store 3, $3 to Store 4, $3 to Store 5, $3 to Store 6, $5 to Store 7, $4 to Store 8
+- From Center 2: $3 to Store 1, $5 to Store 2, $2 to Store 3, $4 to Store 4, $2 to Store 5, $4 to Store 6, $5 to Store 7, $1 to Store 8
+- From Center 3: $4 to Store 1, $2 to Store 2, $5 to Store 3, $4 to Store 4, $1 to Store 5, $1 to Store 6, $3 to Store 7, $3 to Store 8
+- From Center 4: $2 to Store 1, $4 to Store 2, $4 to Store 3, $3 to Store 4, $4 to Store 5, $4 to Store 6, $1 to Store 7, $3 to Store 8
+
+Demand of Each Retail Store (in units):
+- Store 1: 884 units
+- Store 2: 420 units
+- Store 3: 566 units
+- Store 4: 673 units
+- Store 5: 787 units
+- Store 6: 1000 units
+- Store 7: 715 units
+- Store 8: 413 units
+
+Supply Capacity of Each Distribution Center (in units):
+- Center 1: 1041 units
+- Center 2: 1576 units
+- Center 3: 1364 units
+- Center 4: 1697 units
+
+Given these variables, LogiChain must make a calculated decision on which distribution centers to open and how to allocate shipments to meet the demands of the eight stores in the most cost-effective manner.
+
+Question:
+What is the optimal total cost for LogiChain to open distribution centers and transport goods to satisfy the demand of all eight retail stores, taking both the opening costs and transportation costs into account?

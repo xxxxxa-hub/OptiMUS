@@ -1,0 +1,16 @@
+Embark on a journey through a futuristic transportation network, connecting 8 bustling metropolises - from a cutting-edge logistics hub to a far-reaching distribution center. This network is not ordinary; it's a complex web of superhighways, each capable of supporting a vast amount of traffic, represented as the capacity for vehicles (in thousands) that can travel per hour.
+
+Here's the breakdown of this ultra-modern network's capacities, detailing the maximum flow of traffic that each superhighway can handle from one city to another:
+
+- From City 0 (Source): The hub can dispatch vehicles to City 1 (18,000), City 2 (5,000), City 3 (6,000), City 4 (8,000), City 5 (10,000), and City 6 (16,000).
+- From City 1: Vehicles can flow to City 0 (18,000), City 2 (1,000), City 3 (15,000), City 4 (20,000), City 5 (13,000), City 6 (1,000), and City 7 (2,000).
+- From City 2: Traffic can move to City 0 (18,000), City 1 (16,000), City 3 (19,000), City 4 (15,000), City 5 (4,000), City 6 (9,000), and City 7 (10,000).
+- From City 3: Vehicles can head to City 0 (20,000), City 1 (2,000), City 2 (18,000), City 4 (19,000), City 5 (17,000), City 6 (15,000), and City 7 (19,000).
+- From City 4: Traffic can be directed to City 0 (14,000), City 1 (13,000), City 2 (14,000), City 3 (1,000), City 5 (8,000), City 6 (16,000), and City 7 (20,000).
+- From City 5: Vehicles can travel to City 0 (0), City 1 (17,000), City 2 (18,000), City 3 (10,000), City 4 (17,000), City 6 (16,000), and City 7 (6,000).
+- From City 6: Traffic flow can include movements to City 0 (5,000), City 1 (14,000), City 2 (19,000), City 3 (6,000), City 4 (0), City 5 (19,000), and City 7 (12,000).
+- From City 7 (Destination): Vehicles can return to City 0 (7,000), City 1 (16,000), City 2 (17,000), City 3 (13,000), City 4 (6,000), City 5 (9,000), and City 6 (5,000).
+
+In this network, a capacity of "0" symbolizes that there is no direct superhighway linking those two cities.
+
+Your challenge is to compute the maximum number of vehicles (in thousands) that can be transported from City 0 (the source) to City 7 (the destination) per hour, without exceeding the superhighways' capacities. What is the maximum amount of traffic that can be efficiently moved from the source to the destination in thousands of vehicles per hour?

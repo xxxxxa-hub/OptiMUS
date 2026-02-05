@@ -1,0 +1,32 @@
+
+    \noindent\textbf{4.4} A certain blended liquor product is sold under three brands: Red, Yellow, and Blue. All are made by blending three grades of base liquor: Grade I, II, and III. The daily supply and cost per kilogram of each grade of base liquor are provided in Table 4-13, and the blending requirements and selling prices for each branded product are given in Table 4-14. The decision-maker has specified the following prioritized conditions: 1.Each branded liquor must strictly follow its specified blending proportions. 2.Profit must be maximized. 3.At least 2,000 kg of Red brand liquor must be produced per day. 
+
+\begin{table}[h]
+    \centering
+    \caption{Table 4-13: Daily Supply and Cost of Base Liquors}
+    \label{tab:raw_material}
+    \begin{tabular}{ccc}
+        \toprule
+        Grade & Daily Supply (kg) & Cost (Yuan/kg) \\
+        \midrule
+        I   & 1500 & 6.0 \\
+        II  & 2000 & 4.5 \\
+        III & 1000 & 3.0 \\
+        \bottomrule
+    \end{tabular}
+\end{table}
+
+\begin{table}[h]
+    \centering
+    \caption{Table 4-14: Blending Requirements and Selling Prices of Branded Liquors}
+    \label{tab:product_requirements}
+    \begin{tabular}{ccc}
+        \toprule
+        Brand & Blending Requirements (\%) & Selling Price (Yuan/kg) \\
+        \midrule
+        Red  & Grade III < 10\%, Grade I > 50\% & 5.5 \\
+        Yellow  & Grade III < 70\%, Grade I > 20\% & 5.0 \\
+        Blue  & Grade III < 50\%, Grade I > 10\% & 4.8 \\
+        \bottomrule
+    \end{tabular}
+\end{table}

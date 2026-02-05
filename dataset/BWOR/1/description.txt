@@ -1,0 +1,21 @@
+
+    A livestock farm raises animals for sale. It is required that each animal must receive at least 700g of protein, 30g of minerals, and 100mg of vitamins per day. There are five types of feed available for selection. The nutritional content per kilogram and the unit price of each type of feed are shown in Table 1-22.
+
+\begin{table}[h]
+    \centering
+    \caption{Nutritional Content and Price of Feed}
+    \renewcommand{\arraystretch}{1.2}
+    \begin{tabular}{c|c|c|c|c}
+        \toprule
+        Feed & Protein (g) & Minerals (g) & Vitamins (mg) & Price (dollar/kg) \\
+        \midrule
+        1 & 3 & 1.0 & 0.5 & 0.2 \\
+        2 & 2 & 0.5 & 1.0 & 0.7 \\
+        3 & 1 & 0.2 & 0.2 & 0.4 \\
+        4 & 6 & 2.0 & 2.0 & 0.3 \\
+        5 & 18 & 0.5 & 0.8 & 0.8 \\
+        \bottomrule
+    \end{tabular}
+\end{table}
+
+The goal is to determine a feed selection plan that both meets the nutritional requirements for animal growth and minimizes the cost.

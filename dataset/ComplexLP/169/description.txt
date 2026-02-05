@@ -1,0 +1,45 @@
+In the bustling world of retail, GlobalSupply Inc. is at a crossroads, needing to efficiently distribute its products to eight retail stores scattered across the region. To achieve this, GlobalSupply Inc. must select from six potential distribution centers, each with its unique set of opening costs and capacities. The challenge lies not only in selecting which distribution centers to open but also in determining how to distribute their products in a way that minimizes the total cost, including both the opening of distribution centers and the transportation of goods to the stores.
+
+Given Data:
+
+- Number of Potential Distribution Centers: 6
+- Number of Retail Stores Needing Supply: 8
+
+Opening Costs for Each Distribution Center (in dollars):
+- Center 1: $151,000
+- Center 2: $192,000
+- Center 3: $114,000
+- Center 4: $171,000
+- Center 5: $160,000
+- Center 6: $120,000
+
+Transportation Cost Per Unit from Each Distribution Center to Retail Stores (in dollars):
+- From Center 1: $2 to Store 1, $3 to Store 2, and so on up to $5 to Store 8
+- From Center 2: $2 to Store 1, $4 to Store 2, and so on up to $2 to Store 8
+- From Center 3: $5 to Store 1, $4 to Store 2, and so on up to $4 to Store 8
+- From Center 4: $4 to Store 1, $3 to Store 2, and so on up to $3 to Store 8
+- From Center 5: $5 to Store 1, $1 to Store 2, and so on up to $2 to Store 8
+- From Center 6: $1 to Store 1, $2 to Store 2, and so on up to $4 to Store 8
+
+Demand of Each Retail Store (in units):
+- Store 1: 908 units
+- Store 2: 434 units
+- Store 3: 605 units
+- Store 4: 480 units
+- Store 5: 961 units
+- Store 6: 787 units
+- Store 7: 401 units
+- Store 8: 789 units
+
+Supply Capacity of Each Distribution Center (in units):
+- Center 1: 1365 units
+- Center 2: 1929 units
+- Center 3: 1502 units
+- Center 4: 1201 units
+- Center 5: 1529 units
+- Center 6: 961 units
+
+The optimal solution must navigate the intricate balance between opening costs, transportation costs, supply capacities, and the demands of the retail stores. 
+
+Question:
+What is the optimal total cost for GlobalSupply Inc. to open distribution centers and transport goods to meet all the retail stores' demands, considering the cost of opening the centers and the transportation costs of supplying the stores?

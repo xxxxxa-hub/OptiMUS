@@ -1,0 +1,38 @@
+Welcome to the strategic challenge faced by DistribuMax, a company at a crossroads in optimizing its distribution network to efficiently supply nine unique retail stores. Each store has a specific demand that must be met to ensure customer satisfaction and operational success. DistribuMax can select from nine potential distribution centers, each with its own set of opening costs and capabilities. Furthermore, the cost of transporting goods from these centers to the retail stores varies, adding a layer of complexity to the decision-making process. The goal is to meet the demands of each retail store at the lowest possible total cost, which includes both the opening costs of the distribution centers and the transportation costs of the goods.
+
+Given Data:
+- Number of Potential Distribution Centers: 9
+- Number of Retail Stores Needing Supply: 9
+
+Opening Costs for Each Distribution Center (in dollars):
+- Center 1: $151,000
+- Center 2: $192,000
+- Center 3: $114,000
+- Center 4: $171,000
+- Center 5: $160,000
+- Center 6: $120,000
+- Center 7: $182,000
+- Center 8: $186,000
+- Center 9: $174,000
+
+Transportation Cost Per Unit from Each Distribution Center to Retail Stores (in dollars):
+- Costs vary from $1 to $5 per unit, with each distribution center offering a different rate to each store, reflecting the logistical complexity and geographical challenges of the distribution network.
+
+Demand of Each Retail Store (in units):
+- Store 1: 871 units
+- Store 2: 462 units
+- Store 3: 538 units
+- Store 4: 898 units
+- Store 5: 992 units
+- Store 6: 791 units
+- Store 7: 818 units
+- Store 8: 688 units
+- Store 9: 778 units
+
+Supply Capacity of Each Distribution Center (in units):
+- Capacities range from 840 units to 1856 units, with each center having a unique capacity to provide for the stores.
+
+DistribuMax seeks to identify the optimal combination of distribution centers to open and the distribution of supplies to stores that will minimize the total operational cost. This includes meticulously planning which distribution centers to activate and how to distribute their inventory to meet the demands of the retail stores in the most cost-efficient manner.
+
+Question:
+What is the optimal total cost for DistribuMax to open distribution centers and transport goods to meet the demands of all nine retail stores, considering both the opening costs of the centers and the transportation costs of supplying the stores?

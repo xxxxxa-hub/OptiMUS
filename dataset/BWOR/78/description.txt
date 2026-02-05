@@ -1,0 +1,10 @@
+
+  Changzheng Hospital is a district-level hospital in Changning District. The number of on-duty nurses required in each time period of the day is shown in Table C-2.  
+
+  Table C-2  
+
+
+  <html><body><table><tr><td>Time Period</td><td>6:00--10:00</td><td>10:0--14:00</td><td>14:00--18:00</td><td>18:00--22:00</td><td>22：00--6：00（次日）</td></tr><tr><td>Required Number of Nurses</td><td>18</td><td>20</td><td>19</td><td>17</td><td>12</td></tr></table></body></html>  
+
+  The hospital organizes nurses into five shifts, each 8 hours long. The specific shift times are as follows: Shift 1: 2:00–10:00, Shift 2: 6:00–14:00, Shift 3: 10:00–18:00, Shift 4: 14:00–22:00,Shift 5: 18:00–2:00 (next day), Each nurse works 5 shifts per week, scheduled on different days. A head nurse is in charge of creating the duty schedule. The scheduling plan must be personnel- or cost-efficient, while also being reasonable and practical. The following is a plan under consideration: Plan 1: Each nurse works 5 consecutive days, followed by 2 days off, and works a different shift each day, cycling through Shift 1 to Shift 5 in sequence. For example:,If a nurse starts on Monday, she works:Shift 1 on Monday,Shift 2 on Tuesday,…,Shift 5 on Friday; Another nurse starting on Wednesday would work: Shift 1 on Wednesday,…,Shift 5 on Sunday. Question: How can we minimize the total number of nurses required under Plan 1? 
+

@@ -1,0 +1,23 @@
+You are managing the supplies of seven warehouses located in different regions. Each warehouse starts with a certain amount of supplies but needs a specific amount to fulfill the demands. Your task is to devise a plan to move supplies from one warehouse to another to meet the demand, considering the movement costs.
+
+Here are the current and required quantities of supplies in each warehouse:
+
+- Warehouse 1 has 57 units but needs 499 units.
+- Warehouse 2 has 180 units but needs 173 units.
+- Warehouse 3 has 288 units but needs 293 units.
+- Warehouse 4 has 255 units but needs 158 units.
+- Warehouse 5 has 477 units but needs 15 units.
+- Warehouse 6 has 222 units but needs 78 units.
+- Warehouse 7 has 314 units but needs 278 units.
+
+Movement of supplies between warehouses incurs transportation costs. The cost varies depending on which warehouses you are moving supplies between. Here's a list showing how much it costs to move supplies from one warehouse to another:
+
+- Moving supplies from/to Warehouse 1: To Warehouse 2 costs 36, to Warehouse 3 costs 36, to Warehouse 4 costs 48, to Warehouse 5 costs 10, to Warehouse 6 costs 20, to Warehouse 7 costs 48.
+- Moving supplies from/to Warehouse 2: To Warehouse 1 costs 28, to Warehouse 3 costs 16, to Warehouse 4 costs 18, to Warehouse 5 costs 36, to Warehouse 6 costs 42, to Warehouse 7 costs 12.
+- Moving supplies from/to Warehouse 3: To Warehouse 1 costs 6, to Warehouse 2 costs 40, to Warehouse 4 costs 49, to Warehouse 5 costs 31, to Warehouse 6 costs 1, to Warehouse 7 costs 46.
+- Moving supplies from/to Warehouse 4: To Warehouse 1 costs 14, to Warehouse 2 costs 22, to Warehouse 3 costs 4, to Warehouse 5 costs 9, to Warehouse 6 costs 12, to Warehouse 7 costs 1.
+- Moving supplies from/to Warehouse 5: To Warehouse 1 costs 50, to Warehouse 2 costs 44, to Warehouse 3 costs 7, to Warehouse 4 costs 48, to Warehouse 6 costs 7, to Warehouse 7 costs 25.
+- Moving supplies from/to Warehouse 6: To Warehouse 1 costs 26, to Warehouse 2 costs 9, to Warehouse 3 costs 33, to Warehouse 4 costs 38, to Warehouse 5 costs 8, to Warehouse 7 costs 30.
+- Moving supplies from/to Warehouse 7: To Warehouse 1 costs 8, to Warehouse 2 costs 9, to Warehouse 3 costs 2, to Warehouse 4 costs 13, to Warehouse 5 costs 8, to Warehouse 6 costs 49.
+
+Given the above scenario, your goal is to ensure that every warehouse has the supplies it needs at the lowest possible cost. What is the minimum cost needed to relocate the supplies and meet the demand in each warehouse?

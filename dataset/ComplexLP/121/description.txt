@@ -1,0 +1,16 @@
+In the heart of a bustling metropolis, there lies an intricate network of digital information pipelines connecting 8 crucial data centers. These centers, from the main server hub to the final relay station, are vital for processing and distributing vast amounts of data across the city. The connections between these data centers have specific bandwidth capacities that dictate the maximum flow of data (measured in terabytes per hour) that can be transmitted from one center to another.
+
+Here's a breakdown of the network's layout and its capacities:
+
+- From Data Center 0 (Source): Data can be sent to Center 1 (6 TB/h), Center 2 (16 TB/h), Center 3 (5 TB/h), Center 4 (6 TB/h), Center 5 (11 TB/h), Center 6 (6 TB/h), and Center 7 (4 TB/h).
+- From Data Center 1: Data can be transmitted to Center 2 (8 TB/h), Center 3 (10 TB/h), Center 4 (6 TB/h), Center 5 (3 TB/h), Center 6 (6 TB/h), and Center 7 (14 TB/h).
+- From Data Center 2: Can send data to Center 1 (6 TB/h), Center 3 (20 TB/h), Center 4 (7 TB/h), Center 5 (16 TB/h), Center 6 (13 TB/h), and Center 7 (14 TB/h).
+- From Data Center 3: Has capacities to Center 1 (11 TB/h), Center 2 (19 TB/h), Center 4 (18 TB/h), Center 5 (5 TB/h), and Center 7 (8 TB/h).
+- From Data Center 4: Can route data to Center 1 (1 TB/h), Center 2 (14 TB/h), Center 3 (18 TB/h), Center 5 (12 TB/h), Center 6 (4 TB/h), and Center 7 (7 TB/h).
+- From Data Center 5: Can dispatch data to Center 1 (16 TB/h), Center 2 (3 TB/h), Center 3 (20 TB/h), Center 4 (7 TB/h), Center 6 (15 TB/h), and Center 7 (6 TB/h).
+- From Data Center 6: Capable of sending to Center 1 (11 TB/h), Center 2 (4 TB/h), Center 3 (19 TB/h), Center 4 (7 TB/h), Center 5 (6 TB/h), and Center 7 (17 TB/h).
+- From Data Center 7 (Destination): Can receive return data flow from Center 1 (5 TB/h), Center 2 (8 TB/h), Center 3 (17 TB/h), Center 4 (2 TB/h), Center 5 (5 TB/h), and Center 6 (4 TB/h).
+
+In this network, a capacity of "0" signifies an absence of direct data transmission capability between any two given data centers.
+
+The challenge is to determine the maximum amount of data that can be efficiently transmitted from Data Center 0 (the main server hub) to Data Center 7 (the final relay station) per hour, without exceeding the bandwidth capacities of the connections between the centers. What is the optimal value of data flow (in terabytes per hour) that can be achieved from the source to the destination?

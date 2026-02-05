@@ -1,0 +1,23 @@
+Imagine you are tasked with managing the distribution of medical supplies among seven regional hospitals to ensure each has enough supplies to handle an impending health crisis. Each hospital starts with a certain stock of supplies but requires a different amount to be fully prepared.
+
+Here’s the current stock and the required supplies for each hospital:
+
+- Hospital 1 has 160 units but needs 19 units.
+- Hospital 2 has 353 units but needs 138 units.
+- Hospital 3 has 171 units but needs 110 units.
+- Hospital 4 has 193 units but needs 446 units.
+- Hospital 5 has 102 units but needs 341 units.
+- Hospital 6 has 429 units but needs 428 units.
+- Hospital 7 has 284 units but needs 47 units.
+
+To aid in your task, you can transport supplies between hospitals, but there are costs associated with each transfer depending on the routes taken. Here is the cost matrix showing the transfer costs between each pair of hospitals:
+
+- From/To Hospital 1: To 2 costs 12, to 3 costs 47, to 4 costs 39, to 5 costs 4, to 6 costs 21, to 7 costs 31.
+- From/To Hospital 2: To 1 costs 14, to 3 costs 39, to 4 costs 12, to 5 costs 31, to 6 costs 29, to 7 costs 15.
+- From/To Hospital 3: To 1 costs 15, to 2 costs 6, to 4 costs 26, to 5 costs 12, to 6 costs 5, to 7 costs 3.
+- From/To Hospital 4: To 1 costs 39, to 2 costs 47, to 3 costs 42, to 5 costs 33, to 6 costs 48, to 7 costs 2.
+- From/To Hospital 5: To 1 costs 35, to 2 costs 25, to 3 costs 46, to 4 costs 12, to 6 costs 25, to 7 costs 45.
+- From/To Hospital 6: To 1 costs 39, to 2 costs 28, to 3 costs 28, to 4 costs 11, to 5 costs 16, to 7 costs 13.
+- From/To Hospital 7: To 1 costs 42, to 2 costs 43, to 3 costs 49, to 4 costs 41, to 5 costs 41, to 6 costs 18.
+
+Your goal is to ensure that every hospital has the supplies it requires at the lowest possible transportation cost. What would be the minimum cost to ensure all hospitals are adequately supplied?

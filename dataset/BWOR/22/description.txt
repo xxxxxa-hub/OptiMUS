@@ -1,0 +1,18 @@
+
+    The distances between 4 cities are given in Table 7-24. Find the shortest path and total distance starting from city v_1, visiting all other cities exactly once, and finally returning to v_1. Solve the problem using dynamic programming.
+
+\begin{table}[h]
+    \centering
+    \caption{Distance matrix between cities (Table 7-24)}
+    \renewcommand{\arraystretch}{1.2}
+    \begin{tabular}{c|cccc}
+        \toprule
+        Distance $d(v_i, v_j)$ & 1 & 2 & 3 & 4 \\
+        \midrule
+        1 & 0 & 6 & 7 & 9 \\
+        2 & 8 & 0 & 9 & 7 \\
+        3 & 5 & 8 & 0 & 8 \\
+        4 & 6 & 5 & 5 & 0 \\
+        \bottomrule
+    \end{tabular}
+\end{table}

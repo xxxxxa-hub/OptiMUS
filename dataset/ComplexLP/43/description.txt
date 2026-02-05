@@ -1,0 +1,17 @@
+Suppose you are the chief logistic officer of a large food distribution company and you have the responsibility to ensure that food resources are adequately distributed to four district warehouses. Each warehouse currently holds a certain quantity of food but there are specific requirements that must be met to cater to the demand in each district.
+
+Here is the present quantity of food stocks and the required quantity for each warehouse:
+
+- Warehouse 1 has 500 tons of food but needs only 17 tons.
+- Warehouse 2 has 497 tons of food but requires 65 tons.
+- Warehouse 3 is stocked with 354 tons but needs 26 tons.
+- Warehouse 4 currently holds 223 tons but needs a more substantial 332 tons of food.
+
+You have the capacity to move food from one warehouse to another, but each movement comes with a transportation cost. The cost varies depending on which warehouses you are moving the food between. The following list outlines the cost of moving food from one warehouse to any other:
+
+- Moving food from/to Warehouse 1: To Warehouse 2 costs 17, to Warehouse 3 costs 3, to Warehouse 4 costs 5.
+- Moving food from/to Warehouse 2: To Warehouse 1 costs 39, to Warehouse 3 costs 18, to Warehouse 4 costs 50.
+- Moving food from/to Warehouse 3: To Warehouse 1 costs 8, to Warehouse 2 costs 45, to Warehouse 4 costs 15.
+- Moving food from/to Warehouse 4: To Warehouse 1 costs 11, to Warehouse 2 costs 4, to Warehouse 3 costs 29.
+
+Your task is to ensure each warehouse has the required amount of food while keeping the transportation cost as minimal as possible. What would be the lowest cost to ensure all warehouses are adequately stocked with food? Remember, your response should only contain the optimal value and the scenario should be based on relocation.

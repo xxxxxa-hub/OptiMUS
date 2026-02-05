@@ -1,0 +1,17 @@
+Imagine that you are responsible for distributing a supply of vaccines among four different cities to tackle a healthcare crisis. Each city starts with a certain number of vaccines but needs a specific quantity to ensure that all its residents can be vaccinated.
+
+Here's what each city currently has and what they require:
+
+- City 1 has 483 vaccines but needs 346 vaccines.
+- City 2 has 265 vaccines but needs 221 vaccines.
+- City 3 has 130 vaccines but needs 217 vaccines.
+- City 4 has 361 vaccines but needs 293 vaccines.
+
+In order to meet these healthcare demands, you can transport vaccines from one city to another. However, it costs money to do so. The cost varies depending on which cities you're moving vaccines between. Here's a list showing how much it costs to move vaccines from one city to any other:
+
+- Moving vaccines from/to City 1: To City 2 costs 2, to City 3 costs 19, to City 4 costs 13.
+- Moving vaccines from/to City 2: To City 1 costs 34, to City 3 costs 10, to City 4 costs 48.
+- Moving vaccines from/to City 3: To City 1 costs 46, to City 2 costs 22, to City 4 costs 46.
+- Moving vaccines from/to City 4: To City 1 costs 48, to City 2 costs 15, to City 3 costs 23.
+
+Your goal is to ensure every city has the vaccines it needs at the lowest possible cost. What would be the minimum cost to ensure all cities have enough vaccines?

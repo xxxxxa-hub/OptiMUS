@@ -1,0 +1,7 @@
+
+  A company plans to establish 4 sales outlets in three different regions. According to estimates from the market forecasting department, the monthly profit from setting different numbers of sales outlets in each region is shown in Table 7-2. Question: How should the company allocate the sales outlets across the three regions in order to maximize the total monthly profit? What is the maximum profit?  
+
+  Table 7-2  
+
+
+  <html><body><table><tr><td>Region \ Sales Outlets</td><td>0</td><td>1</td><td>2</td><td>3</td><td>4</td></tr><tr><td>1</td><td>0</td><td>16</td><td>25</td><td>30</td><td>32</td></tr><tr><td>2</td><td>0</td><td>12</td><td>17</td><td>21</td><td>22</td></tr><tr><td>3</td><td>0</td><td>10</td><td>14</td><td>16</td><td>17</td></tr></table></body></html>  

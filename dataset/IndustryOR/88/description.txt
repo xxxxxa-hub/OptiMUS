@@ -1,0 +1,3 @@
+A company produces liquid product A and liquid product B. Each kilogram of product A sold generates a profit of £30, while each kilogram of product B sold generates a profit of £10. The company can allocate a maximum of 40 hours per week for production. Producing one kilogram of product A requires 6 hours, while producing one kilogram of product B requires 3 hours. Market demand requires that the output of product B must be at least three times the output of product A. The storage space required for product A is four times that of product B, and a maximum of four kilograms of product A can be stored per week.
+
+Formulate a linear programming model for this problem.

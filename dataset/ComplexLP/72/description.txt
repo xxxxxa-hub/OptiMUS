@@ -1,0 +1,10 @@
+In a scenario involving a salesperson who needs to visit five different cities to conduct business, each city is uniquely numbered from 1 to 5. The salesperson's objective is to minimize the total travel expenses, which could be influenced by factors such as distance, fuel costs, or transportation fees. The salesperson can start their journey from any of these cities but must ensure they visit each city exactly once before returning to their starting point.
+
+The travel costs between the cities are as follows:
+- From City 1, the travel costs are 58 units to City 2, 15 units to City 3, 75 units to City 4, and 91 units to City 5.
+- From City 2, it costs 58 units to City 1, 54 units to City 3, 85 units to City 4, and 11 units to City 5.
+- Traveling from City 3, the expenses are 15 units to City 1, 54 units to City 2, 28 units to City 4, and 61 units to City 5.
+- From City 4, the costs are 75 units to City 1, 85 units to City 2, 28 units to City 3, and 47 units to City 5.
+- Lastly, from City 5, it costs 91 units to City 1, 11 units to City 2, 61 units to City 3, and 47 units to City 4.
+
+Given this setup, what is the minimum total travel cost for the salesperson to visit each city exactly once and then return to the starting city?

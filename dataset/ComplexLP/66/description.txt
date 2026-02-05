@@ -1,0 +1,11 @@
+Imagine a delivery driver who is tasked with delivering packages to six different locations, each uniquely identified as Location 1, 2, 3, 4, 5, and 6. The driver can kick off his route from any location, but he must visit each one exactly once before returning to the starting point. His goal is to find the route that minimizes the total delivery cost. This cost could be based on a combination of factors, such as distance, fuel consumption, or traffic congestion.
+
+Here's a summary of the delivery costs between the locations:
+From Location 1, it costs 48 units to get to Location 2, 23 units to Location 3, 70 units to Location 4, 14 units to Location 5, and 20 units to Location 6.
+If the driver starts from Location 2, it would cost 48 units to reach Location 1, 79 units to reach Location 3, 37 units to reach Location 4, 63 units to reach Location 5, and 96 units to reach Location 6.
+From Location 3, the costs are 23 units to reach Location 1, 79 units to reach Location 2, 40 units to reach Location 4, 66 units to reach Location 5, and 68 units to reach Location 6.
+Starting at Location 4, it would cost the driver 70 units to get to Location 1, 37 units to get to Location 2, 40 units to get to Location 3, 70 units to get to Location 5, and 28 units to get to Location 6.
+From Location 5, the costs are 14 units to get to Location 1, 63 units to get to Location 2, 66 units to get to Location 3, 70 units to get to Location 4, and 73 units to get to Location 6.
+And finally, from Location 6, it would cost 20 units to drive to Location 1, 96 units to drive to Location 2, 68 units to drive to Location 3, 28 units to drive to Location 4, and 73 units to drive to Location 5.
+
+The question is, what is the minimum total delivery cost for the driver to deliver packages to each location exactly once and return to the starting location?

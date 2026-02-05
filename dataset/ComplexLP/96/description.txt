@@ -1,0 +1,11 @@
+Imagine a salesperson tasked with visiting six unique cities to promote their products. These cities are conveniently numbered from 1 to 6, and the salesperson can start their journey from any of these cities. The essential requirement is that each city must be visited exactly once, with the journey ending back at the starting city. The primary objective is to minimize the total travel costs, which include expenses like fuel, tolls, and time spent on the road.
+
+Here is a breakdown of the travel costs between the cities:
+- From City 1, the costs to travel to the other cities are as follows: City 2 costs 21 units, City 3 costs 43 units, City 4 costs 25 units, City 5 costs 38 units, and City 6 costs 91 units.
+- From City 2, it costs 21 units to City 1, 32 units to City 3, 25 units to City 4, 16 units to City 5, and 14 units to City 6.
+- Traveling from City 3, the costs are 43 units to City 1, 32 units to City 2, 96 units to City 4, 71 units to City 5, and 98 units to City 6.
+- From City 4, it costs 25 units to reach City 1, 25 units to City 2, 96 units to City 3, 53 units to City 5, and 22 units to City 6.
+- From City 5, the travel costs are 38 units to City 1, 16 units to City 2, 71 units to City 3, 53 units to City 4, and 100 units to City 6.
+- Lastly, from City 6, it costs 91 units to travel to City 1, 14 units to City 2, 98 units to City 3, 22 units to City 4, and 100 units to City 5.
+
+What is the minimum total travel cost for the salesperson to visit each city exactly once and return to the starting city?

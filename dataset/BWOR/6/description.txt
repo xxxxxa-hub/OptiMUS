@@ -1,0 +1,15 @@
+
+    \noindent\textbf{Example 11} In the upcoming year, the cash flow c of Tongxin Toy Factory is shown in Table 1-19. A negative sign indicates that cash outflows exceed inflows in that month, meaning the factory will need to borrow funds. There are two types of loans available: 1.Annual Loan: Borrowed at the end of the previous year, the full loan amount is received at once. Starting from the end of February, the factory must pay 1% interest each month, and then repay the principal plus the final interest payment at the end of January next year 2.Short-term Monthly Loan:Can be taken out at the beginning of any month, with both principal and interest (1.5% monthly) repaid at the beginning of the following month.When the factory has excess cash, it can make short-term deposits: Deposits are made at the beginning of the month, and withdrawn at the end of the same month, earning 0.4% interest per month. Problem: How should the factory arrange borrowing and depositing activities throughout the year to cover any cash shortfalls and maximize the total amount of cash(in thousand yuan) available at the beginning of next year? 
+
+\begin{table}[h]
+    \centering
+    \caption{Cash Flow Situation}
+    \label{tab:cashflow}
+    \begin{tabular}{ccccccccccccc}
+        \toprule
+        Month & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 & 11 & 12 \\
+        \midrule
+        Cash Flow (thousand yuan) & -12 & -10 & -8 & -10 & -4 & 5 & -7 & -2 & 15 & 12 & -7 & 45 \\
+        \bottomrule
+    \end{tabular}
+\end{table}

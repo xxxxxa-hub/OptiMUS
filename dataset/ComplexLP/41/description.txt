@@ -1,0 +1,21 @@
+Imagine you are the director of a non-profit organization tasked with providing food supplies to six regions suffering from a famine. Each region has a certain amount of food already, but they require more to sustain their population through the hardship. 
+
+Here are the current quantities of food (in tons) available and the required quantities for each region:
+
+- Region 1 has 42 tons but needs 74 tons.
+- Region 2 has 32 tons but needs 476 tons.
+- Region 3 has 398 tons but only needs 2 tons.
+- Region 4 has 224 tons but needs 235 tons.
+- Region 5 has 210 tons but needs 221 tons.
+- Region 6 has 209 tons but only needs 72 tons.
+
+You have the ability to transfer food supplies from one region to another. However, the cost of transportation varies depending on which regions you are transferring food between. Below is a list detailing the cost of moving food from one region to any other:
+
+- To move food from/to Region 1: To Region 2 costs 16, to Region 3 costs 48, to Region 4 costs 42, to Region 5 costs 50, to Region 6 costs 8.
+- To move food from/to Region 2: To Region 1 costs 27, to Region 3 costs 23, to Region 4 costs 37, to Region 5 costs 39, to Region 6 costs 29.
+- To move food from/to Region 3: To Region 1 costs 49, to Region 2 costs 39, to Region 4 costs 33, to Region 5 costs 50, to Region 6 costs 6.
+- To move food from/to Region 4: To Region 1 costs 23, to Region 2 costs 49, to Region 3 costs 46, to Region 5 costs 50, to Region 6 costs 6.
+- To move food from/to Region 5: To Region 1 costs 45, to Region 2 costs 47, to Region 3 costs 48, to Region 4 costs 26, to Region 6 costs 39.
+- To move food from/to Region 6: To Region 1 costs 33, to Region 2 costs 11, to Region 3 costs 9, to Region 4 costs 4, to Region 5 costs 12.
+
+Your mission is to ensure every region receives the food it needs while keeping the transportation cost as low as possible. What would be the minimum cost to make sure all regions have enough food?

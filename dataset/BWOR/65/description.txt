@@ -1,0 +1,8 @@
+
+
+ A store plans to use a warehouse to exclusively distribute a certain product over the next 4 months. The warehouse can hold up to 1,000 units of this product. It is assumed that the store can only sell what is currently in the warehouse each month. If the store decides to purchase goods in a given month, those goods will only be available starting the following month.The estimated buying and selling prices of the product for the next 4 months are shown in Table 7-6. It is assumed that at the start of January (Month 1), the warehouse already contains 500 units of the product.Question: How should the store plan its purchases and sales over the 4 months to maximize profit? (Storage costs are ignored, and product quantities are in integers.)  
+
+  Table 7-6  
+
+
+  <html><body><table><tr><td>Month (k)</td><td>Buying Price</td><td>Selling Price</td></tr><tr><td>1</td><td>10</td><td>12</td></tr><tr><td>2</td><td>9</td><td>9</td></tr><tr><td>3</td><td>11</td><td>13</td></tr><tr><td>4</td><td>15</td><td>17</td></tr></table></body></html>  
