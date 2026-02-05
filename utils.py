@@ -2,13 +2,16 @@ import os
 import json
 from groq import Groq
 import openai
+from dotenv import load_dotenv
+load_dotenv()
 
 groq_key = "###"
 openai_key = "###"
 openai_org = "###"
 
 groq_client = Groq(api_key=groq_key)
-open_ai_client = openai.Client(api_key=openai_key, organization=openai_org)
+# open_ai_client = openai.Client(api_key=os.getenv("OPENROUTER_API_KEY"), base_url=os.getenv("OPENROUTER_API_BASE"))
+open_ai_client = openai.Client(api_key=os.getenv("OPENAI_API_KEY"), base_url=os.getenv("OPENAI_API_BASE"))
 
 
 def extract_json_from_end(text):
@@ -172,26 +175,23 @@ class Logger:
         with open(self.file, "w") as f:
             f.write("")
 
+def create_state(parent_dir, run_dir, model):
+    """
+    Create initial state for optimization problem.
 
-def create_state(parent_dir, run_dir):
-    # read params.json
-    with open(os.path.join(parent_dir, "params.json"), "r") as f:
-        params = json.load(f)
-
-    data = {}
-    for key in params:
-        data[key] = params[key]["value"]
-        del params[key]["value"]
-
-    # save the data file in the run_dir
-    with open(os.path.join(run_dir, "data.json"), "w") as f:
-        json.dump(data, f, indent=4)
-
-    # read the description
-    with open(os.path.join(parent_dir, "desc.txt"), "r") as f:
+    Loads:
+    - description.txt: Problem description
+    - parameters.json: Structured parameters (metadata about problem parameters)
+    - parameters values from problem_info.json if available
+    """
+    from parameters import get_params
+    # Read the description
+    with open(os.path.join(parent_dir, "description.txt"), "r") as f:
         desc = f.read()
 
-    state = {"description": desc, "parameters": params}
+    parameters = get_params(desc, check=True, model=model)
+
+    state = {"description": desc, "parameters": parameters}
     return state
 
 def get_labels(dir):

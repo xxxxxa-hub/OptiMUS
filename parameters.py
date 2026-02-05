@@ -12,16 +12,8 @@ def extract_score(text, params, param):
         if score > 3:
             return True, params
         else:
-            inp = input(
-                "LLMs reasoning: {}\n Do you want to keep parameter {}? (y/n): ".format(
-                    text, param
-                ),
-            )
-            if inp == "y":
-                return True, params
-            else:
-                del params[param]
-                return True, params
+            del params[param]
+            return True, params
     else:
         return False, None
 
@@ -33,28 +25,38 @@ You are an expert in optimization modeling. Here is the natural language descrip
 {description}
 -----
 
-Your task is to identify and extract parameters from the description. The parameters are values that are already known. Please generate the output in the following format:
+Your task is to identify and extract PARAMETERS from the description. Parameters are constants with known values that define the problem instance (not decision variables to be optimized).
+
+## Parameter Identification Criteria
+- **Include**: Fixed quantities, capacities, costs, rates, counts, bounds, and coefficients that are given or can be derived from the problem statement
+- **Exclude**: Decision variables (quantities to be determined by the optimization), objective values, or undefined quantities
+
+## Output Format
+Generate a JSON object with each parameter in this format:
 
 {{
     "SYMBOL": {{
         "shape": "SHAPE",
         "definition": "DEFINITION",
-        "type": "TYPE"
+        "type": "TYPE",
+        "value": "VALUE"
     }}
 }}
 
-Where SYMBOL is a string representing the parameter (use CamelCase), SHAPE is the shape of the parameter (e.g. "[]" for scalar, or "[N, M]" for a matrix of size N x M where N and M are scalar parameters), DEFINITION is a string describing the parameter, and type is one of "int", "float", or "binary".
+Where SYMBOL is a string representing the parameter (use CamelCase), SHAPE is the shape of the parameter (e.g. "[]" for scalar, or "[N, M]" for a matrix of size N x M where N and M are scalar parameters), DEFINITION is a string describing the parameter, and type is one of "int", "float", or "binary", VALUE is the actual value if explicitly stated, otherwise "unknown".
 
 {{
     "NumberOfItems": {{
         "shape": "[]",
-        "definition": "The number of items in the inventory",
-        "type": "int"
+        "definition": "The total number of items in the inventory",
+        "type": "int",
+        "value": 50
     }},
     "ItemValue": {{
         "shape": "[N]",
         "definition": "The value of each item in the inventory",
-        "type": "float"
+        "type": "float",
+        "value": [12.0, 30.0, 40.0]
     }}
 }}
 
@@ -102,12 +104,11 @@ qs = [
 ]
 
 
-def get_params(desc, check=True):
-
+def get_params(desc, check, model):
     k = 5
     while k > 0:
         try:
-            res = get_response(prompt_params.format(description=desc))
+            res = get_response(prompt_params.format(description=desc), model)
             params = extract_json_from_end(res)
             break
         except:
@@ -126,7 +127,7 @@ def get_params(desc, check=True):
                         question=q,
                         targetParam=param,
                     )
-                    x = get_response(prompt)
+                    x = get_response(prompt, model)
 
                     print(x)
                     print("-------")
