@@ -13,17 +13,8 @@ def extract_score(text, vars, var):
         if score > 3:
             return True, vars
         else:
-            # ask the user to whether remove the variable or keep it
-            inp = input(
-                "LLMs reasoning: {}\n Do you want to keep variable {}? (y/n): ".format(
-                    text, var
-                ),
-            )
-            if inp == "y":
-                return True, vars
-            else:
-                del vars[var]
-                return True, vars
+            del vars[var]
+            return True, vars
     else:
         return False, None
 
